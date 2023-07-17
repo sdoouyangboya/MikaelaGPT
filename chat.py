@@ -1,5 +1,3 @@
-
-from webquery import WebQuery
 import streamlit as st
 from langchain.vectorstores import Chroma
 from langchain.document_loaders import TextLoader
