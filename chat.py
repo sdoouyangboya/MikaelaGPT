@@ -18,7 +18,10 @@ from langchain import FewShotPromptTemplate
 from langchain import PromptTemplate
 import pickle
 # Streamlit app code
-openai_api_key = "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"
+with open('key.txt', 'r') as file:
+    # Read the contents of the file
+    openai_api_key = file.read()
+
 # loader = CSVLoader("experiences.csv", encoding="utf-8", csv_args={
 #               'delimiter': ','})
 # documents= loader.load()
@@ -138,7 +141,7 @@ few_shot_prompt_template = FewShotPromptTemplate(
 
 # chat completion llm
 llm = ChatOpenAI(
-    openai_api_key= "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",
+    openai_api_key= openai_api_key,
     model_name='gpt-3.5-turbo',
     temperature=0.0
 )
@@ -159,7 +162,7 @@ example_selector = SemanticSimilarityExampleSelector.from_examples(
     # This is the list of examples available to select from.
     examples1 + examples2 + examples3 + examples4 + examples5,
     # This is the embedding class used to produce embeddings which are used to measure semantic similarity.
-    OpenAIEmbeddings(openai_api_key= "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"), 
+    OpenAIEmbeddings(openai_api_key= openai_api_key), 
     # This is the VectorStore class that is used to store the embeddings and do a similarity search over.
     Chroma, 
     # This is the number of examples to produce.
