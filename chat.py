@@ -51,7 +51,7 @@ text_splitter = CharacterTextSplitter(
 texts = text_splitter.split_documents(documents)
 
 # Embed the texts
-embeddings = OpenAIEmbeddings(openai_api_key="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")
+embeddings = OpenAIEmbeddings(openai_api_key=openai_api_key)
 docsearch = Chroma.from_documents(texts, embeddings)
 # with open("faiss_store.pkl", "rb") as f:
 #     docsearch  = pickle.load(f)
