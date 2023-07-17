@@ -2,4 +2,4 @@ langchain
 streamlit
 openai
 faiss-cpu
-Chroma
+chromadb
