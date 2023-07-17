@@ -39,6 +39,7 @@ import pickle
 # embeddings = OpenAIEmbeddings(openai_api_key="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")
 # Create the document vector store
 # docsearch = Chroma.from_documents(texts, embeddings)
+openai_api_key = st.secrets["openai_api_key"]
 with open("faiss_store.pkl", "rb") as f:
     docsearch  = pickle.load(f)
 examples1 = [{'query': 'Exchange on chat, thank you!',
