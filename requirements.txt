@@ -3,3 +3,4 @@ streamlit
 openai
 faiss-cpu
 chromadb
+tiktoken
