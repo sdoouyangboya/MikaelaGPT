@@ -18,9 +18,9 @@ from langchain import FewShotPromptTemplate
 from langchain import PromptTemplate
 import pickle
 # Streamlit app code
-with open('key.txt', 'r') as file:
-    # Read the contents of the file
-    openai_api_key = file.read()
+# with open('key.txt', 'r') as file:
+#     # Read the contents of the file
+#     openai_api_key = file.read()
 
 # loader = CSVLoader("experiences.csv", encoding="utf-8", csv_args={
 #               'delimiter': ','})
