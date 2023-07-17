@@ -38,8 +38,23 @@ import pickle
 # Create the document vector store
 # docsearch = Chroma.from_documents(texts, embeddings)
 openai_api_key = st.secrets["openai_api_key"]
-with open("faiss_store.pkl", "rb") as f:
-    docsearch  = pickle.load(f)
+loader = CSVLoader("experiences.csv", encoding="utf-8", csv_args={
+              'delimiter': ','})
+documents= loader.load()
+# Split the documents into smaller chunks
+text_splitter = CharacterTextSplitter(
+    separator=",",
+    chunk_size=3400,
+    chunk_overlap=100,
+    length_function=len,
+)
+texts = text_splitter.split_documents(documents)
+
+# Embed the texts
+embeddings = OpenAIEmbeddings(openai_api_key="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")
+docsearch = Chroma.from_documents(texts, embeddings)
+# with open("faiss_store.pkl", "rb") as f:
+#     docsearch  = pickle.load(f)
 examples1 = [{'query': 'Exchange on chat, thank you!',
   'answer': 'Sure! We can help!\nWould you like to speak live to someone or exchange on chat?'},
  {'query': 'This is not a new team, we have quarterly team-building events. In the past we have done the terrarium event, a mixology class, etc. I do want something light and fun to get us connected',
