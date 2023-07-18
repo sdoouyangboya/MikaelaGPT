@@ -16,6 +16,7 @@ from langchain import FewShotPromptTemplate
 from langchain import PromptTemplate
 import pickle
 # Streamlit app code
+
 # with open('key.txt', 'r') as file:
 #     # Read the contents of the file
 #     openai_api_key = file.read()
@@ -35,24 +36,28 @@ import pickle
 
 # # Embed the texts
 # embeddings = OpenAIEmbeddings(openai_api_key="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")
-# Create the document vector store
 # docsearch = Chroma.from_documents(texts, embeddings)
 openai_api_key = st.secrets["openai_api_key"]
-loader = CSVLoader("experiences.csv", encoding="utf-8", csv_args={
-              'delimiter': ','})
-documents= loader.load()
-# Split the documents into smaller chunks
-text_splitter = CharacterTextSplitter(
-    separator=",",
-    chunk_size=3400,
-    chunk_overlap=100,
-    length_function=len,
-)
-texts = text_splitter.split_documents(documents)
 
-# Embed the texts
-embeddings = OpenAIEmbeddings(openai_api_key=openai_api_key)
-docsearch = Chroma.from_documents(texts, embeddings)
+@st.cache_resource
+def load_data():
+    loader = CSVLoader("Teamraderie Experiences Mapped with Five Attributes and a Ranking - experiences.csv", encoding="utf-8", csv_args={
+                'delimiter': ','})
+    documents= loader.load()
+    # Split the documents into smaller chunks
+    text_splitter = CharacterTextSplitter(
+        separator=",",
+        chunk_size=3000,
+        chunk_overlap=100,
+        length_function=len,
+    )
+    texts = text_splitter.split_documents(documents)
+
+    # Embed the texts
+    embeddings = OpenAIEmbeddings(openai_api_key=openai_api_key)
+    docsearch = Chroma.from_documents(texts, embeddings)
+    return docsearch 
+docsearch = load_data()
 # with open("faiss_store.pkl", "rb") as f:
 #     docsearch  = pickle.load(f)
 examples1 = [{'query': 'Exchange on chat, thank you!',
@@ -129,7 +134,7 @@ examples:
 # and the suffix our user input and output indicator
 
 suffix = """
-Use the above examples ,the chat history (delimited by <hs></hs>) and following context (delimited by <ctx></ctx>) to answer the question , make recommendations with corresponding links:
+Use the above examples ,the chat history (delimited by <hs></hs>) and following context (delimited by <ctx></ctx>) to answer the question , make recommendations with corresponding links, pls recomend experience with larger ranking accodding to ranking column.
 ------
 <ctx>
 {context}
@@ -198,7 +203,7 @@ llm=llm,
 chain_type="stuff",
 retriever=docsearch.as_retriever(),
 chain_type_kwargs={
-    "verbose": False,
+    "verbose": True,
     "prompt": similar_prompt ,
     "memory": ConversationBufferMemory(
         memory_key="history",
@@ -220,6 +225,7 @@ def get_answer(message):
 
 def main():
   st.title("MikaelaGPT")
+  st.image("https://i.imgur.com/qnE2MRG.png",width= 200)
 
 
   if "messages" not in st.session_state:
