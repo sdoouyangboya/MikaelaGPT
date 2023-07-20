@@ -38,7 +38,7 @@ def load_data():
 
     # Embed the texts
     embeddings = OpenAIEmbeddings(openai_api_key=openai_api_key)
-    docsearch = Chroma.from_documents(texts, embeddings)
+    docsearch = FAISS.from_documents(texts, embeddings)
     return docsearch 
 docsearch = load_data()
 # with open("faiss_store.pkl", "rb") as f:
