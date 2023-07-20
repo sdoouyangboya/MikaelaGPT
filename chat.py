@@ -168,7 +168,7 @@ example_selector = SemanticSimilarityExampleSelector.from_examples(
     # This is the VectorStore class that is used to store the embeddings and do a similarity search over.
     Chroma, 
     # This is the number of examples to produce.
-    k= 2
+    k= 3
 )
 similar_prompt = FewShotPromptTemplate(
     # We provide an ExampleSelector instead of examples.
