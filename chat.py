@@ -111,13 +111,13 @@ example_prompt = PromptTemplate(
 # now break our previous prompt into a prefix and suffix
 # the prefix is our instructions
 prefix = """The following are exerpts from conversations with an AI
-assistant. The assistant is professional, producing responses and recommendations to the users query. Here are some
+assistant. Here are some
 examples:
 """
 # and the suffix our user input and output indicator
 
 suffix = """
-Use the above examples ,the chat history (delimited by <hs></hs>) and following context (delimited by <ctx></ctx>) to answer the question , make recommendations with corresponding links and prices of recommended experiences, pls recomend experience with larger ranking accodding to ranking column, but don't mention ranking in your response
+Use the above examples ,the chat history (delimited by <hs></hs>) and following context (delimited by <ctx></ctx>) to answer the question , make recommendations with corresponding Link and price of recommended experiences, pls recomend experience with larger ranking accodding to ranking column, but don't mention ranking in your response
 ------
 <ctx>
 {context}
