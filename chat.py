@@ -207,19 +207,18 @@ def get_answer(message):
     return qa.run({"query": message["content"]})
 
 def main():
-  st.title("MikaelaGPT")
-  st.image("https://i.imgur.com/qnE2MRG.png",width= 200)
-  if st.button("Start chat"):
-    # Clear values from *all* all in-memory and on-disk data caches:
-    # i.e. clear values from both square and cube
-    st.cache_data.clear()
-
+    st.title("MikaelaGPT")
+    st.image("https://i.imgur.com/qnE2MRG.png",width= 200)
     if "messages" not in st.session_state:
         st.session_state.messages = []
 
     for message in st.session_state.messages:
         with st.chat_message(message["role"]):
             st.markdown(message["content"])
+    # if st.button("Start chat"):
+    # # Clear values from *all* all in-memory and on-disk data caches:
+    # # i.e. clear values from both square and cube
+    #     st.cache_data.clear()
 
     if prompt := st.chat_input("What is up?"):
         st.session_state.messages.append({"role": "user", "content": prompt})
