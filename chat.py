@@ -117,7 +117,7 @@ examples:
 # and the suffix our user input and output indicator
 
 suffix = """
-Use the above examples ,the chat history (delimited by <hs></hs>) and following context (delimited by <ctx></ctx>) to answer the question , make recommendations with corresponding links  and cost of the experiences, pls recomend experience with larger ranking accodding to ranking column, but don't mention ranking in your response
+Use the above examples ,the chat history (delimited by <hs></hs>) and following context (delimited by <ctx></ctx>) to answer the question , make recommendations with corresponding links  and cost of the experiences, try to reommend experiecne with larger ranking, but don't mention ranking in your response
 ------
 <ctx>
 {context}
