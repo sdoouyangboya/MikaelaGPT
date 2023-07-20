@@ -117,7 +117,7 @@ examples:
 # and the suffix our user input and output indicator
 
 suffix = """
-Use the above examples ,the chat history (delimited by <hs></hs>) and following context (delimited by <ctx></ctx>) to answer the question , make recommendations with corresponding links, pls recomend experience with larger ranking accodding to ranking column, but don't mention ranking in your response
+Use the above examples ,the chat history (delimited by <hs></hs>) and following context (delimited by <ctx></ctx>) to answer the question , make recommendations with corresponding links and prices, pls recomend experience with larger ranking accodding to ranking column, but don't mention ranking in your response
 ------
 <ctx>
 {context}
@@ -202,7 +202,7 @@ chain_type_kwargs={
 #     # Ask the question
 #     answer = qa.run({"query": question})
 #     st.write("Answer:", answer)
-# @st.cache
+@st.cache
 def get_answer(message):
     return qa.run({"query": message["content"]})
 
