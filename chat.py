@@ -202,7 +202,7 @@ chain_type_kwargs={
 #     # Ask the question
 #     answer = qa.run({"query": question})
 #     st.write("Answer:", answer)
-@st.cache
+# @st.cache
 def get_answer(message):
     return qa.run({"query": message["content"]})
 
