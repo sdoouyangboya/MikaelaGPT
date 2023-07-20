@@ -22,7 +22,7 @@ import pickle
 #     openai_api_key = file.read()
 openai_api_key = st.secrets["openai_api_key"]
 
-@st.cache_resource
+# @st.cache_resource
 def load_data():
     loader = CSVLoader("Teamraderie Experiences Mapped with Five Attributes and a Ranking - experiences.csv", encoding="utf-8", csv_args={
                 'delimiter': ','})
@@ -201,8 +201,8 @@ chain_type_kwargs={
 
 #     # Ask the question
 #     answer = qa.run({"query": question})
-#     st.write("Answer:", answer)
-@st.cache_resource
+#    st.write("Answer:", answer)
+# @st.cache_resource
 def get_answer(message):
     return qa.run({"query": message["content"]})
 
