@@ -17,10 +17,10 @@ from langchain import PromptTemplate
 import pickle
 # Streamlit app code
 
-# with open('key.txt', 'r') as file:
-#     # Read the contents of the file
-#     openai_api_key = file.read()
-openai_api_key = st.secrets["openai_api_key"]
+with open('key.txt', 'r') as file:
+    # Read the contents of the file
+    openai_api_key = file.read()
+# openai_api_key = st.secrets["openai_api_key"]
 
 @st.cache_resource
 def load_data():
@@ -202,7 +202,7 @@ chain_type_kwargs={
 #     # Ask the question
 #     answer = qa.run({"query": question})
 #     st.write("Answer:", answer)
-@st.cache_data
+@st.cache_resource
 def get_answer(message):
     return qa.run({"query": message["content"]})
 
