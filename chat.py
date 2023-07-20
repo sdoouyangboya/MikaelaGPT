@@ -20,23 +20,6 @@ import pickle
 # with open('key.txt', 'r') as file:
 #     # Read the contents of the file
 #     openai_api_key = file.read()
-
-# loader = CSVLoader("experiences.csv", encoding="utf-8", csv_args={
-#               'delimiter': ','})
-# documents= loader.load()
-# # Split the documents into smaller chunks
-# text_splitter = CharacterTextSplitter(
-#     separator=",",
-#     chunk_size=3400,
-#     chunk_overlap=100,
-#     length_function=len,
-# )
-# texts = text_splitter.split_documents(documents)
-
-
-# # Embed the texts
-# embeddings = OpenAIEmbeddings(openai_api_key="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")
-# docsearch = Chroma.from_documents(texts, embeddings)
 openai_api_key = st.secrets["openai_api_key"]
 
 @st.cache_resource
@@ -134,7 +117,7 @@ examples:
 # and the suffix our user input and output indicator
 
 suffix = """
-Use the above examples ,the chat history (delimited by <hs></hs>) and following context (delimited by <ctx></ctx>) to answer the question , make recommendations with corresponding links, pls recomend experience with larger ranking accodding to ranking column.
+Use the above examples ,the chat history (delimited by <hs></hs>) and following context (delimited by <ctx></ctx>) to answer the question , make recommendations with corresponding links, pls recomend experience with larger ranking accodding to ranking column, but don't mention ranking in your response
 ------
 <ctx>
 {context}
@@ -185,7 +168,7 @@ example_selector = SemanticSimilarityExampleSelector.from_examples(
     # This is the VectorStore class that is used to store the embeddings and do a similarity search over.
     Chroma, 
     # This is the number of examples to produce.
-    k=3
+    k= 2
 )
 similar_prompt = FewShotPromptTemplate(
     # We provide an ExampleSelector instead of examples.
