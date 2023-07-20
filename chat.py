@@ -24,7 +24,7 @@ openai_api_key = st.secrets["openai_api_key"]
 
 # @st.cache_resource
 def load_data():
-    loader = CSVLoader("Teamraderie Experiences Mapped with Five Attributes and a Ranking - experiences.csv", encoding="utf-8", csv_args={
+    loader = CSVLoader("experiences.csv", encoding="utf-8", csv_args={
                 'delimiter': ','})
     documents= loader.load()
     # Split the documents into smaller chunks
