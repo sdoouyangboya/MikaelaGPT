@@ -117,7 +117,7 @@ examples:
 # and the suffix our user input and output indicator
 
 suffix = """
-Use the above examples ,the chat history (delimited by <hs></hs>) and following context (delimited by <ctx></ctx>) to answer the question , make recommendations with corresponding links  and cost of the experiences, try to reommend experiecne with larger ranking, but don't mention ranking in your response
+Use the above examples ,the chat history (delimited by <hs></hs>) and following context (delimited by <ctx></ctx>) to answer the question , make recommendations with corresponding links  and cost of the experiences, try to reommend experiecne with ranking larger than 5, but don't mention ranking in your response
 ------
 <ctx>
 {context}
@@ -168,7 +168,7 @@ example_selector = SemanticSimilarityExampleSelector.from_examples(
     # This is the VectorStore class that is used to store the embeddings and do a similarity search over.
     Chroma, 
     # This is the number of examples to produce.
-    k= 3
+    k= 2
 )
 similar_prompt = FewShotPromptTemplate(
     # We provide an ExampleSelector instead of examples.
