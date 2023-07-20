@@ -24,7 +24,7 @@ openai_api_key = st.secrets["openai_api_key"]
 
 @st.cache_resource
 def load_data():
-    loader = CSVLoader("experiences.csv", encoding="utf-8", csv_args={
+    loader = CSVLoader("Teamraderie Experiences Mapped with Five Attributes and a Ranking - experiences.csv", encoding="utf-8", csv_args={
                 'delimiter': ','})
     documents= loader.load()
     # Split the documents into smaller chunks
@@ -168,7 +168,7 @@ example_selector = SemanticSimilarityExampleSelector.from_examples(
     # This is the VectorStore class that is used to store the embeddings and do a similarity search over.
     Chroma, 
     # This is the number of examples to produce.
-    k= 2
+    k= 3
 )
 similar_prompt = FewShotPromptTemplate(
     # We provide an ExampleSelector instead of examples.
