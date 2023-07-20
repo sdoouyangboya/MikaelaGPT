@@ -111,7 +111,7 @@ example_prompt = PromptTemplate(
 # now break our previous prompt into a prefix and suffix
 # the prefix is our instructions
 prefix = """The following are exerpts from conversations with an AI
-assistant. The assistant is professional, producing responses and recommendations to the users query. Here are some
+assistant. The assistant is professional, producing answers and recommendations to the users query. Here are some
 examples:
 """
 # and the suffix our user input and output indicator
@@ -168,7 +168,7 @@ example_selector = SemanticSimilarityExampleSelector.from_examples(
     # This is the VectorStore class that is used to store the embeddings and do a similarity search over.
     Chroma, 
     # This is the number of examples to produce.
-    k= 3
+    k= 2
 )
 similar_prompt = FewShotPromptTemplate(
     # We provide an ExampleSelector instead of examples.
