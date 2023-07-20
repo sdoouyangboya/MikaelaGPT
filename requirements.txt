@@ -1,4 +1,4 @@
-langchain
+langchain == 0.0.161
 streamlit
 openai
 faiss-cpu
