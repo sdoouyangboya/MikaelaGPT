@@ -209,7 +209,10 @@ def get_answer(message):
 def main():
   st.title("MikaelaGPT")
   st.image("https://i.imgur.com/qnE2MRG.png",width= 200)
-
+  if st.button("Start chat"):
+    # Clear values from *all* all in-memory and on-disk data caches:
+    # i.e. clear values from both square and cube
+    st.cache_data.clear()
 
   if "messages" not in st.session_state:
       st.session_state.messages = []
