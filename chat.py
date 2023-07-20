@@ -231,6 +231,6 @@ def main():
           full_response += response
           message_placeholder.markdown(full_response)
       st.session_state.messages.append({"role": "assistant", "content": full_response})
-
+  st.cache_data.clear()
 if __name__ == "__main__":
     main()
