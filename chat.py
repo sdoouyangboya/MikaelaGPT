@@ -24,7 +24,7 @@ openai_api_key = st.secrets["openai_api_key"]
 
 @st.cache_resource
 def load_data():
-    loader = CSVLoader("experiences.csv", encoding="utf-8", csv_args={
+    loader = CSVLoader("Teamraderie Experiences Mapped with Five Attributes and a Ranking - experiences.csv", encoding="utf-8", csv_args={
                 'delimiter': ','})
     documents= loader.load()
     # Split the documents into smaller chunks
@@ -117,7 +117,7 @@ examples:
 # and the suffix our user input and output indicator
 
 suffix = """
-Use the above examples ,the chat history (delimited by <hs></hs>) and following context (delimited by <ctx></ctx>) to answer the question , make recommendations with corresponding links  and cost of the experiences, try to reommend experiecne with ranking larger than 5, but don't mention ranking in your response
+Use the above examples ,the chat history (delimited by <hs></hs>) and following context (delimited by <ctx></ctx>) to answer the question , make recommendations with corresponding links  and cost of the experiences, try to reommend experiecne with larger ranking, but don't mention ranking in your response
 ------
 <ctx>
 {context}
