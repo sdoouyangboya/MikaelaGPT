@@ -1,6 +1,5 @@
-langchain == 0.0.161
+langchain
 streamlit
 openai
 faiss-cpu
-chromadb
 tiktoken
