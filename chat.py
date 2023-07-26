@@ -1,11 +1,7 @@
 import streamlit as st
-from langchain.vectorstores import Chroma
-from langchain.document_loaders import TextLoader
 from langchain.text_splitter import CharacterTextSplitter
 from langchain.vectorstores import FAISS
 from langchain.embeddings import OpenAIEmbeddings
-from langchain.llms import OpenAI
-from langchain.vectorstores import Chroma
 from langchain.document_loaders.csv_loader import CSVLoader
 from langchain.prompts.example_selector import SemanticSimilarityExampleSelector
 from langchain.chat_models import ChatOpenAI
@@ -166,7 +162,7 @@ example_selector = SemanticSimilarityExampleSelector.from_examples(
     # This is the embedding class used to produce embeddings which are used to measure semantic similarity.
     OpenAIEmbeddings(openai_api_key= openai_api_key), 
     # This is the VectorStore class that is used to store the embeddings and do a similarity search over.
-    Chroma, 
+    FAISS, 
     # This is the number of examples to produce.
     k= 2
 )
