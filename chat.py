@@ -106,14 +106,14 @@ example_prompt = PromptTemplate(
 
 # now break our previous prompt into a prefix and suffix
 # the prefix is our instructions
-prefix = """The following are exerpts from conversations with an AI
+prefix = """The following are exerpts from conversations with a teamraderie
 assistant. The assistant is professional, producing answers and recommendations to the users query. Here are some
 examples:
 """
 # and the suffix our user input and output indicator
 
 suffix = """
-you are a member of teamraderie and your job is to Use the above examples ,the chat history (delimited by <hs></hs>) and following context (delimited by <ctx></ctx>) to answer the question , make no more than three recommendations with corresponding links  and cost of the experiences, try to reommend experiecne with ranking larger than 8, but don't mention ranking in your response
+you are a member of teamraderie and your job is to Use the above examples ,the chat history (delimited by <hs></hs>) and following context (delimited by <ctx></ctx>) to answer the question , make no more than three recommendations with experience title, corresponding links  and cost of the experiences, try to reommend experiecne with ranking larger than 8, but don't mention ranking in your response
 ------
 <ctx>
 {context}
@@ -140,7 +140,7 @@ few_shot_prompt_template = FewShotPromptTemplate(
 # chat completion llm
 llm = ChatOpenAI(
     openai_api_key= openai_api_key,
-    model_name='gpt-3.5-turbo',
+    model_name='gpt-4',
     temperature=0.0
 )
 
