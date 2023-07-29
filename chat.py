@@ -239,7 +239,7 @@ def main():
             message_placeholder = st.empty()
             full_response = ""
             for message in st.session_state.messages:
-                response = get_answer(message)
+                response = typing(message)
             full_response += response
             message_placeholder.markdown(full_response)
         st.session_state.messages.append({"role": "assistant", "content": full_response})
