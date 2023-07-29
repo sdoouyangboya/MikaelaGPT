@@ -10,6 +10,7 @@ from langchain.chains import RetrievalQA
 from langchain.memory import ConversationBufferMemory
 from langchain import FewShotPromptTemplate
 from langchain import PromptTemplate
+from langchain.agents import ConversationalChatAgent, Tool, AgentExecutor
 import pickle
 # Streamlit app code
 
@@ -148,17 +149,6 @@ llm = ChatOpenAI(
     temperature=0.0
 )
 
-# conversational memory
-conversational_memory = ConversationBufferWindowMemory(
-    memory_key='chat_history',
-    k=5,
-    return_messages = False
-)
-
-
-
-
-
 
 example_selector = SemanticSimilarityExampleSelector.from_examples(
     # This is the list of examples available to select from.
@@ -190,7 +180,27 @@ chain_type_kwargs={
     "prompt": similar_prompt ,
     "memory": ConversationBufferMemory(
         memory_key="history",
-        input_key="question"),})
+        input_key="question")
+        k=5
+        ,})
+tools = [
+    Tool(
+        name="Document tool",
+        func=qa.run,
+        description="useful for when you need to answer questions."
+    ),
+]
+
+system_msg = "You are a helpful teamraderie assistant."
+agent = ConversationalChatAgent.from_llm_and_tools(
+            llm=llm,
+            tools=tools,
+            system_message=system_msg
+        )
+chat_agent = AgentExecutor.from_agent_and_tools(
+            agent=agent, tools=tools, verbose=True, memory=ConversationBufferMemory(memory_key="history",input_key="question", k=5,
+                                                                                    return_messages=True)
+        )
 
 # st.title("Web Query API")
 
