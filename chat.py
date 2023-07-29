@@ -180,8 +180,8 @@ chain_type_kwargs={
     "prompt": similar_prompt ,
     "memory": ConversationBufferMemory(
         memory_key="history",
-        input_key="question")
-        k=5
+        input_key="question",     
+        k=5)
         ,})
 tools = [
     Tool(
