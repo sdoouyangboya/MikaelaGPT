@@ -118,7 +118,6 @@ you are a member of teamraderie and your job is to Use the above examples ,the c
 Try to reommend experiecne with ranking larger than 8, but don't mention ranking in your response.
 You only give the cost of the experiences when you are asked, the cost of experiences is calucualted by addding flat_fee_price and base_price per person together. pls provedie cost information in full detail including the price for different number of people according to tiering price structure.
 if you are asked about whether the experience is in-office, hybrid, or remote (available in other country), pls anser the questions and provide link to photos of corrsponding team.
-pls pay attention to historic conversation, if the customer asks information about recommended experience, just answer the questions regrading recommended experienc , don't recommend new experience.
 ------
 <ctx>
 {context}
@@ -214,7 +213,7 @@ chat_agent = AgentExecutor.from_agent_and_tools(
 #    st.write("Answer:", answer)
 @st.cache_resource
 def typing(message):
-    return chat_agent.run({"query": message["content"]})
+    return chat_agent.run({"query": 'pls answer customer question based on history, ' + message["content"]})
 
 def main():
     st.title("MikaelaGPT")
