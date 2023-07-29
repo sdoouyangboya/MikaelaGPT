@@ -213,7 +213,7 @@ chat_agent = AgentExecutor.from_agent_and_tools(
 #    st.write("Answer:", answer)
 @st.cache_resource
 def typing(message):
-    return chat_agent.run({"query":  message["content"]})
+    return qa.run({"query": 'pls answer question based on history, ' + message["content"]})
 
 def main():
     st.title("MikaelaGPT")
