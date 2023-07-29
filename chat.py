@@ -182,7 +182,7 @@ chain_type_kwargs={
         memory_key="history",
         input_key="question",     
         k=5)
-        ,})
+        })
 tools = [
     Tool(
         name="Document tool",
@@ -213,8 +213,8 @@ chat_agent = AgentExecutor.from_agent_and_tools(
 #     answer = qa.run({"query": question})
 #    st.write("Answer:", answer)
 @st.cache_resource
-def get_answer(message):
-    return qa.run({"query": message["content"]})
+def typing(message):
+    return chat_agent.run({"query": message["content"]})
 
 def main():
     st.title("MikaelaGPT")
