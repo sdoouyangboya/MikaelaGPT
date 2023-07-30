@@ -107,27 +107,27 @@ example_prompt = PromptTemplate(
 
 # now break our previous prompt into a prefix and suffix
 # the prefix is our instructions
-prefix = """The following are exerpts from conversations with a teamraderie
-assistant. The assistant is professional, producing answers and recommendations to the users query. Here are some
-examples:
+prefix = """The following are example conversation bewteen teamraderie
+assistant and customer :
 """
 # and the suffix our user input and output indicator
 
 suffix = """
-you are a member of teamraderie and your job is to Use the above examples ,the chat history (delimited by <hs></hs>) and following context (delimited by <ctx></ctx>) to answer the question ,if you are asked to make recommendations, pls make no more than three recommendations with experience title, corresponding links  and reasons. 
-Try to reommend experiecne with ranking larger than 8, but don't mention ranking in your response.
-You only give the cost of the experiences when you are asked, the cost of experiences is calucualted by addding flat_fee_price and base_price per person together. pls provedie cost information in full detail including the price for different number of people according to tiering price structure.
-if you are asked about whether the experience is in-office, hybrid, or remote (available in other country), pls anser the questions and provide link to photos of corrsponding team.
+
 ------
 <ctx>
 {context}
 </ctx>
 ------
-<hs>
-{history}
-</hs>
+
+
 ------
-User:{question}
+User:you are a member of teamraderie and your job is to Use the above examples and context (delimited by <ctx></ctx>) to answer the question ,if you are asked to make recommendations, pls make no more than three recommendations with experience title, corresponding links  and reasons.
+Try to reommend experiecne with ranking larger than 8, but don't mention ranking in your response.
+You only give the cost of the experiences when you are asked, the cost of experiences is calucualted by addding flat_fee_price and base_price per person together. pls provedie cost information in full detail including the price for different number of people according to tiering price structure, give the price in bullet points
+here are the chat history between teamraderie assistant and customer
+{history}
+{question}
 teamraderie assistant:
 """
 
