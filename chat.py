@@ -201,7 +201,7 @@ agent = ConversationalChatAgent.from_llm_and_tools(
             system_message=system_msg
         )
 chat_agent = AgentExecutor.from_agent_and_tools(
-            agent=agent, tools=tools, verbose=True, memory=ConversationBufferMemory(memory_key="history",input_key="question",k= 6
+            agent=agent, tools=tools, verbose=True, memory=ConversationBufferMemory(memory_key="history",input_key="question",k= 6,
                                                                                     return_messages=True)
         )
 
