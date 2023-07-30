@@ -180,7 +180,7 @@ chain_type_kwargs={
     "memory": ConversationBufferMemory(
         memory_key="history",
         input_key="question",     
-        k=5)
+        k= 10)
         })
 tools = [
     Tool(
