@@ -21,7 +21,7 @@ openai_api_key = st.secrets["openai_api_key"]
 
 @st.cache_resource
 def load_data():
-    loader = CSVLoader("experiences_update.csv", encoding="utf-8", csv_args={
+    loader = CSVLoader("experiences_update_2.csv", encoding="utf-8", csv_args={
                 'delimiter': ','})
     documents= loader.load()
     # Split the documents into smaller chunks
@@ -128,7 +128,6 @@ Try to reommend experiecne with ranking larger than 8, but don't mention ranking
 You only give the cost of the experiences when you are asked, the cost of experiences is calucualted by addding flat_fee_price and base_price per person together. pls provedie cost information according to tiering price structure, give the price in bullet points
 if you are asked about the location of experience(in-office, hybrid, remote), pls give links to photos of In-office team if the experience is not availbale globally. otherwise provdide
 links of Hybrid team, Remote team' photo. pls give no more than two links
-if experience does not specify the contents of the kit,it means it doesn't contain kit.
 if you not sure about your answer, you can ask cutomer to provide more information
 pls refer teamraderie as she/her in your conversation
 pls think step by step
