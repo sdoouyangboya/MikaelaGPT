@@ -216,17 +216,17 @@ def typing(message):
             HumanMessage(content = h)
         ]
         summary= llm(messages)
-        answer = qa.run({"query": summary.content})
+        return qa.run({"query": summary.content})
     else:
-        answer = qa.run({"query": question})
+        return qa.run({"query": question})
 
-    def extract_ai_message(conversation):
-        split_text = conversation.split('\n')
-        for i in range(len(split_text)):
-            if split_text[i].startswith('AI:'):
-                return split_text[i].replace('AI: ', '')
-        return "No AI message found."
-    return extract_ai_message(answer)
+    # def extract_ai_message(conversation):
+    #     split_text = conversation.split('\n')
+    #     for i in range(len(split_text)):
+    #         if split_text[i].startswith('AI:'):
+    #             return split_text[i].replace('AI: ', '')
+    #     return "No AI message found."
+    # return extract_ai_message(answer)
 
 def main():
     st.title("MikaelaGPT")
