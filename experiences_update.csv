@@ -1,4 +1,4 @@
-url,content,Ranking,Keyword-1,Keyword-2,Keyword-3,Keyword-4,Keyword-5,post_title,flat_fee_price,base_price per person,Tiering_Price,min_num_attendees,max_num_attendees,is_shipping_required,is_available_globally,duration_minutes,primary_kit,substitute_kit,"links to photos of In-office team ,Hybrid team, Remote team"
+url,content,Ranking,Keyword-1,Keyword-2,Keyword-3,Keyword-4,Keyword-5,post_title,flat_fee_price,base_price per person,Tiering_Price,min_num_attendees,max_num_attendees,is_shipping_required,is_available_globally (international shipping?),duration_minutes,primary_kit_of the experience,optional_kit_of the experience,"links to photos of In-office team ,Hybrid team, Remote team",has kit?
 https://www.teamraderie.com/experiences/virtual-team-building-for-transparency-summer-sanders/,"https://www.teamraderie.com/experiences/virtual-team-building-for-transparency-summer-sanders/: Experience a virtual team event with Olympic medalist Summer Sanders through Teamraderie. In this
 experience, Summer Sanders will share the secrets of high-performing teams and teach you the three
 norms of successful athletic teams that can be applied to your work. This experience is designed to
@@ -18,7 +18,7 @@ https://www.teamraderie.com/wp-content/uploads/2023/07/Hybrid1.jpg
 
 Remote:
 https://www.teamraderie.com/wp-content/uploads/2023/07/Remote1.jpg
-https://www.teamraderie.com/wp-content/uploads/2023/07/Remote2.jpg"
+https://www.teamraderie.com/wp-content/uploads/2023/07/Remote2.jpg",FALSE
 https://www.teamraderie.com/experiences/virtual-team-building-for-appreciation/,"https://www.teamraderie.com/experiences/virtual-team-building-for-appreciation/: Teamraderie offers a virtual wine tasting team building experience. The experience includes a
 45-minute session where participants can taste wine and cheese in the spirit of appreciation. The
 wine is sourced from one of Napa Valley's most acclaimed wineries. The session is led by an Olympic
@@ -45,7 +45,7 @@ https://www.teamraderie.com/wp-content/uploads/2023/07/Hybrid1.jpg
 
 Remote:
 https://www.teamraderie.com/wp-content/uploads/2023/07/Remote1.jpg
-https://www.teamraderie.com/wp-content/uploads/2023/07/Remote2.jpg"
+https://www.teamraderie.com/wp-content/uploads/2023/07/Remote2.jpg",TRUE
 https://www.teamraderie.com/experiences/virtual-wine-pairing-chateau-montelena/,"https://www.teamraderie.com/experiences/virtual-wine-pairing-chateau-montelena/: Teamraderie offers a virtual wine pairing experience with Chateau Montelena. This experience
 includes a 45-minute session where participants can learn about the history of the winery and enjoy
 a full bottle of Chateau Montelena wine, dried fruits, and flatbread. The experience aims to unite
@@ -64,7 +64,7 @@ https://www.teamraderie.com/wp-content/uploads/2023/07/Hybrid1.jpg
 
 Remote:
 https://www.teamraderie.com/wp-content/uploads/2023/07/Remote1.jpg
-https://www.teamraderie.com/wp-content/uploads/2023/07/Remote2.jpg"
+https://www.teamraderie.com/wp-content/uploads/2023/07/Remote2.jpg",TRUE
 https://www.teamraderie.com/experiences/virtual-wine-tasting-experience-with-chateau-montelena/,"https://www.teamraderie.com/experiences/virtual-wine-tasting-experience-with-chateau-montelena/: Experience the Virtual Wine Tasting with Chateau Montelena offered by Teamraderie. This 45-minute
 experience includes a wine tasting kit with options for vegetarian, gluten-free, and nut-free
 preferences. The experience is available for U.S. participants only. The kit includes a 750mL bottle
@@ -84,7 +84,7 @@ https://www.teamraderie.com/wp-content/uploads/2023/07/Hybrid1.jpg
 
 Remote:
 https://www.teamraderie.com/wp-content/uploads/2023/07/Remote1.jpg
-https://www.teamraderie.com/wp-content/uploads/2023/07/Remote2.jpg"
+https://www.teamraderie.com/wp-content/uploads/2023/07/Remote2.jpg",TRUE
 https://www.teamraderie.com/experiences/virtual-team-building-with-in-q-oprah-winfreys-favorite-poet/,"https://www.teamraderie.com/experiences/virtual-team-building-with-in-q-oprah-winfreys-favorite-poet/: Experience authentic communication and storytelling with award-winning poet IN-Q in a virtual team
 building session offered by Teamraderie. In this 90-minute experience, IN-Q will perform a live
 piece of spoken word art, introducing your team to the power of storytelling through slam poetry.
@@ -107,7 +107,7 @@ https://www.teamraderie.com/wp-content/uploads/2023/07/Hybrid1.jpg
 
 Remote:
 https://www.teamraderie.com/wp-content/uploads/2023/07/Remote1.jpg
-https://www.teamraderie.com/wp-content/uploads/2023/07/Remote2.jpg"
+https://www.teamraderie.com/wp-content/uploads/2023/07/Remote2.jpg",FALSE
 https://www.teamraderie.com/experiences/virtual-beer-tasting-events-teamraderie/,"https://www.teamraderie.com/experiences/virtual-beer-tasting-events-teamraderie/: Teamraderie offers a virtual beer tasting experience for team building events. Led by a top
 cicerone, participants will learn about ancient beer-making secrets and taste four contemporary beer
 styles. The experience aims to form a united team, build connections, and share with clients and
@@ -125,7 +125,7 @@ https://www.teamraderie.com/wp-content/uploads/2023/07/Hybrid1.jpg
 
 Remote:
 https://www.teamraderie.com/wp-content/uploads/2023/07/Remote1.jpg
-https://www.teamraderie.com/wp-content/uploads/2023/07/Remote2.jpg"
+https://www.teamraderie.com/wp-content/uploads/2023/07/Remote2.jpg",TRUE
 https://www.teamraderie.com/experiences/swirl-sniff-and-swallow-a-journey-through-olive-oil/,"https://www.teamraderie.com/experiences/swirl-sniff-and-swallow-a-journey-through-olive-oil/: Teamraderie offers a virtual olive oil tasting experience as a team building activity. The
 experience lasts for 45 minutes and includes a tasting kit with options for vegan, gluten-free, and
 nut-free diets. The experience is available globally and offers non-alcoholic options. The cost is
@@ -146,7 +146,7 @@ https://www.teamraderie.com/wp-content/uploads/2023/07/Hybrid1.jpg
 
 Remote:
 https://www.teamraderie.com/wp-content/uploads/2023/07/Remote1.jpg
-https://www.teamraderie.com/wp-content/uploads/2023/07/Remote2.jpg"
+https://www.teamraderie.com/wp-content/uploads/2023/07/Remote2.jpg",FALSE
 https://www.teamraderie.com/experiences/virtual-team-refresh/,"https://www.teamraderie.com/experiences/virtual-team-refresh/: Elevate your team's summer experience with a refreshing ice cream making activity offered by
 Teamraderie. This virtual team building experience is designed to improve team dynamics and foster
 camaraderie among hybrid, remote, or in-person teams. Trust is emphasized as the foundation for
@@ -168,7 +168,7 @@ https://www.teamraderie.com/wp-content/uploads/2023/07/Hybrid1.jpg
 
 Remote:
 https://www.teamraderie.com/wp-content/uploads/2023/07/Remote1.jpg
-https://www.teamraderie.com/wp-content/uploads/2023/07/Remote2.jpg"
+https://www.teamraderie.com/wp-content/uploads/2023/07/Remote2.jpg",FALSE
 https://www.teamraderie.com/experiences/a-coffee-tasting-jumpstart-for-your-team/,"https://www.teamraderie.com/experiences/a-coffee-tasting-jumpstart-for-your-team/: Teamraderie offers a Coffee and Tea Tasting Experience for remote teams. This experience aims to
 improve team dynamics and trust, whether the team is hybrid, remote, or in-person. The experience
 includes a kit with coffee or tea, a ceramic mug, paper cups, cookies, sugar, stir sticks, and
@@ -188,7 +188,7 @@ https://www.teamraderie.com/wp-content/uploads/2023/07/Hybrid1.jpg
 
 Remote:
 https://www.teamraderie.com/wp-content/uploads/2023/07/Remote1.jpg
-https://www.teamraderie.com/wp-content/uploads/2023/07/Remote2.jpg"
+https://www.teamraderie.com/wp-content/uploads/2023/07/Remote2.jpg",TRUE
 https://www.teamraderie.com/experiences/design-a-team-ritual-activity/,"https://www.teamraderie.com/experiences/design-a-team-ritual-activity/: Design a Team Ritual to Boost Collaboration and Productivity
 
 Teamraderie offers a unique experience
@@ -225,7 +225,7 @@ https://www.teamraderie.com/wp-content/uploads/2023/07/Hybrid1.jpg
 
 Remote:
 https://www.teamraderie.com/wp-content/uploads/2023/07/Remote1.jpg
-https://www.teamraderie.com/wp-content/uploads/2023/07/Remote2.jpg"
+https://www.teamraderie.com/wp-content/uploads/2023/07/Remote2.jpg",FALSE
 https://www.teamraderie.com/experiences/choreography-and-its-lessons-for-transformation-in-business/,"https://www.teamraderie.com/experiences/choreography-and-its-lessons-for-transformation-in-business/: Teamraderie is offering a virtual choreography event with renowned choreographer Matt Steffanina.
 The event is designed to improve team dynamics and can be enjoyed by teams of up to 20 people. The
 experience includes live virtual facilitation, customer support, and post-experience resources. The
@@ -244,7 +244,7 @@ https://www.teamraderie.com/wp-content/uploads/2023/07/Hybrid1.jpg
 
 Remote:
 https://www.teamraderie.com/wp-content/uploads/2023/07/Remote1.jpg
-https://www.teamraderie.com/wp-content/uploads/2023/07/Remote2.jpg"
+https://www.teamraderie.com/wp-content/uploads/2023/07/Remote2.jpg",FALSE
 https://www.teamraderie.com/experiences/virtual-team-building-for-winning/,"https://www.teamraderie.com/experiences/virtual-team-building-for-winning/: Experience virtual team building with Olympian Lilly King through Teamraderie. Lilly King, a world-
 record holder and five-time Olympic medalist, will teach your team how to ""change the game"" and beat
 rivals. This experience focuses on training for success in imperfect moments and adding a new
@@ -265,7 +265,7 @@ https://www.teamraderie.com/wp-content/uploads/2023/07/Hybrid1.jpg
 
 Remote:
 https://www.teamraderie.com/wp-content/uploads/2023/07/Remote1.jpg
-https://www.teamraderie.com/wp-content/uploads/2023/07/Remote2.jpg"
+https://www.teamraderie.com/wp-content/uploads/2023/07/Remote2.jpg",FALSE
 https://www.teamraderie.com/experiences/virtual-team-building-with-erik-schlopy/,"https://www.teamraderie.com/experiences/virtual-team-building-with-erik-schlopy/: Experience the Virtual Olympic Team Building with Erik Schlopy, a three-time Olympic alpine ski
 racer and member of the U.S. Skiing and Snowboarding Hall of Fame. In this 45-minute interactive
 experience, Erik will explore the parallels between alpine skiing and business, helping your team
@@ -282,7 +282,7 @@ https://www.teamraderie.com/wp-content/uploads/2023/07/Hybrid1.jpg
 
 Remote:
 https://www.teamraderie.com/wp-content/uploads/2023/07/Remote1.jpg
-https://www.teamraderie.com/wp-content/uploads/2023/07/Remote2.jpg"
+https://www.teamraderie.com/wp-content/uploads/2023/07/Remote2.jpg",FALSE
 https://www.teamraderie.com/experiences/the-power-of-great-beginnings/,"https://www.teamraderie.com/experiences/the-power-of-great-beginnings/: Teamraderie offers a virtual team building exercise for agile teams. They suggest an ice cream
 making experience as a fun activity for teams to shake up their summer. Teamraderie provides
 solutions for improving team dynamics, whether the team is hybrid, remote, or in-person. They focus
@@ -306,7 +306,7 @@ https://www.teamraderie.com/wp-content/uploads/2023/07/Hybrid1.jpg
 
 Remote:
 https://www.teamraderie.com/wp-content/uploads/2023/07/Remote1.jpg
-https://www.teamraderie.com/wp-content/uploads/2023/07/Remote2.jpg"
+https://www.teamraderie.com/wp-content/uploads/2023/07/Remote2.jpg",FALSE
 https://www.teamraderie.com/experiences/let-your-creativity-crush-your-expertise-a-team-exercise/,"https://www.teamraderie.com/experiences/let-your-creativity-crush-your-expertise-a-team-exercise/: Teamraderie is offering a virtual team exercise for creativity, joined by Stanford Professor Kathryn
 Velcich. The experience involves three different exercises that aim to enhance creativity, break
 down conventional bottlenecks, and provide new perspectives on old problems. Participants will have
@@ -327,7 +327,7 @@ https://www.teamraderie.com/wp-content/uploads/2023/07/Hybrid1.jpg
 
 Remote:
 https://www.teamraderie.com/wp-content/uploads/2023/07/Remote1.jpg
-https://www.teamraderie.com/wp-content/uploads/2023/07/Remote2.jpg"
+https://www.teamraderie.com/wp-content/uploads/2023/07/Remote2.jpg",FALSE
 https://www.teamraderie.com/experiences/virtual-team-building-with-nadia-comaneci-and-bart-conner/,"https://www.teamraderie.com/experiences/virtual-team-building-with-nadia-comaneci-and-bart-conner/: Experience the Virtual Agility in Teamwork with Nadia Comaneci and Bart Conner. In this 45-minute
 session, the two Olympic gymnasts will share their experiences and insights on how they prepared for
 challenges and achieved perfection. Through the analogy of gymnastics, they will help your team
@@ -345,7 +345,7 @@ https://www.teamraderie.com/wp-content/uploads/2023/07/Hybrid1.jpg
 
 Remote:
 https://www.teamraderie.com/wp-content/uploads/2023/07/Remote1.jpg
-https://www.teamraderie.com/wp-content/uploads/2023/07/Remote2.jpg"
+https://www.teamraderie.com/wp-content/uploads/2023/07/Remote2.jpg",FALSE
 https://www.teamraderie.com/experiences/power-of-perspective-the-garry-kasparov-experience/,"https://www.teamraderie.com/experiences/power-of-perspective-the-garry-kasparov-experience/: Introducing the Garry Kasparov Virtual Team Building Experience by Teamraderie. This experience is
 available globally and lasts for 45 minutes. It is priced at $20,000 for up to 100 people. The
 experience includes live virtual facilitation, live customer support, and post-experience resources.
@@ -366,7 +366,7 @@ https://www.teamraderie.com/wp-content/uploads/2023/07/Hybrid1.jpg
 
 Remote:
 https://www.teamraderie.com/wp-content/uploads/2023/07/Remote1.jpg
-https://www.teamraderie.com/wp-content/uploads/2023/07/Remote2.jpg"
+https://www.teamraderie.com/wp-content/uploads/2023/07/Remote2.jpg",FALSE
 https://www.teamraderie.com/experiences/setting-up-your-team-for-hybrid-work/,"https://www.teamraderie.com/experiences/setting-up-your-team-for-hybrid-work/: Teamraderie offers virtual team building experiences for hybrid teams. One of their experiences is
 an ice cream making activity. They also provide solutions for improving team dynamics, trust,
 resilience, and communication. The experiences are suitable for remote, hybrid, or in-person teams.
@@ -384,8 +384,8 @@ https://www.teamraderie.com/wp-content/uploads/2023/07/Hybrid1.jpg
 
 Remote:
 https://www.teamraderie.com/wp-content/uploads/2023/07/Remote1.jpg
-https://www.teamraderie.com/wp-content/uploads/2023/07/Remote2.jpg"
-https://www.teamraderie.com/experiences/tartine-bakery-breakfast-experience/,"https://www.teamraderie.com/experiences/tartine-bakery-breakfast-experience/: Introducing the Virtual Tartine Bakery Breakfast Experience by Teamraderie. This experience allows
+https://www.teamraderie.com/wp-content/uploads/2023/07/Remote2.jpg",FALSE
+https://www.teamraderie.com/experiences/tartine-bakery-breakfast-experience/,"https://www.teamraderie.com/experiences/tartine-bakery-breakfast-experience/: Introducing the Tartine Bakery and French Press Coffee & Tea Experience. This experience allows
 your team to shake up their summer with an ice cream making activity. Teamraderie offers a variety
 of solutions to improve team dynamics, whether your team is hybrid, remote, or in-person. One of
 their solutions is the Virtual Tartine Bakery Breakfast Experience, which includes a kit with
@@ -406,7 +406,7 @@ https://www.teamraderie.com/wp-content/uploads/2023/07/Hybrid1.jpg
 
 Remote:
 https://www.teamraderie.com/wp-content/uploads/2023/07/Remote1.jpg
-https://www.teamraderie.com/wp-content/uploads/2023/07/Remote2.jpg"
+https://www.teamraderie.com/wp-content/uploads/2023/07/Remote2.jpg",TRUE
 https://www.teamraderie.com/experiences/virtual-team-building-guided-cheese-tasting-experience/,"https://www.teamraderie.com/experiences/virtual-team-building-guided-cheese-tasting-experience/:Discover a Whole New World of Cheese with Your Team: perfect for team building and
 fostering team unity. This 45-minute experience includes a kit with four different types of cheeses,
 including La Bonne Vie Goat Cheese Pyramid, La Bonne Vie Triple Cream, Ponce de Leon Manchego, and
@@ -426,7 +426,7 @@ https://www.teamraderie.com/wp-content/uploads/2023/07/Hybrid1.jpg
 
 Remote:
 https://www.teamraderie.com/wp-content/uploads/2023/07/Remote1.jpg
-https://www.teamraderie.com/wp-content/uploads/2023/07/Remote2.jpg"
+https://www.teamraderie.com/wp-content/uploads/2023/07/Remote2.jpg",TRUE
 https://www.teamraderie.com/experiences/virtual-team-building-the-nascar-experience/,"https://www.teamraderie.com/experiences/virtual-team-building-the-nascar-experience/: Looking to improve team dynamics and trust within your company? Consider the Virtual Team Building -
 The NASCAR Experience offered by Teamraderie. Led by legendary NASCAR coach Andy Papathanassiou,
 this experience will teach your team how pit crews collaborate to balance speed and accuracy for
@@ -445,7 +445,7 @@ https://www.teamraderie.com/wp-content/uploads/2023/07/Hybrid1.jpg
 
 Remote:
 https://www.teamraderie.com/wp-content/uploads/2023/07/Remote1.jpg
-https://www.teamraderie.com/wp-content/uploads/2023/07/Remote2.jpg"
+https://www.teamraderie.com/wp-content/uploads/2023/07/Remote2.jpg",TRUE
 https://www.teamraderie.com/experiences/virtual-team-building-with-art/,"https://www.teamraderie.com/experiences/virtual-team-building-with-art/: Teamraderie offers virtual team building experiences, including a live painting instruction. The
 purposeful painting exercise for team unity lasts for 75 minutes and includes a kit that is
 available globally. The experience costs $90 per person, and international shipping is available.
@@ -468,7 +468,7 @@ https://www.teamraderie.com/wp-content/uploads/2023/07/Hybrid1.jpg
 
 Remote:
 https://www.teamraderie.com/wp-content/uploads/2023/07/Remote1.jpg
-https://www.teamraderie.com/wp-content/uploads/2023/07/Remote2.jpg"
+https://www.teamraderie.com/wp-content/uploads/2023/07/Remote2.jpg",FALSE
 https://www.teamraderie.com/experiences/brew-break-for-busy-teams/,"https://www.teamraderie.com/experiences/brew-break-for-busy-teams/: Introducing the Virtual Coffee Break for Busy Teams, a unique experience that allows your team to
 bond over coffee and tea tasting. This virtual event is perfect for teams that are hybrid, remote,
 or in-person. The experience includes live virtual facilitation, a Teamraderie guarantee, and live
@@ -489,7 +489,7 @@ https://www.teamraderie.com/wp-content/uploads/2023/07/Hybrid1.jpg
 
 Remote:
 https://www.teamraderie.com/wp-content/uploads/2023/07/Remote1.jpg
-https://www.teamraderie.com/wp-content/uploads/2023/07/Remote2.jpg"
+https://www.teamraderie.com/wp-content/uploads/2023/07/Remote2.jpg",TRUE
 https://www.teamraderie.com/experiences/afternoon-tea-experience/,"https://www.teamraderie.com/experiences/afternoon-tea-experience/: Teamraderie offers a virtual tea tasting experience for remote teams. The experience includes a kit
 with five different types of Tea Forte loose-leaf tea, cookies from Rustic Bakery and Maui Fruit
 Jewels, raspberry jam cookies from Jocelyn & Co., honey, a tea infuser mug, sugar, stevia, stir
@@ -509,7 +509,7 @@ https://www.teamraderie.com/wp-content/uploads/2023/07/Hybrid1.jpg
 
 Remote:
 https://www.teamraderie.com/wp-content/uploads/2023/07/Remote1.jpg
-https://www.teamraderie.com/wp-content/uploads/2023/07/Remote2.jpg"
+https://www.teamraderie.com/wp-content/uploads/2023/07/Remote2.jpg",TRUE
 https://www.teamraderie.com/experiences/apply-radical-candor-to-form-better-hybrid-relationships/,"https://www.teamraderie.com/experiences/apply-radical-candor-to-form-better-hybrid-relationships/: Teamraderie offers an experience called ""Radical Candor to Level-Up Team Communication"" that aims to
 improve team dynamics in hybrid, remote, or in-person teams. The experience is led by Amy Sandler,
 the Chief Content Officer at Radical Candor, and Jason Rosoff, the cofounder and CEO of Radical
@@ -529,7 +529,7 @@ https://www.teamraderie.com/wp-content/uploads/2023/07/Hybrid1.jpg
 
 Remote:
 https://www.teamraderie.com/wp-content/uploads/2023/07/Remote1.jpg
-https://www.teamraderie.com/wp-content/uploads/2023/07/Remote2.jpg"
+https://www.teamraderie.com/wp-content/uploads/2023/07/Remote2.jpg",FALSE
 https://www.teamraderie.com/experiences/games-for-teams/,"https://www.teamraderie.com/experiences/games-for-teams/: Looking for fun virtual games for your team to play? Teamraderie offers a variety of experiences to
 help improve team dynamics and foster a sense of connection, whether your team is hybrid, remote, or
 in-person. One exciting option is an ice cream making experience, perfect for shaking up your
@@ -565,7 +565,7 @@ https://www.teamraderie.com/wp-content/uploads/2023/07/Hybrid1.jpg
 
 Remote:
 https://www.teamraderie.com/wp-content/uploads/2023/07/Remote1.jpg
-https://www.teamraderie.com/wp-content/uploads/2023/07/Remote2.jpg"
+https://www.teamraderie.com/wp-content/uploads/2023/07/Remote2.jpg",FALSE
 https://www.teamraderie.com/experiences/team-wellness-activity/,"https://www.teamraderie.com/experiences/team-wellness-activity/: Looking to boost your team's performance and well-being? Consider booking an ice cream making
 experience with Teamraderie. This activity is perfect for high-performing teams and can be enjoyed
 by both hybrid and remote teams. Trust is essential for team success, and Teamraderie offers a
@@ -610,7 +610,7 @@ https://www.teamraderie.com/wp-content/uploads/2023/07/Hybrid1.jpg
 
 Remote:
 https://www.teamraderie.com/wp-content/uploads/2023/07/Remote1.jpg
-https://www.teamraderie.com/wp-content/uploads/2023/07/Remote2.jpg"
+https://www.teamraderie.com/wp-content/uploads/2023/07/Remote2.jpg",FALSE
 https://www.teamraderie.com/experiences/virtual-team-wellness-experience/,"https://www.teamraderie.com/experiences/virtual-team-wellness-experience/: Introducing the Virtual Team Wellness Experience for Focus by Teamraderie.How can your team enhance their memory and focus? Through Mindful breathing and light strength training! Using decorative weights, Jessica Alba & Ryan ReynoldsÕ personal trainer, Ramona Braganza, will teach your team how mindful breathing techniques while completing light exercises at their desks!mImprove Team Focus with Micro-Workouts and Movement, which includes a 45-minute
 session with a live virtual facilitator and a kit that includes decorative weights and a snack bar.
 The experience is led by Ramona Braganza, a global fitness expert who has worked with Hollywood
@@ -627,7 +627,7 @@ https://www.teamraderie.com/wp-content/uploads/2023/07/Hybrid1.jpg
 
 Remote:
 https://www.teamraderie.com/wp-content/uploads/2023/07/Remote1.jpg
-https://www.teamraderie.com/wp-content/uploads/2023/07/Remote2.jpg"
+https://www.teamraderie.com/wp-content/uploads/2023/07/Remote2.jpg",FALSE
 https://www.teamraderie.com/experiences/diversity-and-inclusion-experience/,"https://www.teamraderie.com/experiences/diversity-and-inclusion-experience/: Teamraderie offers a Diversity & Inclusion Experience for Remote Teams. They provide various
 solutions to improve team dynamics, whether the team is hybrid, remote, or in-person. One of their
 experiences is called ""Applying Lessons from the Past for an Inclusive Present,"" which is a
@@ -648,7 +648,7 @@ https://www.teamraderie.com/wp-content/uploads/2023/07/Hybrid1.jpg
 
 Remote:
 https://www.teamraderie.com/wp-content/uploads/2023/07/Remote1.jpg
-https://www.teamraderie.com/wp-content/uploads/2023/07/Remote2.jpg"
+https://www.teamraderie.com/wp-content/uploads/2023/07/Remote2.jpg",FALSE
 https://www.teamraderie.com/experiences/maple-syrup-tasting-experience/,"https://www.teamraderie.com/experiences/maple-syrup-tasting-experience/: Teamraderie offers a Maple Syrup Tasting experience for remote team building. This experience allows
 teams to deepen trust and improve team dynamics. The experience includes a kit with four different
 grades of maple syrup samples, mini pancakes, maple candies, and utensils. The experience is led by
@@ -666,7 +666,7 @@ https://www.teamraderie.com/wp-content/uploads/2023/07/Hybrid1.jpg
 
 Remote:
 https://www.teamraderie.com/wp-content/uploads/2023/07/Remote1.jpg
-https://www.teamraderie.com/wp-content/uploads/2023/07/Remote2.jpg"
+https://www.teamraderie.com/wp-content/uploads/2023/07/Remote2.jpg",TRUE
 https://www.teamraderie.com/experiences/virtual-team-event-with-tatyana-mcfadden/,"https://www.teamraderie.com/experiences/virtual-team-event-with-tatyana-mcfadden/: Teamraderie is offering a virtual team building event with Tatyana McFadden, the world's most-
 decorated Paralympian athlete. The event is aimed at improving team dynamics and can be done by
 hybrid, remote, or in-person teams. The event focuses on deepening team trust and includes
@@ -686,7 +686,7 @@ https://www.teamraderie.com/wp-content/uploads/2023/07/Hybrid1.jpg
 
 Remote:
 https://www.teamraderie.com/wp-content/uploads/2023/07/Remote1.jpg
-https://www.teamraderie.com/wp-content/uploads/2023/07/Remote2.jpg"
+https://www.teamraderie.com/wp-content/uploads/2023/07/Remote2.jpg",FALSE
 https://www.teamraderie.com/experiences/virtual-terrarium-workshop/,"https://www.teamraderie.com/experiences/virtual-terrarium-workshop/: Introducing the Virtual Terrarium Workshop by Teamraderie! In this 45-minute experience, you and
 your team can grow a terrarium to cultivate team well-being. The workshop includes a kit with a
 glass globe, succulent plant, soil, moss, gravel, trinkets for decoration, and an activity card.
@@ -707,7 +707,7 @@ https://www.teamraderie.com/wp-content/uploads/2023/07/Hybrid1.jpg
 
 Remote:
 https://www.teamraderie.com/wp-content/uploads/2023/07/Remote1.jpg
-https://www.teamraderie.com/wp-content/uploads/2023/07/Remote2.jpg"
+https://www.teamraderie.com/wp-content/uploads/2023/07/Remote2.jpg",TRUE
 https://www.teamraderie.com/experiences/snack-break/,"https://www.teamraderie.com/experiences/snack-break/: Teamraderie offers a Snack Break Experience for teams, where they can enjoy an ice cream making
 activity. This experience is designed to improve team dynamics and trust, whether the team is
 hybrid, remote, or in-person. The experience includes live virtual facilitation, a Teamraderie
@@ -730,7 +730,7 @@ https://www.teamraderie.com/wp-content/uploads/2023/07/Hybrid1.jpg
 
 Remote:
 https://www.teamraderie.com/wp-content/uploads/2023/07/Remote1.jpg
-https://www.teamraderie.com/wp-content/uploads/2023/07/Remote2.jpg"
+https://www.teamraderie.com/wp-content/uploads/2023/07/Remote2.jpg",TRUE
 https://www.teamraderie.com/experiences/international-snack-box-and-experience/,"https://www.teamraderie.com/experiences/international-snack-box-and-experience/: Teamraderie offers an International Snack Box and Virtual Experience that allows teams to explore
 snacks from around the world. The experience includes a kit with snacks from Africa, South America,
 Europe, and Asia, as well as a live virtual facilitation, Teamraderie guarantee, live customer
@@ -750,7 +750,7 @@ https://www.teamraderie.com/wp-content/uploads/2023/07/Hybrid1.jpg
 
 Remote:
 https://www.teamraderie.com/wp-content/uploads/2023/07/Remote1.jpg
-https://www.teamraderie.com/wp-content/uploads/2023/07/Remote2.jpg"
+https://www.teamraderie.com/wp-content/uploads/2023/07/Remote2.jpg",TRUE
 https://www.teamraderie.com/experiences/coffee-cupping-event/,"https://www.teamraderie.com/experiences/coffee-cupping-event/: Experience the Coffee ""Cupping"" Virtual Experience with Teamraderie. This team building activity
 allows you to deepen team trust and improve team dynamics across your company, whether your team is
 hybrid, remote, or in-person. Led by Sara Larsson, Head of Education and Events at Square Mile
@@ -770,7 +770,7 @@ https://www.teamraderie.com/wp-content/uploads/2023/07/Hybrid1.jpg
 
 Remote:
 https://www.teamraderie.com/wp-content/uploads/2023/07/Remote1.jpg
-https://www.teamraderie.com/wp-content/uploads/2023/07/Remote2.jpg"
+https://www.teamraderie.com/wp-content/uploads/2023/07/Remote2.jpg",TRUE
 https://www.teamraderie.com/experiences/virtual-cocktail-class/,"https://www.teamraderie.com/experiences/virtual-cocktail-class/: Teamraderie offers a virtual cocktail class experience for remote teams. The class is 45 minutes
 long and includes a kit with ingredients to make three classic cocktails. A skilled mixologist will
 guide the team through the process and provide insider tips. The experience aims to deepen team
@@ -790,7 +790,7 @@ https://www.teamraderie.com/wp-content/uploads/2023/07/Hybrid1.jpg
 
 Remote:
 https://www.teamraderie.com/wp-content/uploads/2023/07/Remote1.jpg
-https://www.teamraderie.com/wp-content/uploads/2023/07/Remote2.jpg"
+https://www.teamraderie.com/wp-content/uploads/2023/07/Remote2.jpg",TRUE
 https://www.teamraderie.com/experiences/sleigh-your-goals-a-virtual-event-with-simidele-adeagbo/,"https://www.teamraderie.com/experiences/sleigh-your-goals-a-virtual-event-with-simidele-adeagbo/: Join winter Olympian Simidele Adeagbo and learn how to crush your team's goals in record time with
 the ""Sleigh Your Goals"" experience offered by Teamraderie. In this 45-minute virtual session,
 Simidele will lead a discussion on reframing goals, taking bold steps, and leveraging strengths to
@@ -811,7 +811,7 @@ https://www.teamraderie.com/wp-content/uploads/2023/07/Hybrid1.jpg
 
 Remote:
 https://www.teamraderie.com/wp-content/uploads/2023/07/Remote1.jpg
-https://www.teamraderie.com/wp-content/uploads/2023/07/Remote2.jpg"
+https://www.teamraderie.com/wp-content/uploads/2023/07/Remote2.jpg",FALSE
 https://www.teamraderie.com/experiences/find-team-balance-with-mindful-team-meditation/,"https://www.teamraderie.com/experiences/find-team-balance-with-mindful-team-meditation/: Improve team dynamics across your company with mindful meditation. This experience, offered by
 Teamraderie, is available globally and lasts for 30 minutes. It is suitable for teams of up to 30
 people. The cost is $1,000. The experience includes live virtual facilitation, live customer
@@ -831,7 +831,7 @@ https://www.teamraderie.com/wp-content/uploads/2023/07/Hybrid1.jpg
 
 Remote:
 https://www.teamraderie.com/wp-content/uploads/2023/07/Remote1.jpg
-https://www.teamraderie.com/wp-content/uploads/2023/07/Remote2.jpg"
+https://www.teamraderie.com/wp-content/uploads/2023/07/Remote2.jpg",FALSE
 https://www.teamraderie.com/experiences/empower-people-and-teams-through-vision-collaboration/,"https://www.teamraderie.com/experiences/empower-people-and-teams-through-vision-collaboration/: Looking to improve team collaboration and dynamics? Teamraderie offers a unique team building
 experience where your team can learn to make ice cream together. This experience is suitable for
 hybrid, remote, or in-person teams. Trust is the foundation of teamwork, and Teamraderie offers a
@@ -855,7 +855,7 @@ https://www.teamraderie.com/wp-content/uploads/2023/07/Hybrid1.jpg
 
 Remote:
 https://www.teamraderie.com/wp-content/uploads/2023/07/Remote1.jpg
-https://www.teamraderie.com/wp-content/uploads/2023/07/Remote2.jpg"
+https://www.teamraderie.com/wp-content/uploads/2023/07/Remote2.jpg",FALSE
 https://www.teamraderie.com/experiences/team-storytelling-event/,"https://www.teamraderie.com/experiences/team-storytelling-event/: Introducing the Team Storytelling Experience by Teamraderie! Shake up your summer with an ice cream
 making experience for your team. This experience is available globally and lasts for 45 minutes. The
 cost is $2,000 for up to 20 people, and you can place a free '48-hour hold' on your preferred date
@@ -872,7 +872,7 @@ https://www.teamraderie.com/wp-content/uploads/2023/07/Hybrid1.jpg
 
 Remote:
 https://www.teamraderie.com/wp-content/uploads/2023/07/Remote1.jpg
-https://www.teamraderie.com/wp-content/uploads/2023/07/Remote2.jpg"
+https://www.teamraderie.com/wp-content/uploads/2023/07/Remote2.jpg",FALSE
 https://www.teamraderie.com/experiences/team-art-experience/,"https://www.teamraderie.com/experiences/team-art-experience/: Zentangle as a Team: A Creative Art Experience is a virtual team-building activity offered by
 Teamraderie. In this 55-minute experience, participants will receive a drawing kit that includes a
 sketchpad, color pencils, pencil, eraser, and zentangle instructions and examples. Led by an expert
@@ -894,7 +894,7 @@ https://www.teamraderie.com/wp-content/uploads/2023/07/Hybrid1.jpg
 
 Remote:
 https://www.teamraderie.com/wp-content/uploads/2023/07/Remote1.jpg
-https://www.teamraderie.com/wp-content/uploads/2023/07/Remote2.jpg"
+https://www.teamraderie.com/wp-content/uploads/2023/07/Remote2.jpg",FALSE
 https://www.teamraderie.com/experiences/virtual-card-game-for-teams/,"https://www.teamraderie.com/experiences/virtual-card-game-for-teams/: Teamraderie offers a digital card game experience that helps teams recognize and leverage their
 strengths. The experience lasts for 75 minutes and is available globally. The cost is $650 for up to
 15 people. The game is designed to promote effective collaboration, problem-solving, motivation,
@@ -912,7 +912,7 @@ https://www.teamraderie.com/wp-content/uploads/2023/07/Hybrid1.jpg
 
 Remote:
 https://www.teamraderie.com/wp-content/uploads/2023/07/Remote1.jpg
-https://www.teamraderie.com/wp-content/uploads/2023/07/Remote2.jpg"
+https://www.teamraderie.com/wp-content/uploads/2023/07/Remote2.jpg",FALSE
 https://www.teamraderie.com/experiences/hostage-rescue-a-virtual-exercise-in-strategy-planning-and-teamwork/,"https://www.teamraderie.com/experiences/hostage-rescue-a-virtual-exercise-in-strategy-planning-and-teamwork/: Looking to enhance teamwork and strategy skills? Consider booking the ""Hostage Rescue: An Exercise
 in Strategy and Teamwork"" experience offered by Teamraderie. This 75-minute virtual exercise allows
 teams to simulate a real-life hostage rescue mission, guided by a Navy SEAL intelligence officer.
@@ -933,7 +933,7 @@ https://www.teamraderie.com/wp-content/uploads/2023/07/Hybrid1.jpg
 
 Remote:
 https://www.teamraderie.com/wp-content/uploads/2023/07/Remote1.jpg
-https://www.teamraderie.com/wp-content/uploads/2023/07/Remote2.jpg"
+https://www.teamraderie.com/wp-content/uploads/2023/07/Remote2.jpg",FALSE
 https://www.teamraderie.com/experiences/tiki-time-as-a-team-a-cocktail-mocktail-experience/,"https://www.teamraderie.com/experiences/tiki-time-as-a-team-a-cocktail-mocktail-experience/: Teamraderie offers a virtual cocktail tasting experience for team building. The experience includes
 a Hawaiian cocktail party where participants can learn to make three tropical tiki cocktails or
 mocktails. The kits provided include all the necessary ingredients, such as spiced rum, coconut rum,
@@ -954,7 +954,7 @@ https://www.teamraderie.com/wp-content/uploads/2023/07/Hybrid1.jpg
 
 Remote:
 https://www.teamraderie.com/wp-content/uploads/2023/07/Remote1.jpg
-https://www.teamraderie.com/wp-content/uploads/2023/07/Remote2.jpg"
+https://www.teamraderie.com/wp-content/uploads/2023/07/Remote2.jpg",TRUE
 https://www.teamraderie.com/experiences/virtual-bubble-tea-experience/,"https://www.teamraderie.com/experiences/virtual-bubble-tea-experience/: ""Tipsy Bubble Tea to Ignite Your Team"" is a 45-minute team-building experience where participants learn about the history and innovation of bubble tea, a popular beverage from Taiwan. The main objectives of the experience are: Forming a United Team: Encouraging cooperation, collaboration, and mutual support among team members towards common goals. Making Connections: Facilitating deeper connections between colleagues and fostering an attachment to the organization's purpose. Sharing with Clients and Customers: Enhancing trust and fostering relationships by inviting clients and customers to participate in the shared experience. There's also a Free 48hr Hold policy, which could be the reservation or cancellation period for the experience.",8,Bonding,Connection,Fun,Happy Hour,Mixology,Tipsy Bubble Tea to Ignite Your Team,0,95,,1,100,1,1,45,"A beautiful kit with all the ingredients needed to make three drinks: Baileys, Tequila, White Rum, Rainbow Jelly Topping, Tapioca Pearls, Tea Bags, Syrup, and Mixers. The Tipsy Bubble Tea Kit","A beautiful kit with all the ingredients needed to make three drinks: Rainbow Jelly Topping, Tapioca Pearls, Tea Bags, Syrup, and Mixers. The Non-Alcoholic Bubble Tea Kit","In Office:
 https://www.teamraderie.com/wp-content/uploads/2023/07/InOffice2.jpg
 https://www.teamraderie.com/wp-content/uploads/2023/07/InOffice1.jpg
@@ -965,7 +965,7 @@ https://www.teamraderie.com/wp-content/uploads/2023/07/Hybrid1.jpg
 
 Remote:
 https://www.teamraderie.com/wp-content/uploads/2023/07/Remote1.jpg
-https://www.teamraderie.com/wp-content/uploads/2023/07/Remote2.jpg"
+https://www.teamraderie.com/wp-content/uploads/2023/07/Remote2.jpg",TRUE
 https://www.teamraderie.com/experiences/virtual-ice-cream-experience/,"https://www.teamraderie.com/experiences/virtual-ice-cream-experience/: Looking to shake up your summer with a fun team building activity? Consider booking a virtual ice
 cream making experience with Teamraderie. This experience is perfect for teams looking to improve
 their dynamics and build trust, whether they are working remotely, in-person, or in a hybrid
@@ -993,7 +993,7 @@ https://www.teamraderie.com/wp-content/uploads/2023/07/Hybrid1.jpg
 
 Remote:
 https://www.teamraderie.com/wp-content/uploads/2023/07/Remote1.jpg
-https://www.teamraderie.com/wp-content/uploads/2023/07/Remote2.jpg"
+https://www.teamraderie.com/wp-content/uploads/2023/07/Remote2.jpg",TRUE
 https://www.teamraderie.com/experiences/flex-your-leadership-style-to-be-an-effective-leader/,"https://www.teamraderie.com/experiences/flex-your-leadership-style-to-be-an-effective-leader/: Teamraderie offers a leadership development experience called ""Flex Your Leadership Style to Promote
 Team Progress."" The experience is led by Grace Cormier, a Harvard Business School doctoral candidate
 in Organizational Behavior. Participants will engage in evidence-backed group exercises based on
@@ -1013,7 +1013,7 @@ https://www.teamraderie.com/wp-content/uploads/2023/07/Hybrid1.jpg
 
 Remote:
 https://www.teamraderie.com/wp-content/uploads/2023/07/Remote1.jpg
-https://www.teamraderie.com/wp-content/uploads/2023/07/Remote2.jpg"
+https://www.teamraderie.com/wp-content/uploads/2023/07/Remote2.jpg",FALSE
 https://www.teamraderie.com/experiences/uncover-the-power-of-asking-better-questions-for-connection/,"https://www.teamraderie.com/experiences/uncover-the-power-of-asking-better-questions-for-connection/: Looking to improve team communication and deepen trust within your team? Consider booking the ""How
 to Ask Better Questions for Effective Team Communication"" experience with Teamraderie. Led by Taylor
 Buonocore-Guthrie, co-founder of Convers(ate), this 45-minute session will teach your team about the
@@ -1033,7 +1033,7 @@ https://www.teamraderie.com/wp-content/uploads/2023/07/Hybrid1.jpg
 
 Remote:
 https://www.teamraderie.com/wp-content/uploads/2023/07/Remote1.jpg
-https://www.teamraderie.com/wp-content/uploads/2023/07/Remote2.jpg"
+https://www.teamraderie.com/wp-content/uploads/2023/07/Remote2.jpg",FALSE
 https://www.teamraderie.com/experiences/intention-setting-and-gifting-experience/,"https://www.teamraderie.com/experiences/intention-setting-and-gifting-experience/: Teamraderie offers an experience called ""Intention Setting and Gifting for Team Appreciation."" This
 experience is available globally and lasts for 55 minutes. The cost starts at $300, with an
 additional $50 per person. The experience includes a kit that will be shipped internationally if
@@ -1066,7 +1066,7 @@ https://www.teamraderie.com/wp-content/uploads/2023/07/Hybrid1.jpg
 
 Remote:
 https://www.teamraderie.com/wp-content/uploads/2023/07/Remote1.jpg
-https://www.teamraderie.com/wp-content/uploads/2023/07/Remote2.jpg"
+https://www.teamraderie.com/wp-content/uploads/2023/07/Remote2.jpg",FALSE
 https://www.teamraderie.com/experiences/unlock-your-creative-process-through-moss-art-experience/,"https://www.teamraderie.com/experiences/unlock-your-creative-process-through-moss-art-experience/: Unlock your team's creativity with a moss art experience offered by Teamraderie. This 45-minute
 activity allows your team to make two pieces of moss art while bonding and learning together. The
 experience includes a kit with colored moss, decorative ladybugs, mushrooms, butterflies, a glue
@@ -1086,7 +1086,7 @@ https://www.teamraderie.com/wp-content/uploads/2023/07/Hybrid1.jpg
 
 Remote:
 https://www.teamraderie.com/wp-content/uploads/2023/07/Remote1.jpg
-https://www.teamraderie.com/wp-content/uploads/2023/07/Remote2.jpg"
+https://www.teamraderie.com/wp-content/uploads/2023/07/Remote2.jpg",TRUE
 https://www.teamraderie.com/experiences/the-power-of-disagreement-turn-conflict-resolution-workshop/,"https://www.teamraderie.com/experiences/the-power-of-disagreement-turn-conflict-resolution-workshop/: Teamraderie offers a Conflict Resolution Workshop for Teams that aims to improve team dynamics and
 resolve conflicts. The workshop is suitable for hybrid, remote, or in-person teams. The workshop is
 designed to deepen team trust, embrace resilience and change, grow psychological safety, and level
@@ -1106,7 +1106,7 @@ https://www.teamraderie.com/wp-content/uploads/2023/07/Hybrid1.jpg
 
 Remote:
 https://www.teamraderie.com/wp-content/uploads/2023/07/Remote1.jpg
-https://www.teamraderie.com/wp-content/uploads/2023/07/Remote2.jpg"
+https://www.teamraderie.com/wp-content/uploads/2023/07/Remote2.jpg",FALSE
 https://www.teamraderie.com/experiences/team-jazz-experience-master-art-of-improvisation/,"https://www.teamraderie.com/experiences/team-jazz-experience-master-art-of-improvisation/: Learn from Jazz: Master the Art of Improvisation with Teamraderie. Shake up your summer with an ice
 cream making experience for your team. Teamraderie offers solutions to improve team dynamics across
 your company, whether your team is hybrid, remote, or in-person. Deepen team trust, embrace
@@ -1128,7 +1128,7 @@ https://www.teamraderie.com/wp-content/uploads/2023/07/Hybrid1.jpg
 
 Remote:
 https://www.teamraderie.com/wp-content/uploads/2023/07/Remote1.jpg
-https://www.teamraderie.com/wp-content/uploads/2023/07/Remote2.jpg"
+https://www.teamraderie.com/wp-content/uploads/2023/07/Remote2.jpg",FALSE
 https://www.teamraderie.com/experiences/team-improv-experience-for-connection-and-empathy/,"https://www.teamraderie.com/experiences/team-improv-experience-for-connection-and-empathy/: Teamraderie offers a Team Improv Experience for Connection & Empathy. This experience aims to
 improve team dynamics and enhance empathy and communication skills. The experience is available
 globally and lasts for 45 minutes. The cost is $1,200 for up to 20 people. The experience includes
@@ -1145,7 +1145,7 @@ https://www.teamraderie.com/wp-content/uploads/2023/07/Hybrid1.jpg
 
 Remote:
 https://www.teamraderie.com/wp-content/uploads/2023/07/Remote1.jpg
-https://www.teamraderie.com/wp-content/uploads/2023/07/Remote2.jpg"
+https://www.teamraderie.com/wp-content/uploads/2023/07/Remote2.jpg",FALSE
 https://www.teamraderie.com/experiences/unleash-creativity-improv-your-way-to-generating-breakthrough-ideas/,"https://www.teamraderie.com/experiences/unleash-creativity-improv-your-way-to-generating-breakthrough-ideas/: Looking to boost creativity and team dynamics? Consider booking the Team Improv Experience for
 Creativity offered by Teamraderie. This 45-minute virtual experience, led by Stanford's Pam McLeod,
 aims to unleash your team's ability to generate breakthrough ideas through improv techniques. By
@@ -1166,7 +1166,7 @@ https://www.teamraderie.com/wp-content/uploads/2023/07/Hybrid1.jpg
 
 Remote:
 https://www.teamraderie.com/wp-content/uploads/2023/07/Remote1.jpg
-https://www.teamraderie.com/wp-content/uploads/2023/07/Remote2.jpg"
+https://www.teamraderie.com/wp-content/uploads/2023/07/Remote2.jpg",FALSE
 https://www.teamraderie.com/experiences/virtual-beer-experience/,"https://www.teamraderie.com/experiences/virtual-beer-experience/: Introducing the Virtual Beer Experience by Teamraderie, a team building event that celebrates women-
 run breweries. This 45-minute experience includes a kit with four craft beers from women-owned
 breweries, popcorn, and a commemorative glass. If preferred, the craft beers can be replaced with
@@ -1185,7 +1185,7 @@ https://www.teamraderie.com/wp-content/uploads/2023/07/Hybrid1.jpg
 
 Remote:
 https://www.teamraderie.com/wp-content/uploads/2023/07/Remote1.jpg
-https://www.teamraderie.com/wp-content/uploads/2023/07/Remote2.jpg"
+https://www.teamraderie.com/wp-content/uploads/2023/07/Remote2.jpg",TRUE
 https://www.teamraderie.com/experiences/the-roi-of-sleep-team-sleep-experience/,"https://www.teamraderie.com/experiences/the-roi-of-sleep-team-sleep-experience/: Unlock the Power of Your Best Night's Rest with ""The ROI of Sleep"" Team Experience by Teamraderie.
 In this 45-minute virtual experience, a certified Sleep Science Academy coach will guide your team
 through the importance of sleep and provide tools to improve sleep quality. By prioritizing sleep,
@@ -1203,7 +1203,7 @@ https://www.teamraderie.com/wp-content/uploads/2023/07/Hybrid1.jpg
 
 Remote:
 https://www.teamraderie.com/wp-content/uploads/2023/07/Remote1.jpg
-https://www.teamraderie.com/wp-content/uploads/2023/07/Remote2.jpg"
+https://www.teamraderie.com/wp-content/uploads/2023/07/Remote2.jpg",FALSE
 https://www.teamraderie.com/experiences/values-based-leadership-experience/,"https://www.teamraderie.com/experiences/values-based-leadership-experience/: Looking to enhance your team's leadership skills? Teamraderie offers a Values-Based Leadership
 Experience that includes an ice cream making activity. This experience is suitable for teams of up
 to 20 people and is available globally. The experience is led by NBA analyst and Olympic medalist
@@ -1222,7 +1222,7 @@ https://www.teamraderie.com/wp-content/uploads/2023/07/Hybrid1.jpg
 
 Remote:
 https://www.teamraderie.com/wp-content/uploads/2023/07/Remote1.jpg
-https://www.teamraderie.com/wp-content/uploads/2023/07/Remote2.jpg"
+https://www.teamraderie.com/wp-content/uploads/2023/07/Remote2.jpg",FALSE
 https://www.teamraderie.com/experiences/virtual-team-building-experience-with-drew-dixon/,"https://www.teamraderie.com/experiences/virtual-team-building-experience-with-drew-dixon/: Experience the Virtual Team Building Experience with Drew Dixon through Teamraderie. Shake up your
 summer with an ice cream making experience for your team. Teamraderie offers various solutions to
 improve team dynamics, whether your team is hybrid, remote, or in-person. One of their experiences
@@ -1243,7 +1243,7 @@ https://www.teamraderie.com/wp-content/uploads/2023/07/Hybrid1.jpg
 
 Remote:
 https://www.teamraderie.com/wp-content/uploads/2023/07/Remote1.jpg
-https://www.teamraderie.com/wp-content/uploads/2023/07/Remote2.jpg"
+https://www.teamraderie.com/wp-content/uploads/2023/07/Remote2.jpg",FALSE
 https://www.teamraderie.com/experiences/team-planning-and-gifting-experience/,"https://www.teamraderie.com/experiences/team-planning-and-gifting-experience/: Get ready to activate your 2023 plan with a unique team-building experience offered by Teamraderie.
 Shake up your summer with an ice cream making activity for your team. This experience is available
 globally and includes a kit. The cost starts at $300 plus $50 per person, and you can add shipping
@@ -1279,7 +1279,7 @@ https://www.teamraderie.com/wp-content/uploads/2023/07/Hybrid1.jpg
 
 Remote:
 https://www.teamraderie.com/wp-content/uploads/2023/07/Remote1.jpg
-https://www.teamraderie.com/wp-content/uploads/2023/07/Remote2.jpg"
+https://www.teamraderie.com/wp-content/uploads/2023/07/Remote2.jpg",FALSE
 https://www.teamraderie.com/experiences/learn-movements-to-wake-up-team-productivity/,"https://www.teamraderie.com/experiences/learn-movements-to-wake-up-team-productivity/: Teamraderie offers virtual team building experiences to improve productivity. One of their
 experiences is an ice cream making activity. They also provide solutions for improving team
 dynamics, trust, resilience, and communication. The ice cream making experience is led by celebrity
@@ -1298,7 +1298,7 @@ https://www.teamraderie.com/wp-content/uploads/2023/07/Hybrid1.jpg
 
 Remote:
 https://www.teamraderie.com/wp-content/uploads/2023/07/Remote1.jpg
-https://www.teamraderie.com/wp-content/uploads/2023/07/Remote2.jpg"
+https://www.teamraderie.com/wp-content/uploads/2023/07/Remote2.jpg",FALSE
 https://www.teamraderie.com/experiences/the-simplicity-principle-experience-with-julia-hobsbawm/,"https://www.teamraderie.com/experiences/the-simplicity-principle-experience-with-julia-hobsbawm/: Join Julia Hobsbawm for a virtual team building experience focused on achieving clarity and
 simplicity in a complex world. Based on her book ""The Simplicity Principle,"" Julia will guide your
 team through the six steps to simplify your life and work. This experience will help you establish
@@ -1317,7 +1317,7 @@ https://www.teamraderie.com/wp-content/uploads/2023/07/Hybrid1.jpg
 
 Remote:
 https://www.teamraderie.com/wp-content/uploads/2023/07/Remote1.jpg
-https://www.teamraderie.com/wp-content/uploads/2023/07/Remote2.jpg"
+https://www.teamraderie.com/wp-content/uploads/2023/07/Remote2.jpg",FALSE
 https://www.teamraderie.com/experiences/the-priority-puzzle-mastering-team-alignment/,"https://www.teamraderie.com/experiences/the-priority-puzzle-mastering-team-alignment/: Join Tina Paterson and your team for an activity-based learning session on prioritization. Together, you will differentiate between urgency and importance by completing a diagram. This experience aims to equip your team with the skills to prioritize effectively, enabling them to handle future competing priorities with finesse. By booking this experience, your team can expect to develop crucial skills for optimal performance, establish team norms collaboratively, achieve alignment, and transform their foundation to enhance teamwork. The experience is tailored to create a unique solution that fits the specific needs of your team.",,,,,,,The Priority Puzzle: Mastering Team Alignment,2000,0,,1,20,0,1,45,,,"In Office:
 https://www.teamraderie.com/wp-content/uploads/2023/07/InOffice2.jpg
 https://www.teamraderie.com/wp-content/uploads/2023/07/InOffice1.jpg
@@ -1328,7 +1328,7 @@ https://www.teamraderie.com/wp-content/uploads/2023/07/Hybrid1.jpg
 
 Remote:
 https://www.teamraderie.com/wp-content/uploads/2023/07/Remote1.jpg
-https://www.teamraderie.com/wp-content/uploads/2023/07/Remote2.jpg"
+https://www.teamraderie.com/wp-content/uploads/2023/07/Remote2.jpg",FALSE
 https://www.teamraderie.com/experiences/amplify-productivity-harness-your-teams-energy/,"https://www.teamraderie.com/experiences/amplify-productivity-harness-your-teams-energy/: ""Amplify Productivity: Harness your Team's Energy"" is a 45-minute activity-based experience available globally with a free 48-hour hold option. The experience aims to unlock your team's potential by promoting energy, accountability, and balance. Participants will share their non-negotiables, identify sources of energy, and gain insights into each other's preferences. The focus is directed towards non-negotiable activities that enhance flow and productivity.
 
 By booking this experience, teams can expect to boost energy, motivation, and productivity, particularly during the midday slump. The session also facilitates the establishment of team norms, uniting the team and fostering support for common goals. Additionally, the experience encourages improving well-being through exercise and mindfulness while at work. The approach is adaptable, allowing each team to create a customized foundation that suits their unique needs and preferences.",,,,,,,Amplify Productivity: Harness your Team’s Energy,2000,0,"[{""lower_bound"":1, ""upper_bound"":20, ""price"": 2000.00}, {""lower_bound"":21, ""upper_bound"":50, ""price"": 2500.00}, {""lower_bound"":51, ""upper_bound"":70, ""price"": 3000.00}, {""lower_bound"":71, ""upper_bound"":100, ""price"": 3450.00}]",1,100,0,1,45,,,"In Office:
@@ -1341,4 +1341,4 @@ https://www.teamraderie.com/wp-content/uploads/2023/07/Hybrid1.jpg
 
 Remote:
 https://www.teamraderie.com/wp-content/uploads/2023/07/Remote1.jpg
-https://www.teamraderie.com/wp-content/uploads/2023/07/Remote2.jpg"
+https://www.teamraderie.com/wp-content/uploads/2023/07/Remote2.jpg",FALSE
