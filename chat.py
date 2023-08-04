@@ -139,7 +139,6 @@ pls think step by step
 here are the chat history between teamraderie assistant and customer
 {history}
 {question}
-teamraderie assistant:
 """
 # now create the few shot prompt template
 few_shot_prompt_template = FewShotPromptTemplate(
