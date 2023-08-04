@@ -11,7 +11,11 @@ from langchain.memory import ConversationBufferMemory
 from langchain import FewShotPromptTemplate
 from langchain import PromptTemplate
 from langchain.agents import ConversationalChatAgent, Tool, AgentExecutor
-import pickle
+from langchain.schema import (
+      SystemMessage,
+      HumanMessage,
+      AIMessage
+  )
 # Streamlit app code
 
 # with open('key.txt', 'r') as file:
@@ -124,14 +128,13 @@ suffix = """
 ------
 User:you are teamraderie assistant and your job is to chat with customers and answer their questions based examples and context (delimited by <ctx></ctx>) ,
 you need to first figure out whether the customer wants to other questions or wants recomendations from you
-if you are asked to make recommendations, pls make no more than three recommendations with experience title, links of experience and reasons.Don't  attch links of photos of teams.
+if you are asked to make recommendations, pls make no more than three recommendations with experience title, links of experience and reasons. Don't  attach links of photos of teams.
 Try to reommend experiecne with ranking larger than 8, but don't mention ranking in your response.
 You only give the cost of the experiences when you are asked, the cost of experiences is calucualted by addding flat_fee_price and base_price per person together. pls provedie cost information according to tiering price structure, give the price in bullet points
 if you are asked about the location of experience(in-office, hybrid, remote), pls give links to photos of In-office team if the experience is not availbale globally. otherwise provdide
 links of Hybrid team, Remote team' photo. pls give no more than two links
 if you not sure about your answer, you can ask cutomer to provide more information
 pls refer teamraderie as she/her in your conversation
-all the kits belong to experience
 pls think step by step
 here are the chat history between teamraderie assistant and customer
 {history}
@@ -202,7 +205,28 @@ chain_type_kwargs={
 #    st.write("Answer:", answer)
 @st.cache_resource
 def typing(message):
-    return qa.run({"query":  message["content"]})
+    history = qa.combine_documents_chain.memory.chat_memory.messages
+    history =''.join([x.content + x.content for x in history ])
+    question = 'I have team fomr china and japan, will we be supported?'
+    if history:
+        h =  'here is the history of past covnersation of human and ai ' + history + ' here is the new question: ' + question +', what is the new qustion ask about? pls specify relevant experience if there is any'
+
+        messages = [
+
+            HumanMessage(content = h)
+        ]
+        summary= llm(messages)
+        answer = qa.run({"query": summary.content})
+    else:
+        answer = qa.run({"query": question})
+
+    def extract_ai_message(conversation):
+        split_text = conversation.split('\n')
+        for i in range(len(split_text)):
+            if split_text[i].startswith('AI:'):
+                return split_text[i].replace('AI: ', '')
+        return "No AI message found."
+    return extract_ai_message(answer)
 
 def main():
     st.title("MikaelaGPT")
