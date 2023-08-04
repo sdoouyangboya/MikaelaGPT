@@ -202,7 +202,7 @@ chain_type_kwargs={
 #    st.write("Answer:", answer)
 @st.cache_resource
 def typing(message):
-    return qa.run({"query": 'pls answer question based on history, ' + message["content"]})
+    return qa.run({"query":  message["content"]})
 
 def main():
     st.title("MikaelaGPT")
