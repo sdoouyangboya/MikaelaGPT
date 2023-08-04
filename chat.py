@@ -27,7 +27,7 @@ def load_data():
     # Split the documents into smaller chunks
     text_splitter = CharacterTextSplitter(
         separator=",",
-        chunk_size=3000,
+        chunk_size=4000,
         chunk_overlap=100,
         length_function=len,
     )
