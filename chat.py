@@ -203,10 +203,6 @@ chain_type_kwargs={
 #     answer = qa.run({"query": question})
 #    st.write("Answer:", answer)
 @st.cache_resource
-def summ(messages):
-    return llm(messages)
-
-@st.cache_resource
 def typing(message):
     history = qa.combine_documents_chain.memory.chat_memory.messages
     history =''.join([x.content + x.content for x in history ])
@@ -218,7 +214,7 @@ def typing(message):
 
             HumanMessage(content = h)
         ]
-        summary= summ(messages)
+        summary= llm(messages)
         return qa.run({"query": summary.content})
     else:
         return qa.run({"query": question})
