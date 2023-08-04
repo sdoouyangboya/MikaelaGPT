@@ -205,6 +205,7 @@ chain_type_kwargs={
 #    st.write("Answer:", answer)
 @st.cache_resource
 def typing(message):
+    st.write(message)
     history = qa.combine_documents_chain.memory.chat_memory.messages
     history =''.join([x.content + x.content for x in history ])
     question = str(message)
