@@ -207,7 +207,7 @@ chain_type_kwargs={
 def typing(message):
     history = qa.combine_documents_chain.memory.chat_memory.messages
     history =''.join([x.content + x.content for x in history ])
-    question = str(message.content)
+    question = message["content"]
     if history:
         h =  'here is the history of past covnersation of human and ai ' + history + ' here is the new question: ' + question +', what is the new qustion ask about? pls specify relevant experience if there is any'
 
