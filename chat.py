@@ -138,7 +138,6 @@ here are the chat history between teamraderie assistant and customer
 {question}
 teamraderie assistant:
 """
-
 # now create the few shot prompt template
 few_shot_prompt_template = FewShotPromptTemplate(
     examples= examples1 + examples2 + examples3 + examples4 + examples5,
@@ -161,9 +160,9 @@ example_selector = SemanticSimilarityExampleSelector.from_examples(
     # This is the list of examples available to select from.
     examples1 + examples2 + examples3 + examples4 + examples5,
     # This is the embedding class used to produce embeddings which are used to measure semantic similarity.
-    OpenAIEmbeddings(openai_api_key= openai_api_key), 
+    OpenAIEmbeddings(openai_api_key= openai_api_key),
     # This is the VectorStore class that is used to store the embeddings and do a similarity search over.
-    FAISS, 
+    FAISS,
     # This is the number of examples to produce.
     k= 2
 )
@@ -187,29 +186,10 @@ chain_type_kwargs={
     "prompt": similar_prompt ,
     "memory": ConversationBufferMemory(
         memory_key="history",
-        input_key="question" ,
-        k= 6  
+        input_key="question"
         )
         })
-tools = [
-    Tool(
-        name="Document tool",
-        func=qa.run,
-        description="useful for when you need to answer questions."
-    ),
-]
-
-system_msg = "You are a helpful teamraderie assistant."
-agent = ConversationalChatAgent.from_llm_and_tools(
-            llm=llm,
-            tools=tools,
-            system_message=system_msg
-        )
-chat_agent = AgentExecutor.from_agent_and_tools(
-            agent=agent, tools=tools, verbose=True, memory=ConversationBufferMemory(memory_key="history",input_key="question",k= 6,
-                                                                                    return_messages=True)
-        )
-
+        
 # st.title("Web Query API")
 
 # question = st.chat_input("Say something")
