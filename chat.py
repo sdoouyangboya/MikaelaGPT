@@ -25,13 +25,13 @@ openai_api_key = st.secrets["openai_api_key"]
 
 @st.cache_resource
 def load_data():
-    loader = CSVLoader("experiences_update_2 (3).csv", encoding="utf-8", csv_args={
+    loader = CSVLoader("experiences_update_4.csv", encoding="utf-8", csv_args={
                 'delimiter': ','})
     documents= loader.load()
     # Split the documents into smaller chunks
     text_splitter = CharacterTextSplitter(
         separator=",",
-        chunk_size=4000,
+        chunk_size=6000,
         chunk_overlap=100,
         length_function=len,
     )
@@ -126,19 +126,20 @@ suffix = """
 
 
 ------
-User:you are teamraderie assistant and your job is to chat with customers and answer their questions based examples and context (delimited by <ctx></ctx>) ,
-you need to first figure out whether the customer wants to other questions or wants recomendations from you
-if you are asked to make recommendations, pls make no more than three recommendations with experience title, links of experience and reasons. Don't  attach links of photos of teams.
+here is the history
+{history}
+you are teamraderie assistant and your job is to chat with customers and answer their questions based examples and context (delimited by <ctx></ctx>) ,
+if you are asked to make recommendations, pls make up to three recommendations based by matching experience outcome with customer need. pls provide experience title, links of experience and reasons.Don't  attch links of photos of teams.
+don't list recomendation that don't meet customer's requirements.
+You dont't need to make recommendations if you are not asked by uers 
 Try to reommend experiecne with ranking larger than 8, but don't mention ranking in your response.
 You only give the cost of the experiences when you are asked, the cost of experiences is calucualted by addding flat_fee_price and base_price per person together. pls provedie cost information according to tiering price structure, give the price in bullet points
 if you are asked about the location of experience(in-office, hybrid, remote), pls give links to photos of In-office team if the experience is not availbale globally. otherwise provdide
 links of Hybrid team, Remote team' photo. pls give no more than two links
 if you not sure about your answer, you can ask cutomer to provide more information
 pls refer teamraderie as she/her in your conversation
-pls think step by step
-here are the chat history between teamraderie assistant and customer
-{history}
-{question}
+here is the question: {question}
+Think carefully and logically, explaining your answer.
 """
 # now create the few shot prompt template
 few_shot_prompt_template = FewShotPromptTemplate(
@@ -154,7 +155,7 @@ few_shot_prompt_template = FewShotPromptTemplate(
 llm = ChatOpenAI(
     openai_api_key= openai_api_key,
     model_name='gpt-4',
-    temperature=0.0
+    temperature=0.5
 )
 
 
@@ -182,7 +183,7 @@ similar_prompt = FewShotPromptTemplate(
 qa = RetrievalQA.from_chain_type(
 llm=llm,
 chain_type="stuff",
-retriever=docsearch.as_retriever(),
+retriever=docsearch.as_retriever(search_type="mmr", search_kwargs={"k":8}),
 chain_type_kwargs={
     "verbose": True,
     "prompt": similar_prompt ,
@@ -192,16 +193,7 @@ chain_type_kwargs={
         )
         })
         
-# st.title("Web Query API")
 
-# question = st.chat_input("Say something")
-# if question:
-#     # Set the OpenAI API key
-#     # Create an instance of the WebQuery clas
-
-#     # Ask the question
-#     answer = qa.run({"query": question})
-#    st.write("Answer:", answer)
 @st.cache_resource
 def typing(message):
     history = qa.combine_documents_chain.memory.chat_memory.messages
