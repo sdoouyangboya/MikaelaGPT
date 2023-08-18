@@ -16,6 +16,9 @@ from langchain.schema import (
       HumanMessage,
       AIMessage
   )
+import pandas as pd
+import pickle
+
 # Streamlit app code
 
 # with open('key.txt', 'r') as file:
@@ -44,57 +47,69 @@ def load_data():
 docsearch = load_data()
 # with open("faiss_store.pkl", "rb") as f:
 #     docsearch  = pickle.load(f)
-examples1 = [{'query': 'Exchange on chat, thank you!',
-  'answer': 'Sure! We can help!\nWould you like to speak live to someone or exchange on chat?'},
- {'query': 'This is not a new team, we have quarterly team-building events. In the past we have done the terrarium event, a mixology class, etc. I do want something light and fun to get us connected',
-  'answer': 'Sure! Tell me what the experience is about -- a kickoff, a new team gathering for first time, etc.\nAnd tell me what you want the event to accomplish (e.g., "people feel bonded/connected", "people feel inspired")'},
- {'query': 'Yes we have!',
-  'answer': "Got it. Sounds like you've used Teamraderie before then?\nHere are a few ideas that are popular:\nCoffee/Tea Tasting with French Press"}]
-examples2 = [{'query': 'hi,I am looking form something that involves food but belowe $50 per person',
-  'answer': '''Hi!
-Let me give you two options
-https://www.teamraderie.com/experiences/international-snack-box-and-experience/
-https://www.teamraderie.com/experiences/brew-break-for-busy-teams/
-Both options are $50 per person (including shipping) for the team members in the U.S. (Kit and experience is $45 pp; $5pp is domestic shipping)
-'''},
- {'query': 'oh great! thanks so much. is there an option for tea instead of coffee in the snack box?',
-  'answer': '''It's  a a special Vietnamese coffee pour over that is used as an example of a regional beverage... Great question. Let me check with a team member
-I just confirmed that the standard processes don't offer a tea option for this experience. However, if your team member needs a replacement, let us know and we can replace it.
-'''}]
-examples3 = [{'query': "let's continue via chat please",
-  'answer': 'Sure. Our format is explicitly designed for hybrid.\nI can help you down-select.\nWould you like to speak live or via chat?'},
- {'query': 'Product Managers',
-  'answer': 'Great\nFirst, tell me about the team. Engineers? Sales people?'},
- {'query': 'No, more just the team needs something fun for the quarter\nprobably not celebrating but more trying to skill build',
-  'answer': 'Next, tell me anything about the context for the gathering. QBR?\nAnd third, tell me if we are celebrating or trying to get them to see problems in a new way.'},
- {'query': 'Larger tech company',
-  'answer': 'What kind of company? Or what’s your company name?'},
- {'query': "Hm, maybe skill building was too strict of a parameter. We still want it to have a fun feel, we just thinking booking an activity for purse fun isn't a great use of budget right now, so trying to incorporate some type of teambuilding into it will add impact value",
-  'answer': "Ok. Skill building.\nHere are a few options:\n1 - Learning to tell your story better\n2 - Learning to become GREAT at visually representing ideas (makes it easier to collaborate)\n3 - Learning to get better aligned (how and why)\n4 - Learning to become better at 'flexing' how you lead teams\n(Each of the above has experiences that support this goal)\nI'm trying to get a sense of what kinds of skills people are excited to build\nAnother direction is to get people to rethink the 'how' of their goals.\nHere are a few:"},
- {'query': 'how much is the Hostage Rescue Mission activity? This sounds interesting\nHonestly they both sound interesting actually, could we get pricing for both please?',
-  'answer': "PERFECT. That really helps.\nAll of our experiences are outcome-based (lead teams to become better at X). And all of them are research-based (so there's science to 'how' we lead them).\nLet me give you some more that will feel 'fun'.\nOh, quick question...what is the total budget you have (or want to stay under)?\nHostage Rescue Mission\nInnovate on a Deadline: Lessons from Hip Hop\nThose are lots of fun -- but they also are clearly purpose-driven"},
- {'query': 'Would any of these activities be able to accommodate a group of 40 though?',
-  'answer': "It's $2K for up to 20 or $3K for up to 30.\nI can give you more ideas like that. I think i have a better sense of what you're looking for.\nWould you like me to email you a couple of other ideas and prices?\nThe other one Product Managers like is the NASCAR experience. You do a timed trial on changign wheels/tires (we send you toy NASCARs) and the sport's first pit crew chief leads you in rethinking how you create/define roles.\nThe Hostage Rescue is $2K for 20 and $3K for 30."}]
-examples4 = [{'query': '''hi - i am looking for a topic on time management and/or recognition.  thoughts?''',
-  'answer': "Sure. I have a few ideas. Is the team global (distributed in APAC and EMEA and NAMER) or just one region?(i'll drop a few ideas and rationale below)"},
-  {'query': 'just one region - us and nyc',
-  'answer': "Sure. I have a few ideas.\nIs the team global (distributed in APAC and EMEA and NAMER) or just one region?\n(i'll drop a few ideas and rationale below)"},
- {'query': 'thanks - on idea 2 - i did the holiday gifting last year.  looks very similar as i got a book too.  is it about the same?',
-  'answer': "Great. Here are some ideas. I'll share three. You can look at them and I'm happy to answer questions.\nIdea 1 - Digital Card Game to Recognize Team Strengths\nIdea 2 - Activate Your 2023 Plan with Gifting\nIdea 3 - The Simplicity Principle: A Team-Based Agreement to Improve Time Management\nSo, those are three ideas. Read through them. I'm here to answer questions you may have on each one. There ought to be a video for each experience (except the third one)."},
- {'query': '👍',
-  'answer': 'Yes. The "Holiday Gifting" experience was co-developed with IBM. It was higly-rated by teams -- and IBM asked for a version that could be available specifically to help teams mid-year.\nI\'d guide you towards Idea 1 or Idea 3 -- just so you have more variety.'}]
-examples5 = [{'query': '''Related to the options for more than 45 persons the answer are:
-1. Will you have any attendees located outside of the US
-R=US, Canada, Mexico, Brazil
-2. Are you looking for a kit - based experience or an idea - centric?
-R=The experience could be with or without kit. We are looking fexamples4 =or an experience that help us to strengthen the teamwork, collaboration and innovation.
-3. Do you have a budget per person?
-R=No, I don't have any additional budget, I understand the experiences were paid by WW. Is it correct?''',
-  'answer': 'Sure, just one more quick question. Are you with IBM?'},
-  {'query': 'Yes, this experience is For IBM',
-  'answer': 'Perfect. Yes, this experience will be covered by the PO that is open centrally by marketing organization\nHere are some suggestions for your goals:\n1. https://www.teamraderie.com/experiences/virtual-team-building-experience-with-drew-dixon/\n(Drew Dixon is a legendary music producer who consistently created hit records. Drew teaches you to spark and scale innovation, as she guides your team to write a song with hit potential. You will get your song after the experience. It is great for teamwork and innovation)\n2. https://www.teamraderie.com/experiences/let-your-creativity-crush-your-expertise-a-team-exercise/\n(Stanford Professor Kathryn Segovia shows your team how to unlock its creativity thru exercises. Practice on a real work problem and make progress – fast. Also perfect for teamwork and innovation)\n3. https://www.teamraderie.com/experiences/virtual-team-building-the-nascar-experience/\n(Led by a legendary Nascar pit crew coach, you will learn how to collaborate better and optimize for team vs. individual outcome. This experience includes a kit (Nascar kit) )\nLet me know your thoughts about these three suggestions. Do any of these look good?'},
- {'query': 'Thank you very much. I will check with my boss and team and I will be back whit you as soon as possible',
-  'answer': 'Perfect! Sounds great, thank you'}]
+example = [{'query':'''I want experiences suitable for teamsize of 10''', 'answer': 'Beyond what you’ve shared, are there any other outcomes you’d like to achieve for your team'},
+           {'query':''' I want experience with price below 100 per person''', 'answer': 'Beyond what you’ve shared, are there any other outcomes you’d like to achieve for your team'},
+           {'query':'''I want  experience for global team?''', 'answer': 'Beyond what you’ve shared, are there any other outcomes you’d like to achieve for your team'},
+    {'query': '''I want experiences that can improve the connection of my team''',
+  'answer': ''' I recommend the experience "Uncover the Power of Asking Better Questions for Connection" with Taylor Buonocore-Guthrie as the host. This experience focuses on building team trust and developing crucial communication skills. By learning how to ask better questions, your team can improve their connection and understanding of each other. You can find more information about this experience [here](https://www.teamraderie.com/experiences/uncover-the-power-of-asking-better-questions-for-connection/).
+
+Another recommendation is the experience "Building Empathy and Listening Skills through Improv" with Pam Mcleod as the host. This experience uses improv techniques to enhance empathy and improve communication within the team. It's a fun and interactive way to strengthen team connections. You can learn more about this experience [here](https://www.teamraderie.com/experiences/team-improv-experience-for-connection-and-empathy/).
+
+Lastly, I suggest the experience "Purposeful Painting Exercise for Team Unity" with a professional artist as the host. This creative experience allows your team to relax, bond, and paint something meaningful together. It's a great way to foster connection and appreciation among team members. You can find more details about this experience [here](https://www.teamraderie.com/experiences/virtual-team-building-with-art/).
+
+I hope these recommendations help improve your team's connection! Let me know if you have any other questions or if there's anything else I can assist you with.'''},
+  {'query': 'I have teammaneber located outside US, are these experiences available remotely?', 
+  'answer' : """yes all the experiencess can be participated remotely,here are examples of team photos: In Office:
+https://www.teamraderie.com/wp-content/uploads/2023/07/InOffice2.jpg
+https://www.teamraderie.com/wp-content/uploads/2023/07/InOffice1.jpg
+
+Hybrid:
+https://www.teamraderie.com/wp-content/uploads/2023/07/Hybrid2.jpg
+https://www.teamraderie.com/wp-content/uploads/2023/07/Hybrid1.jpg
+
+Remote:
+https://www.teamraderie.com/wp-content/uploads/2023/07/Remote1.jpg
+https://www.teamraderie.com/wp-content/uploads/2023/07/Remote2.jpg"""},
+           {'query': '''I want experiences that can improve the connection of my team with size of 20''',
+  'answer': ''' I recommend the experience "Uncover the Power of Asking Better Questions for Connection" with Taylor Buonocore-Guthrie as the host. This experience focuses on building team trust and developing crucial communication skills. By learning how to ask better questions, your team can improve their connection and understanding of each other. You can find more information about this experience [here](https://www.teamraderie.com/experiences/uncover-the-power-of-asking-better-questions-for-connection/).
+
+Another recommendation is the experience "Building Empathy and Listening Skills through Improv" with Pam Mcleod as the host. This experience uses improv techniques to enhance empathy and improve communication within the team. It's a fun and interactive way to strengthen team connections. You can learn more about this experience [here](https://www.teamraderie.com/experiences/team-improv-experience-for-connection-and-empathy/).
+
+Lastly, I suggest the experience "Purposeful Painting Exercise for Team Unity" with a professional artist as the host. This creative experience allows your team to relax, bond, and paint something meaningful together. It's a great way to foster connection and appreciation among team members. You can find more details about this experience [here](https://www.teamraderie.com/experiences/virtual-team-building-with-art/).
+
+I hope these recommendations help improve your team's connection! Let me know if you have any other questions or if there's anything else I can assist you with.'''},
+  {'query': 'I have teammaneber located outside US, are these experiences available remotely?', 
+  'answer' : """yes all the experiencess can be participated remotely,here are examples of team photos: In Office:
+https://www.teamraderie.com/wp-content/uploads/2023/07/InOffice2.jpg
+https://www.teamraderie.com/wp-content/uploads/2023/07/InOffice1.jpg
+
+Hybrid:
+https://www.teamraderie.com/wp-content/uploads/2023/07/Hybrid2.jpg
+https://www.teamraderie.com/wp-content/uploads/2023/07/Hybrid1.jpg
+
+Remote:
+https://www.teamraderie.com/wp-content/uploads/2023/07/Remote1.jpg
+https://www.teamraderie.com/wp-content/uploads/2023/07/Remote2.jpg"""},
+{'query': '''I want experiences that can improve the connection of for a global team ''',
+  'answer': ''' I recommend the experience "Uncover the Power of Asking Better Questions for Connection" with Taylor Buonocore-Guthrie as the host. This experience focuses on building team trust and developing crucial communication skills. By learning how to ask better questions, your team can improve their connection and understanding of each other. You can find more information about this experience [here](https://www.teamraderie.com/experiences/uncover-the-power-of-asking-better-questions-for-connection/).
+
+Another recommendation is the experience "Building Empathy and Listening Skills through Improv" with Pam Mcleod as the host. This experience uses improv techniques to enhance empathy and improve communication within the team. It's a fun and interactive way to strengthen team connections. You can learn more about this experience [here](https://www.teamraderie.com/experiences/team-improv-experience-for-connection-and-empathy/).
+
+Lastly, I suggest the experience "Purposeful Painting Exercise for Team Unity" with a professional artist as the host. This creative experience allows your team to relax, bond, and paint something meaningful together. It's a great way to foster connection and appreciation among team members. You can find more details about this experience [here](https://www.teamraderie.com/experiences/virtual-team-building-with-art/).
+
+I hope these recommendations help improve your team's connection! Let me know if you have any other questions or if there's anything else I can assist you with.'''},
+  {'query': 'I have teammaneber located outside US, are these experiences available remotely?', 
+  'answer' : """yes all the experiencess can be participated remotely,here are examples of team photos: In Office:
+https://www.teamraderie.com/wp-content/uploads/2023/07/InOffice2.jpg
+https://www.teamraderie.com/wp-content/uploads/2023/07/InOffice1.jpg
+
+Hybrid:
+https://www.teamraderie.com/wp-content/uploads/2023/07/Hybrid2.jpg
+https://www.teamraderie.com/wp-content/uploads/2023/07/Hybrid1.jpg
+
+Remote:
+https://www.teamraderie.com/wp-content/uploads/2023/07/Remote1.jpg
+https://www.teamraderie.com/wp-content/uploads/2023/07/Remote2.jpg"""}]
 
 
 # create a example template
@@ -117,33 +132,43 @@ assistant and customer :
 # and the suffix our user input and output indicator
 
 suffix = """
-
+here is the history coversation: {history}
+here is the context 
 ------
 <ctx>
 {context}
 </ctx>
-------
+**You are the TeamRaderie Assistant. Your primary role is to provide reponse to customers questions and address their inquiries based on provided example and  context (<ctx></ctx>). Here are your guidelines:**
+1. **Recommendations**: If prompted for recommendations, offer up to three that align closely with the customer's needs. 
+   * ask the customer about their desired outcome or goal they hope to achieve from the experience if they don't specify any areas for improvement
+   * Present the title of each experience.
+   * Include direct links to the experiences.
+   * State the reasons for each recommendation.
 
+2. **Ranking**: Aim to recommend experiences with a ranking of 8 or higher. However, do not disclose the ranking in your response.
 
-------
-here is the history
-{history}
-you are teamraderie assistant and your job is to chat with customers and answer their questions based examples and context (delimited by <ctx></ctx>) ,
-if you are asked to make recommendations, pls make up to three recommendations based by matching experience outcome with customer need. pls provide experience title, links of experience and reasons.Don't  attch links of photos of teams.
-don't list recomendation that don't meet customer's requirements.
-You dont't need to make recommendations if you are not asked by uers 
-Try to reommend experiecne with ranking larger than 8, but don't mention ranking in your response.
-You only give the cost of the experiences when you are asked, the cost of experiences is calucualted by addding flat_fee_price and base_price per person together. pls provedie cost information according to tiering price structure, give the price in bullet points
-if you are asked about the location of experience(in-office, hybrid, remote), pls give links to photos of In-office team if the experience is not availbale globally. otherwise provdide
-links of Hybrid team, Remote team' photo. pls give no more than two links
-if you not sure about your answer, you can ask cutomer to provide more information
-pls refer teamraderie as she/her in your conversation
-here is the question: {question}
-Think carefully and logically, explaining your answer.
+3. **Pricing**: Only provide the cost details of experiences when specifically requested. 
+   * The total cost of an experience is calculated by combining the flat_fee_price with the base_price per person.
+   * Display cost details in a bulleted format.
+   * Structure the cost according to tiered pricing.
+
+4. **Location Details**:
+   * If a user asks about the location of an experience (in-office, hybrid, remote) or whether the experience available globally, provide appropriate links according to links to photos of In-office team ,Hybrid team, Remote team:
+     * For 'In-office' experiences not available worldwide, give links to photos of the In-office team.
+     * If the experience is global, provide links to photos of the Hybrid or Remote teams.
+   * Limit the links to a maximum of two.
+
+5. **Communication**:
+   * If you're uncertain about your response, feel free to request more information from the customer.
+   * Always refer to TeamRaderie using she/her pronouns.
+
+6. **Empathy**: While offering answers, ensure that your responses are thoughtful, logical, and empathetic.
+here is the Customer's Question you need to respond according to above guideline: {question}
 """
+
 # now create the few shot prompt template
 few_shot_prompt_template = FewShotPromptTemplate(
-    examples= examples1 + examples2 + examples3 + examples4 + examples5,
+    examples= example
     example_prompt=example_prompt,
     prefix=prefix,
     suffix=suffix,
@@ -154,14 +179,14 @@ few_shot_prompt_template = FewShotPromptTemplate(
 # chat completion llm
 llm = ChatOpenAI(
     openai_api_key= openai_api_key,
-    model_name='gpt-4',
+    model_name='gpt-3.5-turbo-16k',
     temperature=0.5
 )
 
 
 example_selector = SemanticSimilarityExampleSelector.from_examples(
     # This is the list of examples available to select from.
-    examples1 + examples2 + examples3 + examples4 + examples5,
+    example
     # This is the embedding class used to produce embeddings which are used to measure semantic similarity.
     OpenAIEmbeddings(openai_api_key= openai_api_key),
     # This is the VectorStore class that is used to store the embeddings and do a similarity search over.
@@ -200,7 +225,7 @@ def typing(message):
     history =''.join([x.content + x.content for x in history ])
     question = message["content"]
     if history:
-        h =  'here is the history of past covnersation of human and ai ' + history + ' here is the new question: ' + question +', what is the new qustion ask about? pls specify relevant experience if there is any'
+        h= ' based on chat history '+ history +'here is the question:' + question + ', list a new question specifying what is the customer asking about specifically, +"incorporating specific titles of recommended experienes into the questions if you can'
 
         messages = [
 
@@ -228,11 +253,6 @@ def main():
     for message in st.session_state.messages:
         with st.chat_message(message["role"]):
             st.markdown(message["content"])
-
-    # if st.button("Remove memory"):
-    # # Clear values from *all* all in-memory and on-disk data caches:
-    # # i.e. clear values from both square and cube
-    #     st.cache_data.clear()
 
     if prompt := st.chat_input("What is up?"):
         st.session_state.messages.append({"role": "user", "content": prompt})

@@ -1,5 +1,5 @@
-url of the experience_x,Ranking of the experience,Keyword-1,Keyword-2,Keyword-3,Keyword-4,Keyword-5,Keyword-6,post_title,flat_fee_price,base_price per person,Tiering_Price,min_num_attendees,max_num_attendees,is_shipping_required,is_available_globally (international shipping?),duration_minutes,primary_kit_of the experience,optional_kit_of the experience, has kit?,"links to photos of In-office team ,Hybrid team, Remote team",content of experience
-https://www.teamraderie.com/experiences/virtual-team-building-for-transparency-summer-sanders/,9,Role Definition,Transparency,Resilience,Olympian,Inspiration,,What If We All Wore Speedos at Work?,2000,0,"[{""lower_bound"":1, ""upper_bound"":20, ""price"": 2000.00}, {""lower_bound"":21, ""upper_bound"":50, ""price"": 2500.00}, {""lower_bound"":51, ""upper_bound"":70, ""price"": 3000.00}, {""lower_bound"":71, ""upper_bound"":100, ""price"": 3450.00}]",1,100,0,1,45,,, does not have kit,"In Office:
+url of the experience,Ranking of the experience,Keyword-1,Keyword-2,Keyword-3,Keyword-4,Keyword-5,Keyword-6,post_title,flat_fee_price,base_price per person,Tiering_Price,min_num_attendees,max_num_attendees,is_shipping_required,is_available_globally (international shipping?),duration_minutes,primary_kit_of the experience,optional_kit_of the experience,has kit:,"links to photos of In-office team ,Hybrid team, Remote team:",content of experience:,host_name:
+https://www.teamraderie.com/experiences/virtual-team-building-for-transparency-summer-sanders/,9,Role Definition,Transparency,Resilience,Olympian,Inspiration,,What If We All Wore Speedos at Work?,2000,0,"[{""lower_bound"":1, ""upper_bound"":20, ""price"": 2000.00}, {""lower_bound"":21, ""upper_bound"":50, ""price"": 2500.00}, {""lower_bound"":51, ""upper_bound"":70, ""price"": 3000.00}, {""lower_bound"":71, ""upper_bound"":100, ""price"": 3450.00}]",1,100,0,1,45,,,FALSE,"In Office:
 https://www.teamraderie.com/wp-content/uploads/2023/07/InOffice2.jpg
 https://www.teamraderie.com/wp-content/uploads/2023/07/InOffice1.jpg
 
@@ -16,7 +16,7 @@ Learn the three norms of successful athletic teams and apply them to your work w
 Share with Clients and Customers: Build trust and connection with clients and customers by inviting them to join you in sharing this experience.
 
 Take Initiative: Step up to the challenge and take initiative as a team to solve problems, overcome obstacles, and achieve your goals. it doesn't contain kit
-it has tags of inspire-and-excite, thrive-with-hybridits outcome isTaking Initiative"
+it has tags of inspire-and-excite, thrive-with-hybridits outcome isTaking Initiative",Summer Sanders
 https://www.teamraderie.com/experiences/virtual-team-building-for-appreciation/,7,Appreciation,Recognition,Inspiration,Tasting,Wine,,Wine and Cheese Tasting in the Spirit of Appreciation,0,195,,1,100,1,0,45,"Receive a kit with one 750mL bottle of Merlot + paired cheese, salami, and crackers. Red Wine Kit","Receive a kit with one 750mL bottle of Sauvignon Blanc + paired cheese, salami, and crackers. White Wine Kit",TRUE,"In Office:
 https://www.teamraderie.com/wp-content/uploads/2023/07/InOffice2.jpg
 https://www.teamraderie.com/wp-content/uploads/2023/07/InOffice1.jpg
@@ -34,7 +34,7 @@ Joined by an Olympic medalist, you will also learn the difference between apprec
 Share with Clients and Customers: Build trust and connection with clients and customers by inviting them to join you in sharing this experience.
 
 Transform Your Foundation: Establish a critical foundation for your team to work their best. No two teams are alike; create something that works for YOU.
-it has tags of bond-and-connectits outcome isInclusion and Belonging"
+it has tags of bond-and-connectits outcome isInclusion and Belonging",Summer Sanders
 https://www.teamraderie.com/experiences/virtual-wine-pairing-chateau-montelena/,7,Team Dynamics,Happy Hour,Wine Tasting,Celebration,Inspiration,,Wine and Snack Pairing Experience to Celebrate Teams,0,195,,1,500,1,0,45,"One (1) 750mL Full Bottle of Zinfandel Wine + Paired Salumi, Rustic Crackers, and Dried Fruit Red Wine Pairing Kit","One (1) 750mL Full Bottle of Chardonnay Wine + Paired Salumi, Rustic Crackers, and Dried Fruit White Wine Pairing Kit",TRUE,"In Office:
 https://www.teamraderie.com/wp-content/uploads/2023/07/InOffice2.jpg
 https://www.teamraderie.com/wp-content/uploads/2023/07/InOffice1.jpg
@@ -51,7 +51,7 @@ Celebrate your team while you learn the history of this world-famous winery and 
 
 Form a United Team: Creating a united team allows you to work together while supporting each other as you work to achieve your common goals.
 Inspire Joy: What’s better than bringing a smile to someone’s face? Enjoy this joyful experience and share smiles with your team
-it has tags of bond-and-connect, search-mp-3, search-new-4its outcome isJoy"
+it has tags of bond-and-connect, search-mp-3, search-new-4its outcome isJoy",Sheri Bowen
 https://www.teamraderie.com/experiences/virtual-wine-tasting-experience-with-chateau-montelena/,7,Happy Hour,Inspiration,Team Dynamics,Tasting,Wine,,Wine Tasting to Inspire Curiosity in Teams,0,300,,1,199,1,0,45,One (1) 750mL bottle of Chateau Montelena chardonnay and one (1) 750mL bottle of Chateau Montelena Napa Valley cabernet Chateau Montelena 'Curiosity' Kit,"One (1) 500mL bottle of Ghia (orange, grape, ginger apertif) and one (1) 750mL bottle of rhubarb and orange-infused non-alcoholic Aperol. Non-Alcoholic 'Curiosity' Kit",TRUE,"In Office:
 https://www.teamraderie.com/wp-content/uploads/2023/07/InOffice2.jpg
 https://www.teamraderie.com/wp-content/uploads/2023/07/InOffice1.jpg
@@ -69,7 +69,7 @@ Four years later, Chateau Montelena produced the world's #1 rated wine – start
 Your team will taste amazing wines while exploring lessons from the birth of America's wine industry. You will learn why “curiosity” is the core of the winery's culture – and how curiosity is sustained in an industry known for tradition.it belongs to cateory of Happy Hour, Wine Tastingwith attributes of Form a United Team: Creating a united team allows you to work together while supporting each other as you work to achieve your common goals.
 Make Connections: Whether it’s a connection to your organization’s purpose or to colleagues, make connection-building a priority
 Share with Clients and Customers: Build trust and connection with clients and customers by inviting them to join you in sharing this experience.
-it has tags of  its outcome isConnection"
+it has tags of  its outcome isConnection",Sheri Bowen
 https://www.teamraderie.com/experiences/virtual-team-building-with-in-q-oprah-winfreys-favorite-poet/,7,Empathy,Authenticity,Share Your Story,Perspective,Transformation,,Learn Authentic Communication with Award-Winning Poet IN-Q,3000,0,"[{""lower_bound"":1, ""upper_bound"":20, ""price"": 3000.00}, {""lower_bound"":21, ""upper_bound"":50, ""price"": 3750.00}, {""lower_bound"":51, ""upper_bound"":70, ""price"": 4500.00}, {""lower_bound"":71, ""upper_bound"":100, ""price"": 5175.00}]",1,100,0,1,90,,,FALSE,"In Office:
 https://www.teamraderie.com/wp-content/uploads/2023/07/InOffice2.jpg
 https://www.teamraderie.com/wp-content/uploads/2023/07/InOffice1.jpg
@@ -91,7 +91,7 @@ Form a United Team: Creating a united team allows you to work together while sup
 Increase Psychological Safety: Teams thrive when they feel safe to express thoughts and ideas, and are more innovative, creative, and higher-performing.
 
 Transform Your Foundation: Establish a critical foundation for your team to work their best. No two teams are alike; create something that works for YOU.
-it has tags of collaborate-and-create, trust-and-transform, search-mp-2its outcome isEnergy, Psychological Safety, Team Trust"
+it has tags of collaborate-and-create, trust-and-transform, search-mp-2its outcome isEnergy, Psychological Safety, Team Trust",NQUIRE Manager
 https://www.teamraderie.com/experiences/virtual-beer-tasting-events-teamraderie/,6,Bonding,Connection,Fun,Beer,Tasting,,Drink Again…Learning to Think Broadly About Beer,0,100,,1,100,1,0,45,"A generous kit with four (4) different cans of award-winning craft beer, popcorn, and a commemorative pint glass. Beer Kit","A generous kit with four (4) different cans of award-winning non-alcoholic beer, popcorn, and a commemorative pint glass. Non-alcoholic Beer Kit",TRUE,"In Office:
 https://www.teamraderie.com/wp-content/uploads/2023/07/InOffice2.jpg
 https://www.teamraderie.com/wp-content/uploads/2023/07/InOffice1.jpg
@@ -107,7 +107,7 @@ https://www.teamraderie.com/wp-content/uploads/2023/07/Remote2.jpg","Led by a to
 So, raise your glass and get ready to cheers your team as you embark on this incredible beer-tasting voyage!it belongs to cateory of Happy Hour, Celebrationswith attributes of Form a United Team: Creating a united team allows you to work together while supporting each other as you work to achieve your common goals.
 Make Connections: Whether it’s a connection to your organization’s purpose or to colleagues, make connection-building a priority
 Share with Clients and Customers: Build trust and connection with clients and customers by inviting them to join you in sharing this experience.
-it has tags of bond-and-connectits outcome isConnection"
+it has tags of bond-and-connectits outcome isConnection",Jeff Alworth
 https://www.teamraderie.com/experiences/swirl-sniff-and-swallow-a-journey-through-olive-oil/,5,Bonding,Connection,Fun,Tasting,Olive Oil,,"Swirl, Sniff, Slurp and Swallow – An Olive Oil Tasting",0,95,,1,100,1,1,45,,,FALSE,"In Office:
 https://www.teamraderie.com/wp-content/uploads/2023/07/InOffice2.jpg
 https://www.teamraderie.com/wp-content/uploads/2023/07/InOffice1.jpg
@@ -123,7 +123,7 @@ https://www.teamraderie.com/wp-content/uploads/2023/07/Remote2.jpg","Swirl, Snif
 During this fun experience, your team will taste and rank four different types of olive oil using the four S's of olive oil tasting from Craig Hilliker, a certified Master Sensory Evaluator of olive oil and Certified Master Miller of olive oil.it belongs to cateory of Food Tastingswith attributes of Form a United Team: Creating a united team allows you to work together while supporting each other as you work to achieve your common goals.
 Make Connections: Whether it’s a connection to your organization’s purpose or to colleagues, make connection-building a priority
 Share with Clients and Customers: Build trust and connection with clients and customers by inviting them to join you in sharing this experience.
-it has tags of bond-and-connectits outcome isConnection"
+it has tags of bond-and-connectits outcome isConnection",Craig Hiliker
 https://www.teamraderie.com/experiences/virtual-team-refresh/,6,Communication,Conflict,Inflexible Work Processes,Ineffective Decision-Making,Workplace Relationships,,"Team Refresh | Energy, Focus and Progress for Your Team",2000,0,"[{""lower_bound"":1, ""upper_bound"":20, ""price"": 2000.00}, {""lower_bound"":21, ""upper_bound"":50, ""price"": 2500.00}, {""lower_bound"":51, ""upper_bound"":70, ""price"": 3000.00}, {""lower_bound"":71, ""upper_bound"":100, ""price"": 3450.00}]",1,100,0,1,45,,,FALSE,"In Office:
 https://www.teamraderie.com/wp-content/uploads/2023/07/InOffice2.jpg
 https://www.teamraderie.com/wp-content/uploads/2023/07/InOffice1.jpg
@@ -139,7 +139,7 @@ https://www.teamraderie.com/wp-content/uploads/2023/07/Remote2.jpg","Unlock your
 Stanford's Dr. Kathryn Velcich will guide your team through research-backed exercises that show how episodic check-ins build a stronger bond with your team. Through two exercises--focusing on eliminating energy depletion and doubling down on top-yielding performance--you will learn from one of Stanford's top professors how to take your team to the next level.it belongs to cateory of Team Skillswith attributes of Establish Team Norms: What rituals or habits does your team have? Create team norms together that you can all participate in and rely on.
 
 Transform Your Foundation: Establish a critical foundation for your team to work their best. No two teams are alike; create something that works for YOU.
-it has tags of thrive-with-hybrid, trust-and-transformits outcome isTeam Norms"
+it has tags of thrive-with-hybrid, trust-and-transformits outcome isTeam Norms",Kathryn Segovia
 https://www.teamraderie.com/experiences/a-coffee-tasting-jumpstart-for-your-team/,10,Connection,Bonding,Activity,Community,Simple,Cookies,Coffee and Tea Tasting Jumpstart for Your Team,0,65,,1,1000,1,1,30,"Your kit includes an assortment of pour-over coffee dripkits, ceramic mug, and alfajores cookies. Coffee Tasting Kit","Your kit includes assorted loose leaf teas (including decaf herbal option), ceramic mug, metal infuser, and alfajores cookies. Tea Tasting Kit",TRUE,"In Office:
 https://www.teamraderie.com/wp-content/uploads/2023/07/InOffice2.jpg
 https://www.teamraderie.com/wp-content/uploads/2023/07/InOffice1.jpg
@@ -157,7 +157,7 @@ Coffee and tea create community and bring us together. Your teammates will recei
 Rekindle a cherished office tradition...without the line at the coffee/tea machine. Make the day brighter for your team.it belongs to cateory of Coffee and Teawith attributes of Form a United Team: Creating a united team allows you to work together while supporting each other as you work to achieve your common goals.
 Make Connections: Whether it’s a connection to your organization’s purpose or to colleagues, make connection-building a priority
 Share with Clients and Customers: Build trust and connection with clients and customers by inviting them to join you in sharing this experience.
-it has tags of bond-and-connect, collaborate-and-create, search-mp-1, search-new-1its outcome isConnection, it contain Cookiesin the kit"
+it has tags of bond-and-connect, collaborate-and-create, search-mp-1, search-new-1its outcome isConnection, it contain Cookiesin the kit",Jeremy DiAsio
 https://www.teamraderie.com/experiences/design-a-team-ritual-activity/,2,Remote Work,Improvement,Virtual Meetings,Team Norms,Remote Collaboration,,Design a Team Ritual to Boost Productivity and Collaboration,1500,0,"[{""lower_bound"":1, ""upper_bound"":30, ""price"": 1500.00}, {""lower_bound"":31, ""upper_bound"":50, ""price"": 1875.00}]",1,50,0,1,45,,,FALSE,"In Office:
 https://www.teamraderie.com/wp-content/uploads/2023/07/InOffice2.jpg
 https://www.teamraderie.com/wp-content/uploads/2023/07/InOffice1.jpg
@@ -179,7 +179,7 @@ Establish Team Norms: What rituals or habits does your team have? Create team no
 Transform Your Foundation: Establish a critical foundation for your team to work their best. No two teams are alike; create something that works for YOU.
 
 Work as a Distributed Team: Regardless of your location, you have the same goal in mind. Work together to develop your distributed team for success.
-it has tags of collaborate-and-create, thrive-with-hybridits outcome isDistributed Teamwork, Team Norms"
+it has tags of collaborate-and-create, thrive-with-hybridits outcome isDistributed Teamwork, Team Norms",Glenn Fajardo
 https://www.teamraderie.com/experiences/choreography-and-its-lessons-for-transformation-in-business/,9,Ambiguity,Balance,Innovation,Risk,Choreography,,Break Down Complexity with Legendary Choreographer,3000,0,"[{""lower_bound"":1, ""upper_bound"":20, ""price"": 3000.00}, {""lower_bound"":21, ""upper_bound"":50, ""price"": 3750.00}, {""lower_bound"":51, ""upper_bound"":70, ""price"": 4500.00}, {""lower_bound"":71, ""upper_bound"":100, ""price"": 5175.00}]",1,100,0,1,45,,,FALSE,"In Office:
 https://www.teamraderie.com/wp-content/uploads/2023/07/InOffice2.jpg
 https://www.teamraderie.com/wp-content/uploads/2023/07/InOffice1.jpg
@@ -197,7 +197,7 @@ Flexible Learning Mindset: Help others become more receptive to change and growt
 
 Form a United Team: Creating a united team allows you to work together while supporting each other as you work to achieve your common goals.
 Share with Clients and Customers: Build trust and connection with clients and customers by inviting them to join you in sharing this experience.
-it has tags of inspire-and-excite, thrive-with-hybrid, trust-and-transform, search-mp-1its outcome isEnergy, Learning Mindset"
+it has tags of inspire-and-excite, thrive-with-hybrid, trust-and-transform, search-mp-1its outcome isEnergy, Learning Mindset",Matt Steffanina
 https://www.teamraderie.com/experiences/virtual-team-building-for-winning/,5,Competition,Winning,Rethinking,Strategy,Sales Team,,Are You Ready to Win? Tips from World’s Fastest Woman,3000,0,"[{""lower_bound"":1, ""upper_bound"":20, ""price"": 3000.00}, {""lower_bound"":21, ""upper_bound"":50, ""price"": 3750.00}, {""lower_bound"":51, ""upper_bound"":70, ""price"": 4500.00}, {""lower_bound"":71, ""upper_bound"":100, ""price"": 5175.00}]",1,100,0,1,45,,,FALSE,"In Office:
 https://www.teamraderie.com/wp-content/uploads/2023/07/InOffice2.jpg
 https://www.teamraderie.com/wp-content/uploads/2023/07/InOffice1.jpg
@@ -215,7 +215,7 @@ Lilly King--world-record holder, five-time Olympic medalist, and 2024 Paris Olym
 Get your team ready to win together.it belongs to cateory of Notable host, Learning Togetherwith attributes of Boost Energy and Motivation: Beat the midday slump with this pick-me-up experience to boost energy, motivation, and productivity on your team. 
 Form a United Team: Creating a united team allows you to work together while supporting each other as you work to achieve your common goals.
 Share with Clients and Customers: Build trust and connection with clients and customers by inviting them to join you in sharing this experience.
-it has tags of inspire-and-exciteits outcome isEnergy"
+it has tags of inspire-and-exciteits outcome isEnergy",Lilly King
 https://www.teamraderie.com/experiences/virtual-team-building-with-erik-schlopy/,1,Communication,Risk Taking,Skiing,Olympian,Science,,The Science of Olympic Performance with a Ski Racer,2000,0,"[{""lower_bound"":1, ""upper_bound"":20, ""price"": 2000.00}, {""lower_bound"":21, ""upper_bound"":50, ""price"": 2500.00}, {""lower_bound"":51, ""upper_bound"":70, ""price"": 3000.00}, {""lower_bound"":71, ""upper_bound"":100, ""price"": 3450.00}]",1,100,0,1,45,,,FALSE,"In Office:
 https://www.teamraderie.com/wp-content/uploads/2023/07/InOffice2.jpg
 https://www.teamraderie.com/wp-content/uploads/2023/07/InOffice1.jpg
@@ -231,7 +231,7 @@ https://www.teamraderie.com/wp-content/uploads/2023/07/Remote2.jpg","Are you rea
 Join three-time Olympian Erik Schlopy in an exciting and interactive experience exploring the parallels between alpine skiing and business. Discover new ways to excel and re-examine the origins of your team's success. Get energized and inspired to achieve greater success.it belongs to cateory of Notable host, Learning Togetherwith attributes of Develop Skills: Level up your team by developing crucial skills that create a solid foundation for optimal team performance.
 
 Flexible Learning Mindset: Help others become more receptive to change and growth. Instill a flexible learning mindset to advance as a team.
-it has tags of inspire-and-exciteits outcome isLearning Mindset"
+it has tags of inspire-and-exciteits outcome isLearning Mindset",
 https://www.teamraderie.com/experiences/the-power-of-great-beginnings/,9,New Team,Resilience,Research-Backed,Project Launch,Coordination,,The Power of Great Beginnings – A Pre-Victorem for Teams,2000,0,"[{""lower_bound"":1, ""upper_bound"":20, ""price"": 2000.00}, {""lower_bound"":21, ""upper_bound"":50, ""price"": 2500.00}]",1,50,0,1,45,,,FALSE,"In Office:
 https://www.teamraderie.com/wp-content/uploads/2023/07/InOffice2.jpg
 https://www.teamraderie.com/wp-content/uploads/2023/07/InOffice1.jpg
@@ -247,7 +247,7 @@ https://www.teamraderie.com/wp-content/uploads/2023/07/Remote2.jpg","How can you
 Stanford University research revealed a set of exercises that elevate a team's likelihood to show resilience, adaptability, and persistence. You'll be joined by one of Stanford's most popular professors as she helps your team get off to a great start.it belongs to cateory of Learning Together, Team Skillswith attributes of Establish Team Norms: What rituals or habits does your team have? Create team norms together that you can all participate in and rely on.
 
 Transform Your Foundation: Establish a critical foundation for your team to work their best. No two teams are alike; create something that works for YOU.
-it has tags of trust-and-transformits outcome isTeam Norms"
+it has tags of trust-and-transformits outcome isTeam Norms",Kathryn Segovia
 https://www.teamraderie.com/experiences/let-your-creativity-crush-your-expertise-a-team-exercise/,10,Creativity,Innovation,Rethinking,New Perspective,Beginner's Mind,,Creativity Masterclass with Stanford Design Thinker,2000,0,"[{""lower_bound"":1, ""upper_bound"":20, ""price"": 2000.00}, {""lower_bound"":21, ""upper_bound"":50, ""price"": 2500.00}, {""lower_bound"":51, ""upper_bound"":70, ""price"": 3000.00}, {""lower_bound"":71, ""upper_bound"":100, ""price"": 3450.00}]",1,100,0,1,60,,,FALSE,"In Office:
 https://www.teamraderie.com/wp-content/uploads/2023/07/InOffice2.jpg
 https://www.teamraderie.com/wp-content/uploads/2023/07/InOffice1.jpg
@@ -263,7 +263,7 @@ https://www.teamraderie.com/wp-content/uploads/2023/07/Remote2.jpg","What happen
 Using three different exercises, Stanford University Professor Kathryn Velcich will show your team how to enhance their creativity, move past conventional bottlenecks, and break down walls to see old problems in a new light. Practice on a real work problem and make progress -- fast.it belongs to cateory of Creativity, Team Skillswith attributes of Develop Skills: Level up your team by developing crucial skills that create a solid foundation for optimal team performance.
 
 Try Creative Problem Solving: When you hit a roadblock, what’s the first thing your team does? Creative problem-solving creates an alternate path.
-it has tags of collaborate-and-create, thrive-with-hybrid, search-mp-2its outcome isCreative Problem Solving"
+it has tags of collaborate-and-create, thrive-with-hybrid, search-mp-2its outcome isCreative Problem Solving",Kathryn Segovia
 https://www.teamraderie.com/experiences/virtual-team-building-with-nadia-comaneci-and-bart-conner/,10,Agility,Perfection,Benefit from Adversity,Legacy,Continuous Improvement,,Embed Agility in Teamwork with Nadia Comaneci and Bart Conner,4500,0,"[{""lower_bound"":1, ""upper_bound"":30, ""price"": 4500.00}, {""lower_bound"":31, ""upper_bound"":50, ""price"": 5625.00}, {""lower_bound"":51, ""upper_bound"":70, ""price"": 6750.00}, {""lower_bound"":71, ""upper_bound"":100, ""price"": 8000.00}]",1,100,0,1,45,,,FALSE,"In Office:
 https://www.teamraderie.com/wp-content/uploads/2023/07/InOffice2.jpg
 https://www.teamraderie.com/wp-content/uploads/2023/07/InOffice1.jpg
@@ -281,7 +281,7 @@ Nadia Comaneci and Bart Conner, two olympic gymnasts who earned perfect scores, 
 Flexible Learning Mindset: Help others become more receptive to change and growth. Instill a flexible learning mindset to advance as a team.
 
 Share with Clients and Customers: Build trust and connection with clients and customers by inviting them to join you in sharing this experience.
-it has tags of inspire-and-exciteits outcome isLearning Mindset"
+it has tags of inspire-and-exciteits outcome isLearning Mindset",Bart and Nadia Comaneci
 https://www.teamraderie.com/experiences/power-of-perspective-the-garry-kasparov-experience/,1,Strategy,Artificial Intelligence (AI),Empowerment,Growth Mindset,Chess,,Power of Perspective with a Chess Grandmaster,20000,0,,1,100,0,1,45,,,FALSE,"In Office:
 https://www.teamraderie.com/wp-content/uploads/2023/07/InOffice2.jpg
 https://www.teamraderie.com/wp-content/uploads/2023/07/InOffice1.jpg
@@ -301,25 +301,7 @@ Form a United Team: Creating a united team allows you to work together while sup
 Share with Clients and Customers: Build trust and connection with clients and customers by inviting them to join you in sharing this experience.
 
 Try Creative Problem Solving: When you hit a roadblock, what’s the first thing your team does? Creative problem-solving creates an alternate path.
-it has tags of inspire-and-exciteits outcome isCreative Problem Solving, Energy"
-https://www.teamraderie.com/experiences/setting-up-your-team-for-hybrid-work/,1,Hybrid Work,Inefficient Processes,Remote Collaboration,Virtual Meetings,Improvement,,"Happy, Healthy, and Hybrid – How to Make Teamwork Great",1500,0,"[{""lower_bound"":1, ""upper_bound"":30, ""price"": 1500.00}, {""lower_bound"":31, ""upper_bound"":50, ""price"": 1875.00}, {""lower_bound"":51, ""upper_bound"":70, ""price"": 2250.00}, {""lower_bound"":71, ""upper_bound"":100, ""price"": 2600.00}]",1,100,0,1,45,,,FALSE,"In Office:
-https://www.teamraderie.com/wp-content/uploads/2023/07/InOffice2.jpg
-https://www.teamraderie.com/wp-content/uploads/2023/07/InOffice1.jpg
-
-Hybrid:
-https://www.teamraderie.com/wp-content/uploads/2023/07/Hybrid2.jpg
-https://www.teamraderie.com/wp-content/uploads/2023/07/Hybrid1.jpg
-
-Remote:
-https://www.teamraderie.com/wp-content/uploads/2023/07/Remote1.jpg
-https://www.teamraderie.com/wp-content/uploads/2023/07/Remote2.jpg","Remote workers often feel excluded by in-office colleagues, and in-office workers often feel a lack of engagement by remote colleagues.
-
-How do we fix this?
-
-Stanford University's Glenn Fajardo guides your team through interactive exercises that surface issues and reveal simple adjustments you can make to build collaboration and cohesion no matter where people work.it belongs to cateory of Notable host, Team Skillswith attributes of Develop Skills: Level up your team by developing crucial skills that create a solid foundation for optimal team performance.
-
-Work as a Distributed Team: Regardless of your location, you have the same goal in mind. Work together to develop your distributed team for success.
-it has tags of collaborate-and-create, thrive-with-hybrid, search-mp-2its outcome isDistributed Teamwork"
+it has tags of inspire-and-exciteits outcome isCreative Problem Solving, Energy",Staff One
 https://www.teamraderie.com/experiences/tartine-bakery-breakfast-experience/,10,Connection,Bonding,Celebrate,Community,Togetherness,,Tartine Bakery and French Press Coffee &#038; Tea Experience,0,120,,1,100,1,1,45,"Your box will include fresh ground coffee, a Coffee &amp; Tea Press, and an assortment of Tartine pastries.  Tartine Bakery Breakfast Experience - Coffee","Your box will include loose-leaf tea, a Coffee &amp; Tea Press, and an assortment of Tartine pastries.  Tartine Bakery Breakfast Experience - Tea",TRUE,"In Office:
 https://www.teamraderie.com/wp-content/uploads/2023/07/InOffice2.jpg
 https://www.teamraderie.com/wp-content/uploads/2023/07/InOffice1.jpg
@@ -335,7 +317,7 @@ https://www.teamraderie.com/wp-content/uploads/2023/07/Remote2.jpg","Elevate you
 Led by one of the world's top baristas, your team will explore regional flavors and the journey from farm to cup while enjoying baked goods from Tartine Bakery, one of Bon Appetit's ""most influential bakeries in America."" Rediscover the joys of office life with this cherished tradition that's sure to bring new connections, new thinking, and new ideas to the table.it belongs to cateory of Coffee and Tea, Food Tastings, Celebrationswith attributes of Form a United Team: Creating a united team allows you to work together while supporting each other as you work to achieve your common goals.
 Make Connections: Whether it’s a connection to your organization’s purpose or to colleagues, make connection-building a priority
 Share with Clients and Customers: Build trust and connection with clients and customers by inviting them to join you in sharing this experience.
-it has tags of inspire-and-excite, bond-and-connect, thrive-with-hybrid, search-new-1, search-mp-1its outcome isConnection"
+it has tags of inspire-and-excite, bond-and-connect, thrive-with-hybrid, search-new-1, search-mp-1its outcome isConnection",
 https://www.teamraderie.com/experiences/virtual-team-building-guided-cheese-tasting-experience/,7,Bonding,Connection,Fun,Cheese,Tasting,,Discover a Whole New World of Cheese with Your Team,0,100,,1,50,1,0,45,A selection of traditional cheeses and crackers Traditional Cheese Kit,,TRUE,"In Office:
 https://www.teamraderie.com/wp-content/uploads/2023/07/InOffice2.jpg
 https://www.teamraderie.com/wp-content/uploads/2023/07/InOffice1.jpg
@@ -351,7 +333,7 @@ https://www.teamraderie.com/wp-content/uploads/2023/07/Remote2.jpg","All cheeses
 During this experience you will bond with your team, become a cheese expert by sampling generous portions of the four gateway cheeses, and learn the nuances that make each cheese special.it belongs to cateory of Food Tastingswith attributes of Form a United Team: Creating a united team allows you to work together while supporting each other as you work to achieve your common goals.
 Make Connections: Whether it’s a connection to your organization’s purpose or to colleagues, make connection-building a priority
 Share with Clients and Customers: Build trust and connection with clients and customers by inviting them to join you in sharing this experience.
-it has tags of bond-and-connectits outcome isConnection"
+it has tags of bond-and-connectits outcome isConnection",Jeremy DiAsio
 https://www.teamraderie.com/experiences/virtual-team-building-the-nascar-experience/,9,Collaboration,Rethinking,Role Definition,Boundaries,Optimization,,A Legendary NASCAR Coach’s Secrets of Team Performance,1500,40,"[{""lower_bound"":1, ""upper_bound"":30, ""price"": 1500.00}, {""lower_bound"":31, ""upper_bound"":50, ""price"": 1875.00}, {""lower_bound"":51, ""upper_bound"":70, ""price"": 2250.00}, {""lower_bound"":71, ""upper_bound"":100, ""price"": 2600.00}]",1,100,1,1,55,One Hot Wheels car and all the tools needed to participate in the interactive activity Hot Wheels Tool Kit,,TRUE,"In Office:
 https://www.teamraderie.com/wp-content/uploads/2023/07/InOffice2.jpg
 https://www.teamraderie.com/wp-content/uploads/2023/07/InOffice1.jpg
@@ -369,7 +351,7 @@ Develop Skills: Level up your team by developing crucial skills that create a so
 
 Form a United Team: Creating a united team allows you to work together while supporting each other as you work to achieve your common goals.
 Try Creative Problem Solving: When you hit a roadblock, what’s the first thing your team does? Creative problem-solving creates an alternate path.
-it has tags of collaborate-and-create, search-mp-2, search-new-1, fun-and-gamesits outcome isCollaboration, Creative Problem Solving"
+it has tags of collaborate-and-create, search-mp-2, search-new-1, fun-and-gamesits outcome isCollaboration, Creative Problem Solving",Andy Papathanassiou
 https://www.teamraderie.com/experiences/virtual-team-building-with-art/,9,Creativity,Perspective Sharing,Appreciating Colleagues' Perspective,Crafting,Purpose,,Purposeful Painting Exercise for Team Unity,0,90,,1,30,1,1,75,,,FALSE,"In Office:
 https://www.teamraderie.com/wp-content/uploads/2023/07/InOffice2.jpg
 https://www.teamraderie.com/wp-content/uploads/2023/07/InOffice1.jpg
@@ -393,7 +375,7 @@ Choose between three themes:
 (3) Celebrate the season as a team!it belongs to cateory of Creativity, Arts and Craftswith attributes of Boost Energy and Motivation: Beat the midday slump with this pick-me-up experience to boost energy, motivation, and productivity on your team. 
 Form a United Team: Creating a united team allows you to work together while supporting each other as you work to achieve your common goals.
 Improve Wellbeing: Health and wellness are vital in all aspects of life. Improve well-being through exercise and mindfulness while at work.
-it has tags of collaborate-and-create, health-and-wellness, search-mp-3its outcome isEnergy, Well-Being"
+it has tags of collaborate-and-create, health-and-wellness, search-mp-3its outcome isEnergy, Well-Being",Crafting Experience
 https://www.teamraderie.com/experiences/brew-break-for-busy-teams/,8,Bonding,Connection,Fun,Coffee,Tasting,,Perks of the Past: Enjoying Coffee &#038; Tea as a Team,0,45,,1,80,1,1,25,Your kit will include two (2) coffee pour over pouches and a sweet snack to enjoy with your beverage tasting. Coffee Kit,Your kit will include two (2) tea-forte pyramid sachets and a sweet snack to enjoy with your beverage tasting. Tea Kit,TRUE,"In Office:
 https://www.teamraderie.com/wp-content/uploads/2023/07/InOffice2.jpg
 https://www.teamraderie.com/wp-content/uploads/2023/07/InOffice1.jpg
@@ -407,7 +389,7 @@ https://www.teamraderie.com/wp-content/uploads/2023/07/Remote1.jpg
 https://www.teamraderie.com/wp-content/uploads/2023/07/Remote2.jpg","What's the perfect way to start a long meeting?
 
 Bring your team together with this experience that gives them a break to enjoy a cup of coffee of tea together. They will also learn about the history of these beverages and enjoy each other's company while bonding over shared experiences.it belongs to cateory of Coffee and Teawith attributes of Form a United Team: Creating a united team allows you to work together while supporting each other as you work to achieve your common goals.
-Make Connections: Whether it’s a connection to your organization’s purpose or to colleagues, make connection-building a priorityit has tags of bond-and-connectits outcome isConnection"
+Make Connections: Whether it’s a connection to your organization’s purpose or to colleagues, make connection-building a priorityit has tags of bond-and-connectits outcome isConnection",Jeremy DiAsio
 https://www.teamraderie.com/experiences/afternoon-tea-experience/,7,Bonding,Connection,Fun,Tea,Tasting,Cookies,The Afternoon Tea(m) Experience,0,95,,1,100,1,1,30,"An elegant kit with and assortment of Tea Forte loose-leaf teas, three (3) different types of shortbread cookies, (2) different types of honey, and an infuser tea mug. Afternoon Tea Kit",,TRUE,"In Office:
 https://www.teamraderie.com/wp-content/uploads/2023/07/InOffice2.jpg
 https://www.teamraderie.com/wp-content/uploads/2023/07/InOffice1.jpg
@@ -423,7 +405,7 @@ https://www.teamraderie.com/wp-content/uploads/2023/07/Remote2.jpg","Rejuvenate 
 Invigorate your team's afternoon with a complement of teas, cookies, and traditional accompaniments to help your team gather and connect.it belongs to cateory of Coffee and Tea, Food Tastingswith attributes of Form a United Team: Creating a united team allows you to work together while supporting each other as you work to achieve your common goals.
 Make Connections: Whether it’s a connection to your organization’s purpose or to colleagues, make connection-building a priority
 Share with Clients and Customers: Build trust and connection with clients and customers by inviting them to join you in sharing this experience.
-it has tags of bond-and-connect, search-mp-3its outcome isConnection. it contain Cookiesin the kit"
+it has tags of bond-and-connect, search-mp-3its outcome isConnection. it contain Cookiesin the kit",Jeremy DiAsio
 https://www.teamraderie.com/experiences/apply-radical-candor-to-form-better-hybrid-relationships/,8,Communication,Conflict,Connection,Workplace Relationships,Engagement,,Radical Candor to Level-Up Team Communication,4500,0,"[{""lower_bound"":1, ""upper_bound"":20, ""price"": 4500.00}, {""lower_bound"":21, ""upper_bound"":50, ""price"": 6000.00}]",1,50,0,1,55,,,FALSE,"In Office:
 https://www.teamraderie.com/wp-content/uploads/2023/07/InOffice2.jpg
 https://www.teamraderie.com/wp-content/uploads/2023/07/InOffice1.jpg
@@ -441,7 +423,7 @@ Through engaging activities and group discussions, your team will learn how to b
 Learn Communication Skills: Listening and communicating go hand-in-hand. Learn how your team communicates best to improve your outcomes.
 
 Work as a Distributed Team: Regardless of your location, you have the same goal in mind. Work together to develop your distributed team for success.
-it has tags of collaborate-and-create, thrive-with-hybrid, trust-and-transform, search-new-2its outcome isCommunication, Distributed Teamwork"
+it has tags of collaborate-and-create, thrive-with-hybrid, trust-and-transform, search-new-2its outcome isCommunication, Distributed Teamwork",Amy Sandler
 https://www.teamraderie.com/experiences/games-for-teams/,5,Hybrid Work,Games,Improv,Team Dynamics,Connection,,Evidence-based Games to Ignite a Thriving Team,1200,0,"[{""lower_bound"":1, ""upper_bound"":20, ""price"": 1200.00}, {""lower_bound"":21, ""upper_bound"":50, ""price"": 1500.00}]",1,50,0,1,45,,,FALSE,"In Office:
 https://www.teamraderie.com/wp-content/uploads/2023/07/InOffice2.jpg
 https://www.teamraderie.com/wp-content/uploads/2023/07/InOffice1.jpg
@@ -457,7 +439,7 @@ https://www.teamraderie.com/wp-content/uploads/2023/07/Remote2.jpg","How do you 
 Led by Stanford's Pam McLeod, your team will learn how to engage everyone, build trust, and feel unified through three evidence-based improv games that your team can utilize anytime throughout the year.it belongs to cateory of Creativitywith attributes of Develop Skills: Level up your team by developing crucial skills that create a solid foundation for optimal team performance.
 
 Work as a Distributed Team: Regardless of your location, you have the same goal in mind. Work together to develop your distributed team for success.
-it has tags of collaborate-and-create, thrive-with-hybrid, trust-and-transform, search-new-2, fun-and-gamesits outcome isDistributed Teamwork"
+it has tags of collaborate-and-create, thrive-with-hybrid, trust-and-transform, search-new-2, fun-and-gamesits outcome isDistributed Teamwork",Pam Mcleod
 https://www.teamraderie.com/experiences/team-wellness-activity/,8,Wellbeing,Mental Acuity,Health,Exercise,Rejuvenation,,"Brains, Bones, and Body Booster for Better Team Performance",600,95,"[{""lower_bound"":1, ""upper_bound"":20, ""price"": 600.00}, {""lower_bound"":21, ""upper_bound"":50, ""price"": 750.00}, {""lower_bound"":51, ""upper_bound"":70, ""price"": 900.00}, {""lower_bound"":71, ""upper_bound"":100, ""price"": 1050.00}]",1,100,1,1,45,,,FALSE,"In Office:
 https://www.teamraderie.com/wp-content/uploads/2023/07/InOffice2.jpg
 https://www.teamraderie.com/wp-content/uploads/2023/07/InOffice1.jpg
@@ -476,7 +458,7 @@ Don't miss this opportunity to transform your workday and unleash your full pote
 Improve Wellbeing: Health and wellness are vital in all aspects of life. Improve well-being through exercise and mindfulness while at work.
 
 Share with Clients and Customers: Build trust and connection with clients and customers by inviting them to join you in sharing this experience.
-it has tags of health-and-wellness, thrive-with-hybrid, search-mp-2, search-new-1its outcome isWell-Being"
+it has tags of health-and-wellness, thrive-with-hybrid, search-mp-2, search-new-1its outcome isWell-Being",Ramona Braganza
 https://www.teamraderie.com/experiences/virtual-team-wellness-experience/,10,Work-Life Balance,Burnout,Healthy,Mental Acuity,Wellness,,Improve Team Focus with Micro-Workouts and Movement,600,95,"[{""lower_bound"":1, ""upper_bound"":20, ""price"": 600.00}, {""lower_bound"":21, ""upper_bound"":50, ""price"": 750.00}, {""lower_bound"":51, ""upper_bound"":70, ""price"": 900.00}, {""lower_bound"":71, ""upper_bound"":100, ""price"": 1050.00}]",1,100,1,1,45,,,FALSE,"In Office:
 https://www.teamraderie.com/wp-content/uploads/2023/07/InOffice2.jpg
 https://www.teamraderie.com/wp-content/uploads/2023/07/InOffice1.jpg
@@ -491,7 +473,7 @@ https://www.teamraderie.com/wp-content/uploads/2023/07/Remote2.jpg","How can you
 
 Through Mindful breathing and light strength training! Using decorative weights, Jessica Alba &amp; Ryan Reynolds' personal trainer, Ramona Braganza, will teach your team how mindful breathing techniques while completing light exercises at their desks!it belongs to cateory of Wellnesswith attributes of Form a United Team: Creating a united team allows you to work together while supporting each other as you work to achieve your common goals.
 Improve Wellbeing: Health and wellness are vital in all aspects of life. Improve well-being through exercise and mindfulness while at work.
-it has tags of health-and-wellness, thrive-with-hybrid, search-new-2, search-mp-1its outcome isWell-Being"
+it has tags of health-and-wellness, thrive-with-hybrid, search-new-2, search-mp-1its outcome isWell-Being",Ramona Braganza
 https://www.teamraderie.com/experiences/diversity-and-inclusion-experience/,4,DEI&B,Racial Justice,Perspective,Impact,Rethinking,,Applying Lessons from the Past for an Inclusive Present,4500,0,"[{""lower_bound"":1, ""upper_bound"":20, ""price"": 4500.00}, {""lower_bound"":21, ""upper_bound"":50, ""price"": 5625.00}, {""lower_bound"":51, ""upper_bound"":70, ""price"": 6750.00}, {""lower_bound"":71, ""upper_bound"":100, ""price"": 8000.00}]",1,100,0,1,45,,,FALSE,"In Office:
 https://www.teamraderie.com/wp-content/uploads/2023/07/InOffice2.jpg
 https://www.teamraderie.com/wp-content/uploads/2023/07/InOffice1.jpg
@@ -511,7 +493,7 @@ Create Inclusion and Belonging: Everyone on your team should feel seen, heard, a
 
 Form a United Team: Creating a united team allows you to work together while supporting each other as you work to achieve your common goals.
 Transform Your Foundation: Establish a critical foundation for your team to work their best. No two teams are alike; create something that works for YOU.
-it has tags of inspire-and-excite, trust-and-transform, search-new-2its outcome isEnergy, Inclusion and Belonging"
+it has tags of inspire-and-excite, trust-and-transform, search-new-2its outcome isEnergy, Inclusion and Belonging",Marcia Chatelain
 https://www.teamraderie.com/experiences/maple-syrup-tasting-experience/,3,Bonding,Connection,Fun,Perspective,Tasting,,Making the Grade: A Maple Syrup Tasting Adventure,0,65,,1,100,1,1,30,"A beautiful kit with four (4) maple syrups to taste, maple candy, and pancakes.  Maple Syrup Tasting Kit",,TRUE,"In Office:
 https://www.teamraderie.com/wp-content/uploads/2023/07/InOffice2.jpg
 https://www.teamraderie.com/wp-content/uploads/2023/07/InOffice1.jpg
@@ -530,7 +512,7 @@ Learn about tasting techniques and explore the unique characteristics of four di
 
 &nbsp;it belongs to cateory of Food Tastingswith attributes of Form a United Team: Creating a united team allows you to work together while supporting each other as you work to achieve your common goals.
 Inspire Joy: What’s better than bringing a smile to someone’s face? Enjoy this joyful experience and share smiles with your team
-it has tags of bond-and-connect, search-new-1its outcome isJoy"
+it has tags of bond-and-connect, search-new-1its outcome isJoy",Jeremy DiAsio
 https://www.teamraderie.com/experiences/virtual-team-event-with-tatyana-mcfadden/,6,Inspiration,Goal-Setting,Purpose,Olympian,Discussion,,Top Female Athlete’s Tips on Setting Goals with Purpose,2000,0,"[{""lower_bound"":1, ""upper_bound"":20, ""price"": 2000.00}, {""lower_bound"":21, ""upper_bound"":50, ""price"": 2500.00}, {""lower_bound"":51, ""upper_bound"":70, ""price"": 3000.00}, {""lower_bound"":71, ""upper_bound"":100, ""price"": 3450.00}]",1,100,0,1,45,,,FALSE,"In Office:
 https://www.teamraderie.com/wp-content/uploads/2023/07/InOffice2.jpg
 https://www.teamraderie.com/wp-content/uploads/2023/07/InOffice1.jpg
@@ -549,7 +531,7 @@ Share with Clients and Customers: Build trust and connection with clients and cu
 
 Develop Skills: Level up your team by developing crucial skills that create a solid foundation for optimal team performance.
 
-Find Your Purpose: Work together as a team to identify your purpose and connect your goals to your organization’s mission, vision, and values.it has tags of inspire-and-excite, thrive-with-hybrid, search-mp-2, search-new-2its outcome isEnergy, Purpose"
+Find Your Purpose: Work together as a team to identify your purpose and connect your goals to your organization’s mission, vision, and values.it has tags of inspire-and-excite, thrive-with-hybrid, search-mp-2, search-new-2its outcome isEnergy, Purpose",Tatyana McFadden
 https://www.teamraderie.com/experiences/virtual-terrarium-workshop/,8,Terrarium,Well-being,Relaxation,Mental Health,Work-Life Balance,,Grow a Terrarium to Cultivate Team Well-being,0,95,,1,100,1,1,45,"All the items needed to build your own personal terrarium, including a live succulent  Live-Plant Terrarium Kit","All the items needed to build your own personal terrarium, including a faux-plant alternative Faux-Plant Terrarium Kit",TRUE,"In Office:
 https://www.teamraderie.com/wp-content/uploads/2023/07/InOffice2.jpg
 https://www.teamraderie.com/wp-content/uploads/2023/07/InOffice1.jpg
@@ -566,7 +548,7 @@ Explore adding more self care to your week by learning to create and care for a 
 
 <b>Please note that due to international restrictions on the shipping of live plants, all attendees located outside of the U.S. will receive the faux-plant version of the kit. </b>it belongs to cateory of Creativity, Arts and Crafts, Wellnesswith attributes of Form a United Team: Creating a united team allows you to work together while supporting each other as you work to achieve your common goals.
 Improve Wellbeing: Health and wellness are vital in all aspects of life. Improve well-being through exercise and mindfulness while at work.
-it has tags of bond-and-connect, search-new-3, health-and-wellnessits outcome isWell-Being"
+it has tags of bond-and-connect, search-new-3, health-and-wellnessits outcome isWell-Being",Danielle Schulz
 https://www.teamraderie.com/experiences/snack-break/,7,Connection,Bonding,Celebrate,Community,Female-Founded,,Celebrate Female Entrepreneurs and their Innovation in Snack,0,45,,1,100,1,1,25,A generous kit with 3 snacks and a beverage to enjoy during the experience (all snacks are gluten free and vegan). Snack Break,,TRUE,"In Office:
 https://www.teamraderie.com/wp-content/uploads/2023/07/InOffice2.jpg
 https://www.teamraderie.com/wp-content/uploads/2023/07/InOffice1.jpg
@@ -580,7 +562,7 @@ https://www.teamraderie.com/wp-content/uploads/2023/07/Remote1.jpg
 https://www.teamraderie.com/wp-content/uploads/2023/07/Remote2.jpg","Indulge your taste buds and bond with your team!
 
 Our snack experience features four delicious treats from values-driven, female-founded companies. Learn about the origin stories and discuss your favorites together. It's the perfect break for your team!it belongs to cateory of Food Tastings, Seasonal or Holiday, Snackswith attributes of Form a United Team: Creating a united team allows you to work together while supporting each other as you work to achieve your common goals.
-Make Connections: Whether it’s a connection to your organization’s purpose or to colleagues, make connection-building a priorityit has tags of bond-and-connect, search-mp-5, search-new-4its outcome isConnection"
+Make Connections: Whether it’s a connection to your organization’s purpose or to colleagues, make connection-building a priorityit has tags of bond-and-connect, search-mp-5, search-new-4its outcome isConnection",Jeremy DiAsio
 https://www.teamraderie.com/experiences/international-snack-box-and-experience/,10,Connection,Bonding,Celebrate,Community,Travel,,A Snack Journey Around the World With Your Team,0,45,,1,100,1,1,25,A beautiful kit with 3 snacks and a beverage originating from different parts of the world.  The International Snack Kit,,TRUE,"In Office:
 https://www.teamraderie.com/wp-content/uploads/2023/07/InOffice2.jpg
 https://www.teamraderie.com/wp-content/uploads/2023/07/InOffice1.jpg
@@ -596,7 +578,7 @@ https://www.teamraderie.com/wp-content/uploads/2023/07/Remote2.jpg","<span data-
 <span data-sheets-value=""{&quot;1&quot;:2,&quot;2&quot;:&quot;Snacking is global, but 80% of snacks are popular in a single country only. Why is this the case? Did you know that an Italian Monk created the pretzel in the 6th century for parish children to snack on during service? Learn local traditions and discuss your own while trying international snacks from Senegal, Argentina, Vietnam, and the Philippines while building connections and common ground.&quot;}"" data-sheets-userformat=""{&quot;2&quot;:5053,&quot;3&quot;:{&quot;1&quot;:0},&quot;5&quot;:{&quot;1&quot;:[{&quot;1&quot;:2,&quot;2&quot;:0,&quot;5&quot;:{&quot;1&quot;:2,&quot;2&quot;:0}},{&quot;1&quot;:0,&quot;2&quot;:0,&quot;3&quot;:3},{&quot;1&quot;:1,&quot;2&quot;:0,&quot;4&quot;:1}]},&quot;6&quot;:{&quot;1&quot;:[{&quot;1&quot;:2,&quot;2&quot;:0,&quot;5&quot;:{&quot;1&quot;:2,&quot;2&quot;:0}},{&quot;1&quot;:0,&quot;2&quot;:0,&quot;3&quot;:3},{&quot;1&quot;:1,&quot;2&quot;:0,&quot;4&quot;:1}]},&quot;7&quot;:{&quot;1&quot;:[{&quot;1&quot;:2,&quot;2&quot;:0,&quot;5&quot;:{&quot;1&quot;:2,&quot;2&quot;:0}},{&quot;1&quot;:0,&quot;2&quot;:0,&quot;3&quot;:3},{&quot;1&quot;:1,&quot;2&quot;:0,&quot;4&quot;:1}]},&quot;8&quot;:{&quot;1&quot;:[{&quot;1&quot;:2,&quot;2&quot;:0,&quot;5&quot;:{&quot;1&quot;:2,&quot;2&quot;:0}},{&quot;1&quot;:0,&quot;2&quot;:0,&quot;3&quot;:3},{&quot;1&quot;:1,&quot;2&quot;:0,&quot;4&quot;:1}]},&quot;10&quot;:2,&quot;11&quot;:4,&quot;12&quot;:0,&quot;15&quot;:&quot;Arial&quot;}"">Did you know that an Italian Monk created the pretzel in the 6th century for parish children to snack on during service? Learn local traditions and discuss your own while trying international snacks from Africa, South America, Europe, and Asia while building connections and common ground.</span>it belongs to cateory of Coffee and Tea, Food Tastings, Snackswith attributes of Form a United Team: Creating a united team allows you to work together while supporting each other as you work to achieve your common goals.
 Make Connections: Whether it’s a connection to your organization’s purpose or to colleagues, make connection-building a priority
 Share with Clients and Customers: Build trust and connection with clients and customers by inviting them to join you in sharing this experience.
-it has tags of search-new-3, bond-and-connect, search-mp-2its outcome isConnection"
+it has tags of search-new-3, bond-and-connect, search-mp-2its outcome isConnection",Jeremy DiAsio
 https://www.teamraderie.com/experiences/coffee-cupping-event/,5,Bonding,Connection,Fun,Tasting,Coffee,,Coffee ‘Cupping’ Technique – Learn and Classify as a Team,0,95,,1,100,1,1,55,"A coffee kit with (5) five different types of coffee, a cupping spoon, a digital scale, and a cupping tasting guide. Coffee Cupping Kit",,TRUE,"In Office:
 https://www.teamraderie.com/wp-content/uploads/2023/07/InOffice2.jpg
 https://www.teamraderie.com/wp-content/uploads/2023/07/InOffice1.jpg
@@ -612,7 +594,7 @@ https://www.teamraderie.com/wp-content/uploads/2023/07/Remote2.jpg","Discover yo
 Taste five varieties of coffee and learn how to identify the roast level, origin, and processing method that best matches your taste. Led by one of Europe's top barista's, you'll deepen your appreciation for the art of coffee and your own personal preferences.
 
 <strong>Please note that due to current import and customs regulations, we are unable to ship coffee cupping kits to Spain, Poland, and Romania.</strong>it belongs to cateory of Coffee and Teawith attributes of Form a United Team: Creating a united team allows you to work together while supporting each other as you work to achieve your common goals.
-Make Connections: Whether it’s a connection to your organization’s purpose or to colleagues, make connection-building a priorityit has tags of search-new-3, bond-and-connectits outcome isConnection"
+Make Connections: Whether it’s a connection to your organization’s purpose or to colleagues, make connection-building a priorityit has tags of search-new-3, bond-and-connectits outcome isConnection",Sara Larsson
 https://www.teamraderie.com/experiences/virtual-cocktail-class/,8,Connection,Bonding,Happy Hour,Fun,Cocktails,,Dealer’s Choice: Discover the Art of the Classic Cocktail,0,100,,1,100,1,1,45,"A beautiful kit with whisky, vodka, and tequila. Plus all the juices, syrups, and garnishes needed to make 3 delicious cocktails. Cocktail Kit","A beautiful kit with all the juices, syrups, garnishes, and more needed to make 3 delicious non-alcoholic drinks. Non-alcoholic Mocktail Kit",TRUE,"In Office:
 https://www.teamraderie.com/wp-content/uploads/2023/07/InOffice2.jpg
 https://www.teamraderie.com/wp-content/uploads/2023/07/InOffice1.jpg
@@ -630,7 +612,7 @@ Your team will receive ingredients to craft three classic cocktails, and a skill
 Let the cocktail making magic begin!it belongs to cateory of Happy Hour, Celebrationswith attributes of Form a United Team: Creating a united team allows you to work together while supporting each other as you work to achieve your common goals.
 Make Connections: Whether it’s a connection to your organization’s purpose or to colleagues, make connection-building a priority
 Share with Clients and Customers: Build trust and connection with clients and customers by inviting them to join you in sharing this experience.
-it has tags of bond-and-connect, search-mp-2, search-new-3its outcome isConnection"
+it has tags of bond-and-connect, search-mp-2, search-new-3its outcome isConnection",Nathan Howard two
 https://www.teamraderie.com/experiences/sleigh-your-goals-a-virtual-event-with-simidele-adeagbo/,9,Resilience,Persistence,Support,100 Days,Goal-Setting,,Sleigh Your Goals – How Your Team Can Breakthrough,2000,0,"[{""lower_bound"":1, ""upper_bound"":20, ""price"": 2000.00}, {""lower_bound"":21, ""upper_bound"":50, ""price"": 2500.00}, {""lower_bound"":51, ""upper_bound"":70, ""price"": 3000.00}, {""lower_bound"":71, ""upper_bound"":100, ""price"": 3450.00}]",1,100,0,1,45,,,FALSE,"In Office:
 https://www.teamraderie.com/wp-content/uploads/2023/07/InOffice2.jpg
 https://www.teamraderie.com/wp-content/uploads/2023/07/InOffice1.jpg
@@ -646,7 +628,7 @@ https://www.teamraderie.com/wp-content/uploads/2023/07/Remote2.jpg","Join winter
 In this experience, Simidele will lead a discussion on reframing goals, taking bold steps, and leveraging strengths to stay focused. Your team will leave with actionable strategies to achieve big outcomes this year. Don't miss out on this inspiring opportunity to learn from a true trailblazer!it belongs to cateory of Learning Together, Notable hostwith attributes of Boost Energy and Motivation: Beat the midday slump with this pick-me-up experience to boost energy, motivation, and productivity on your team. 
 Form a United Team: Creating a united team allows you to work together while supporting each other as you work to achieve your common goals.
 Share with Clients and Customers: Build trust and connection with clients and customers by inviting them to join you in sharing this experience.
-it has tags of inspire-and-excite, trust-and-transform, thrive-with-hybrid, search-mp-2, search-new-4its outcome isEnergy"
+it has tags of inspire-and-excite, trust-and-transform, thrive-with-hybrid, search-mp-2, search-new-4its outcome isEnergy",Simidele Adeagbo
 https://www.teamraderie.com/experiences/find-team-balance-with-mindful-team-meditation/,2,Work-Life Balance,Burnout,Meditation,Mental Health,Relaxation,,Find Team Balance with Mindful Meditation,1000,0,"[{""lower_bound"":1, ""upper_bound"":30, ""price"": 1000.00}, {""lower_bound"":31, ""upper_bound"":50, ""price"": 1200.00}, {""lower_bound"":51, ""upper_bound"":70, ""price"": 1500.00}, {""lower_bound"":71, ""upper_bound"":100, ""price"": 1750.00}]",1,100,0,1,30,,,FALSE,"In Office:
 https://www.teamraderie.com/wp-content/uploads/2023/07/InOffice2.jpg
 https://www.teamraderie.com/wp-content/uploads/2023/07/InOffice1.jpg
@@ -661,7 +643,7 @@ https://www.teamraderie.com/wp-content/uploads/2023/07/Remote2.jpg","Stress and 
 
 Learn how to conquer stress and anxiety through mindful meditation and bring balance to your day. No if's and/or OM's about it.it belongs to cateory of Wellnesswith attributes of Form a United Team: Creating a united team allows you to work together while supporting each other as you work to achieve your common goals.
 Improve Wellbeing: Health and wellness are vital in all aspects of life. Improve well-being through exercise and mindfulness while at work.
-it has tags of search-new-3, health-and-wellnessits outcome isWell-Being"
+it has tags of search-new-3, health-and-wellnessits outcome isWell-Being",Kevin Hekmat
 https://www.teamraderie.com/experiences/empower-people-and-teams-through-vision-collaboration/,7,Skill Building,Communication,Impact,Purpose,Drawing,,Empower People and Teams Through Visual Collaboration,2000,0,"[{""lower_bound"":1, ""upper_bound"":20, ""price"": 2000.00}, {""lower_bound"":21, ""upper_bound"":50, ""price"": 2500.00}, {""lower_bound"":51, ""upper_bound"":70, ""price"": 3000.00}, {""lower_bound"":71, ""upper_bound"":100, ""price"": 3450.00}]",1,100,0,1,45,,,FALSE,"In Office:
 https://www.teamraderie.com/wp-content/uploads/2023/07/InOffice2.jpg
 https://www.teamraderie.com/wp-content/uploads/2023/07/InOffice1.jpg
@@ -681,7 +663,7 @@ Form a United Team: Creating a united team allows you to work together while sup
 Learn Communication Skills: Listening and communicating go hand-in-hand. Learn how your team communicates best to improve your outcomes.
 
 Work as a Distributed Team: Regardless of your location, you have the same goal in mind. Work together to develop your distributed team for success.
-it has tags of collaborate-and-create, search-new-2its outcome isCollaboration, Communication, Distributed Teamwork"
+it has tags of collaborate-and-create, search-new-2its outcome isCollaboration, Communication, Distributed Teamwork",Tim May
 https://www.teamraderie.com/experiences/team-storytelling-event/,7,Communication,Skill Building,Storytelling,Upleveling,Team Effectiveness,,The Power of Storytelling: Learn and Practice as a Team,2000,0,"[{""lower_bound"":1, ""upper_bound"":20, ""price"": 2000.00}, {""lower_bound"":21, ""upper_bound"":50, ""price"": 2500.00}, {""lower_bound"":51, ""upper_bound"":70, ""price"": 3000.00}, {""lower_bound"":71, ""upper_bound"":100, ""price"": 3450.00}]",1,100,0,1,45,,,FALSE,"In Office:
 https://www.teamraderie.com/wp-content/uploads/2023/07/InOffice2.jpg
 https://www.teamraderie.com/wp-content/uploads/2023/07/InOffice1.jpg
@@ -697,7 +679,7 @@ https://www.teamraderie.com/wp-content/uploads/2023/07/Remote2.jpg","Unleash the
 Learn from an acclaimed visual artist and gain valuable tools to engage your audience and drive impact. Share your perspective as a story and inspire action.it belongs to cateory of Creativity, Team Skillswith attributes of Develop Skills: Level up your team by developing crucial skills that create a solid foundation for optimal team performance.
 
 Learn Communication Skills: Listening and communicating go hand-in-hand. Learn how your team communicates best to improve your outcomes.
-it has tags of inspire-and-excite, collaborate-and-create, search-new-4, search-mp-3its outcome isCommunication"
+it has tags of inspire-and-excite, collaborate-and-create, search-new-4, search-mp-3its outcome isCommunication",Tim May
 https://www.teamraderie.com/experiences/team-art-experience/,10,Wellbeing,Crafting,Fun,Painting,Purpose,,Zentangle as a Team: A Creative Art Experience,0,80,,1,100,1,1,55,,,FALSE,"In Office:
 https://www.teamraderie.com/wp-content/uploads/2023/07/InOffice2.jpg
 https://www.teamraderie.com/wp-content/uploads/2023/07/InOffice1.jpg
@@ -717,7 +699,7 @@ Improve Wellbeing: Health and wellness are vital in all aspects of life. Improve
 
 Make Connections: Whether it’s a connection to your organization’s purpose or to colleagues, make connection-building a priority
 Share with Clients and Customers: Build trust and connection with clients and customers by inviting them to join you in sharing this experience.
-it has tags of bond-and-connect, fun-and-games, search-new-5its outcome isConnection, Well-Being"
+it has tags of bond-and-connect, fun-and-games, search-new-5its outcome isConnection, Well-Being",Crafting Experience
 https://www.teamraderie.com/experiences/virtual-card-game-for-teams/,10,Recognition,Appreciation,Feedback,Positivity,Inclusion,,Digital Card Game To Recognize Team Strengths,650,0,"[{""lower_bound"":1, ""upper_bound"":15, ""price"": 650.00}, {""lower_bound"":16, ""upper_bound"":30, ""price"": 1000.00}]",1,30,0,1,75,,,FALSE,"In Office:
 https://www.teamraderie.com/wp-content/uploads/2023/07/InOffice2.jpg
 https://www.teamraderie.com/wp-content/uploads/2023/07/InOffice1.jpg
@@ -735,7 +717,7 @@ The conversation will lead to more effective collaboration, better problem-solvi
 Don't miss out on the opportunity to take your team to the next level!it belongs to cateory of Celebrationswith attributes of Create Inclusion and Belonging: Everyone on your team should feel seen, heard, and valued. Increase your team’s sense of belonging with this experience.
 
 Transform Your Foundation: Establish a critical foundation for your team to work their best. No two teams are alike; create something that works for YOU.
-it has tags of fun-and-games, bond-and-connect, search-new-4, search-mp-2its outcome isInclusion and Belonging"
+it has tags of fun-and-games, bond-and-connect, search-new-4, search-mp-2its outcome isInclusion and Belonging",Jeremy DiAsio
 https://www.teamraderie.com/experiences/hostage-rescue-a-virtual-exercise-in-strategy-planning-and-teamwork/,10,Alignment,Communication,Clarity,Group Dynamics,Inclusion,,Hostage Rescue: An Exercise in Strategy and Teamwork,2000,0,"[{""lower_bound"":1, ""upper_bound"":15, ""price"": 2000.00}, {""lower_bound"":16, ""upper_bound"":30, ""price"": 3000.00}]",1,30,0,1,75,,,FALSE,"In Office:
 https://www.teamraderie.com/wp-content/uploads/2023/07/InOffice2.jpg
 https://www.teamraderie.com/wp-content/uploads/2023/07/InOffice1.jpg
@@ -753,7 +735,7 @@ Navy SEALs have effective techniques that combine differences in perspective and
 Reach Alignment: Pull the best ideas from everyone and then help your team get onto the same page. Bring together different ideas and work cohesively.
 
 Take Initiative: Step up to the challenge and take initiative as a team to solve problems, overcome obstacles, and achieve your goals.
-it has tags of fun-and-games, collaborate-and-create, thrive-with-hybrid, search-new-5, search-mp-3its outcome isReaching Alignment, Taking Initiative"
+it has tags of fun-and-games, collaborate-and-create, thrive-with-hybrid, search-new-5, search-mp-3its outcome isReaching Alignment, Taking Initiative",Mike Bailey
 https://www.teamraderie.com/experiences/tiki-time-as-a-team-a-cocktail-mocktail-experience/,8,Bonding,Connection,Fun,Happy Hour,Mixology,,Tiki Time as a Team: A Cocktail &#038; Mocktail Experience,0,95,,1,100,1,1,45,"A beautiful kit with all the items needed to make your drinks: spiced rum, coconut rum, juices, syrups, garnishes, a jigger, shaker glass, and more!  Cocktail Kit","A beautiful kit with all the items needed to make your drinks: non-alcoholic Lyre sparkling, seltzer, syrups, garnishes, a jigger, shaker glass, and more!  Non-alcoholic Mocktail Kit",TRUE,"In Office:
 https://www.teamraderie.com/wp-content/uploads/2023/07/InOffice2.jpg
 https://www.teamraderie.com/wp-content/uploads/2023/07/InOffice1.jpg
@@ -771,7 +753,7 @@ Learn to make three tropical tiki cocktails or mocktails, bond, and transport yo
 <strong>Please note that all attendees located outside of the U.S. will receive the non-alcoholic version of the kit.</strong> <span style=""font-weight: 400;"">This version includes all the same contents as the alcoholic version, but with a 200 ml bottle of Seedlip non-alcoholic distilled spirits. A sophisticated and delicious beverage that adds depth to each cocktail</span>it belongs to cateory of Happy Hourwith attributes of Form a United Team: Creating a united team allows you to work together while supporting each other as you work to achieve your common goals.
 Make Connections: Whether it’s a connection to your organization’s purpose or to colleagues, make connection-building a priority
 Share with Clients and Customers: Build trust and connection with clients and customers by inviting them to join you in sharing this experience.
-it has tags of bond-and-connect, fun-and-games, search-new-5its outcome isConnection"
+it has tags of bond-and-connect, fun-and-games, search-new-5its outcome isConnection",Jeremy DiAsio
 https://www.teamraderie.com/experiences/virtual-bubble-tea-experience/,8,Bonding,Connection,Fun,Happy Hour,Mixology,,Tipsy Bubble Tea to Ignite Your Team,0,95,,1,100,1,1,45,"A beautiful kit with all the ingredients needed to make three drinks: Baileys, Tequila, White Rum, Rainbow Jelly Topping, Tapioca Pearls, Tea Bags, Syrup, and Mixers. The Tipsy Bubble Tea Kit","A beautiful kit with all the ingredients needed to make three drinks: Rainbow Jelly Topping, Tapioca Pearls, Tea Bags, Syrup, and Mixers. The Non-Alcoholic Bubble Tea Kit",TRUE,"In Office:
 https://www.teamraderie.com/wp-content/uploads/2023/07/InOffice2.jpg
 https://www.teamraderie.com/wp-content/uploads/2023/07/InOffice1.jpg
@@ -789,7 +771,7 @@ A treat developed through the innovation of combining two existing desserts led 
 <strong>Please note that all attendees located outside of the U.S. will receive the non-alcoholic version of the kit.</strong> <span style=""font-weight: 400;"">This version includes all the same contents as the alcoholic version, but without the spirits. </span>it belongs to cateory of Happy Hourwith attributes of Form a United Team: Creating a united team allows you to work together while supporting each other as you work to achieve your common goals.
 Make Connections: Whether it’s a connection to your organization’s purpose or to colleagues, make connection-building a priority
 Share with Clients and Customers: Build trust and connection with clients and customers by inviting them to join you in sharing this experience.
-it has tags of bond-and-connect, fun-and-games, search-new-4its outcome isConnection"
+it has tags of bond-and-connect, fun-and-games, search-new-4its outcome isConnection",Jeremy DiAsio
 https://www.teamraderie.com/experiences/virtual-ice-cream-experience/,10,Joy,Activity,Celebrate,Community,Shaking,,Discover the Science of Ice Cream Making,0,65,,1,100,1,1,30,"A beautiful kit with all items needed to make delicious ice cream from anywhere: shelf-stable dairy milk, plastic bags, caramel, sprinkles, cups and more! (All you need is ice)  Ice Cream Kit (with regular milk)","A beautiful kit with all items needed to make delicious ice cream from anywhere: shelf-stable non-dairy pea milk, plastic bags, caramel, sprinkles, cups and more! (All you need is ice)  Ice Cream Kit (with dairy-free pea milk)",TRUE,"In Office:
 https://www.teamraderie.com/wp-content/uploads/2023/07/InOffice2.jpg
 https://www.teamraderie.com/wp-content/uploads/2023/07/InOffice1.jpg
@@ -805,7 +787,7 @@ https://www.teamraderie.com/wp-content/uploads/2023/07/Remote2.jpg","Do you need
 During this fun and interactive shared experience your team will learn the science of ice cream, shake up their own batch, and bring joy to their day. Have your team screaming for Ice Cream!it belongs to cateory of Food Tastings, Celebrations, Snackswith attributes of Form a United Team: Creating a united team allows you to work together while supporting each other as you work to achieve your common goals.
 Inspire Joy: What’s better than bringing a smile to someone’s face? Enjoy this joyful experience and share smiles with your team
 
-Make Connections: Whether it’s a connection to your organization’s purpose or to colleagues, make connection-building a priorityit has tags of bond-and-connect, search-new-5, search-mp-3, fun-and-gamesits outcome isConnection, Joy"
+Make Connections: Whether it’s a connection to your organization’s purpose or to colleagues, make connection-building a priorityit has tags of bond-and-connect, search-new-5, search-mp-3, fun-and-gamesits outcome isConnection, Joy",Brodie Vissers
 https://www.teamraderie.com/experiences/flex-your-leadership-style-to-be-an-effective-leader/,9,Coordination,Micromanagement,Lack of Empowerment,Leadership,Modern,,Flex Your Leadership Style to Promote Team Progress,2000,0,"[{""lower_bound"":1, ""upper_bound"":20, ""price"": 2000.00}, {""lower_bound"":21, ""upper_bound"":50, ""price"": 2500.00}, {""lower_bound"":51, ""upper_bound"":70, ""price"": 3000.00}, {""lower_bound"":71, ""upper_bound"":100, ""price"": 3450.00}]",1,100,0,1,45,,,FALSE,"In Office:
 https://www.teamraderie.com/wp-content/uploads/2023/07/InOffice2.jpg
 https://www.teamraderie.com/wp-content/uploads/2023/07/InOffice1.jpg
@@ -823,7 +805,7 @@ Flex your leadership style to fit the team's needs. Work with Harvard's Grace Co
 Reach Alignment: Pull the best ideas from everyone and then help your team get onto the same page. Bring together different ideas and work cohesively.
 
 Take Initiative: Step up to the challenge and take initiative as a team to solve problems, overcome obstacles, and achieve your goals.
-it has tags of search-mp-3, search-new-4, inspire-and-exciteits outcome isReaching Alignment, Taking Initiative"
+it has tags of search-mp-3, search-new-4, inspire-and-exciteits outcome isReaching Alignment, Taking Initiative",Grace Cormier
 https://www.teamraderie.com/experiences/uncover-the-power-of-asking-better-questions-for-connection/,5,Communication,Remote Collaboration,Feedback,Mentoring,Questioning,,How to Ask Better Questions for Effective Team Communication,2000,0,"[{""lower_bound"":1, ""upper_bound"":20, ""price"": 2000.00}, {""lower_bound"":21, ""upper_bound"":50, ""price"": 3500.00}]",1,50,0,1,45,,,FALSE,"In Office:
 https://www.teamraderie.com/wp-content/uploads/2023/07/InOffice2.jpg
 https://www.teamraderie.com/wp-content/uploads/2023/07/InOffice1.jpg
@@ -843,7 +825,7 @@ Develop Skills: Level up your team by developing crucial skills that create a so
 Learn Communication Skills: Listening and communicating go hand-in-hand. Learn how your team communicates best to improve your outcomes.
 
 Transform Your Foundation: Establish a critical foundation for your team to work their best. No two teams are alike; create something that works for YOU.
-it has tags of bond-and-connect, collaborate-and-create, search-mp-3, search-new-4its outcome isCommunication, Team Trust"
+it has tags of bond-and-connect, collaborate-and-create, search-mp-3, search-new-4its outcome isCommunication, Team Trust",Taylor Buonocore Guthrie
 https://www.teamraderie.com/experiences/intention-setting-and-gifting-experience/,7,Recognition,Gifting,Planning,Purpose,Role Definition,,Intention Setting and Gifting for Team Appreciation,300,50,"[{""lower_bound"":1, ""upper_bound"":15, ""price"": 300.00}, {""lower_bound"":16, ""upper_bound"":25, ""price"": 400.00}]",1,25,1,1,55,,,FALSE,"In Office:
 https://www.teamraderie.com/wp-content/uploads/2023/07/InOffice2.jpg
 https://www.teamraderie.com/wp-content/uploads/2023/07/InOffice1.jpg
@@ -863,7 +845,7 @@ https://www.teamraderie.com/wp-content/uploads/2023/07/Remote2.jpg","During this
 Create Inclusion and Belonging: Everyone on your team should feel seen, heard, and valued. Increase your team’s sense of belonging with this experience.
 
 Transform Your Foundation: Establish a critical foundation for your team to work their best. No two teams are alike; create something that works for YOU.
-it has tags of bond-and-connect, fun-and-games, search-mp-5, search-new-5its outcome isInclusion and Belonging, Team Trust"
+it has tags of bond-and-connect, fun-and-games, search-mp-5, search-new-5its outcome isInclusion and Belonging, Team Trust",Jeremy DiAsio
 https://www.teamraderie.com/experiences/unlock-your-creative-process-through-moss-art-experience/,7,Wellbeing,Activity,Crafting,Perspective,Health,,Unlock Your Creative Process Through Moss Art,0,95,,1,100,1,1,45,"A kit with wooden boards, moss, glue, trinkets and more. All the items needed to make two (2) unique moss art creations. Moss Art Kit",,TRUE,"In Office:
 https://www.teamraderie.com/wp-content/uploads/2023/07/InOffice2.jpg
 https://www.teamraderie.com/wp-content/uploads/2023/07/InOffice1.jpg
@@ -881,7 +863,7 @@ Form a United Team: Creating a united team allows you to work together while sup
 Improve Wellbeing: Health and wellness are vital in all aspects of life. Improve well-being through exercise and mindfulness while at work.
 
 Inspire Joy: What’s better than bringing a smile to someone’s face? Enjoy this joyful experience and share smiles with your team
-it has tags of search-new-4, search-mp-3, health-and-wellness, bond-and-connect, fun-and-gamesits outcome isCollaboration, Joy, Well-Being"
+it has tags of search-new-4, search-mp-3, health-and-wellness, bond-and-connect, fun-and-gamesits outcome isCollaboration, Joy, Well-Being",Jeremy DiAsio
 https://www.teamraderie.com/experiences/the-power-of-disagreement-turn-conflict-resolution-workshop/,9,Communication,Conflict,Personality Clash,Team Dynamics,DEI&B,,The Power of Disagreement: Turn Conflict into Advantage,2000,0,"[{""lower_bound"":1, ""upper_bound"":20, ""price"": 2000.00}, {""lower_bound"":21, ""upper_bound"":50, ""price"": 2500.00}, {""lower_bound"":51, ""upper_bound"":70, ""price"": 3000.00}, {""lower_bound"":71, ""upper_bound"":100, ""price"": 3450.00}]",1,100,0,1,45,,,FALSE,"In Office:
 https://www.teamraderie.com/wp-content/uploads/2023/07/InOffice2.jpg
 https://www.teamraderie.com/wp-content/uploads/2023/07/InOffice1.jpg
@@ -897,7 +879,7 @@ https://www.teamraderie.com/wp-content/uploads/2023/07/Remote2.jpg","Diverse per
 Or worse, they can slow communication and decision-making. Co-created with Harvard's Francesca Gino, this experience uses research-backed methods to get your team comfortable with direct, open conversation that will propel you forward.it belongs to cateory of Team Skills, Learning Togetherwith attributes of Develop Skills: Level up your team by developing crucial skills that create a solid foundation for optimal team performance.
 
 Reach Alignment: Pull the best ideas from everyone and then help your team get onto the same page. Bring together different ideas and work cohesively.
-it has tags of trust-and-transformits outcome isReaching Alignment"
+it has tags of trust-and-transformits outcome isReaching Alignment",Grace Cormier
 https://www.teamraderie.com/experiences/team-jazz-experience-master-art-of-improvisation/,6,Improvisation,Navigating Uncertainty,Ineffective Decision-Making,Unique Activity,Jazz,,Learn from Jazz: Master the Art of Adapting Together as a Team,2000,0,"[{""lower_bound"":1, ""upper_bound"":20, ""price"": 2000.00}, {""lower_bound"":21, ""upper_bound"":50, ""price"": 2500.00}, {""lower_bound"":51, ""upper_bound"":70, ""price"": 3000.00}, {""lower_bound"":71, ""upper_bound"":100, ""price"": 3450.00}]",1,100,0,1,45,,,FALSE,"In Office:
 https://www.teamraderie.com/wp-content/uploads/2023/07/InOffice2.jpg
 https://www.teamraderie.com/wp-content/uploads/2023/07/InOffice1.jpg
@@ -917,7 +899,7 @@ Flexible Learning Mindset: Help others become more receptive to change and growt
 
 Form a United Team: Creating a united team allows you to work together while supporting each other as you work to achieve your common goals.
 Try Creative Problem Solving: When you hit a roadblock, what’s the first thing your team does? Creative problem-solving creates an alternate path.
-it has tags of inspire-and-excite, collaborate-and-createits outcome isCollaboration, Creative Problem Solving, Learning Mindset"
+it has tags of inspire-and-excite, collaborate-and-createits outcome isCollaboration, Creative Problem Solving, Learning Mindset",Staff One
 https://www.teamraderie.com/experiences/team-improv-experience-for-connection-and-empathy/,1,Creativity,Improv,Inclusion,Belonging,Fun,,Building Empathy and Listening Skills through Improv,1200,0,"[{""lower_bound"":1, ""upper_bound"":20, ""price"": 1200.00}, {""lower_bound"":21, ""upper_bound"":50, ""price"": 1500.00}]",1,50,0,1,45,,,FALSE,"In Office:
 https://www.teamraderie.com/wp-content/uploads/2023/07/InOffice2.jpg
 https://www.teamraderie.com/wp-content/uploads/2023/07/InOffice1.jpg
@@ -940,7 +922,7 @@ Learn Communication Skills: Listening and communicating go hand-in-hand. Learn h
 
 Enhance Empathy: Foster a deeper understanding and connection to your teams' emotions, struggles, and triumphs.
 Transform Your Foundation: Establish a critical foundation for your team to work their best. No two teams are alike; create something that works for YOU.
-it has tags of collaborate-and-create, fun-and-games, trust-and-transformits outcome isCommunication, Empathy"
+it has tags of collaborate-and-create, fun-and-games, trust-and-transformits outcome isCommunication, Empathy",Pam Mcleod
 https://www.teamraderie.com/experiences/unleash-creativity-improv-your-way-to-generating-breakthrough-ideas/,6,Improv,Creativity,Collaboration,Innovation,Bonding,,Unleash Creativity: Improv Your Way to Breakthrough Ideas,1200,0,"[{""lower_bound"":1, ""upper_bound"":20, ""price"": 1200.00}, {""lower_bound"":21, ""upper_bound"":50, ""price"": 1500.00}]",1,50,0,1,45,,,FALSE,"In Office:
 https://www.teamraderie.com/wp-content/uploads/2023/07/InOffice2.jpg
 https://www.teamraderie.com/wp-content/uploads/2023/07/InOffice1.jpg
@@ -958,7 +940,7 @@ Form a United Team: Creating a united team allows you to work together while sup
 Try Creative Problem Solving: When you hit a roadblock, what’s the first thing your team does? Creative problem-solving creates an alternate path.
 
 Develop Skills: Level up your team by developing crucial skills that create a solid foundation for optimal team performance.
-it has tags of collaborate-and-create, fun-and-gamesits outcome isCollaboration, Creative Problem Solving"
+it has tags of collaborate-and-create, fun-and-gamesits outcome isCollaboration, Creative Problem Solving",Pam Mcleod
 https://www.teamraderie.com/experiences/virtual-beer-experience/,6,Bonding,Connection,Fun,Beer,Tasting,,Celebrate Women-run Breweries with Your Team,0,100,,1,100,1,0,45,"A generous kit with four (4) different cans of award-winning craft beer, popcorn, and a commemorative pint glass. Beer Kit","A generous kit with four (4) different cans of award-winning non-alcoholic beer, popcorn, and a commemorative pint glass. Non-alcoholic Beer Kit",TRUE,"In Office:
 https://www.teamraderie.com/wp-content/uploads/2023/07/InOffice2.jpg
 https://www.teamraderie.com/wp-content/uploads/2023/07/InOffice1.jpg
@@ -976,7 +958,7 @@ To guide your team, you will be joined by an acclaimed beer expert -- such as on
 As you taste your beers, your team will learn more about each brewery and celebrate the stories of their owners and brewers.it belongs to cateory of Happy Hour, Seasonal or Holidaywith attributes of Form a United Team: Creating a united team allows you to work together while supporting each other as you work to achieve your common goals.
 Make Connections: Whether it’s a connection to your organization’s purpose or to colleagues, make connection-building a priority
 Share with Clients and Customers: Build trust and connection with clients and customers by inviting them to join you in sharing this experience.
-it has tags of bond-and-connectits outcome isConnection"
+it has tags of bond-and-connectits outcome isConnection",Hal Mooney
 https://www.teamraderie.com/experiences/the-roi-of-sleep-team-sleep-experience/,4,Wellbeing,Sleep,Rest,Health,Wellness,,The ROI of Sleep – Unlocking the Power of Your Best Night’s Rest,2000,0,"[{""lower_bound"":1, ""upper_bound"":20, ""price"": 2000.00}, {""lower_bound"":21, ""upper_bound"":50, ""price"": 3000.00}, {""lower_bound"":51, ""upper_bound"":70, ""price"": 4000.00}, {""lower_bound"":71, ""upper_bound"":100, ""price"": 5000.00}]",1,100,0,1,45,,,FALSE,"In Office:
 https://www.teamraderie.com/wp-content/uploads/2023/07/InOffice2.jpg
 https://www.teamraderie.com/wp-content/uploads/2023/07/InOffice1.jpg
@@ -995,7 +977,7 @@ In this Teamraderie experience, a certified Sleep Science Academy coach will sha
 
 Come together as a team. Discover the keys to unlocking the power of your best night's rest. Wake up with more peace, power and presence.it belongs to cateory of Wellnesswith attributes of Form a United Team: Creating a united team allows you to work together while supporting each other as you work to achieve your common goals.
 Improve Wellbeing: Health and wellness are vital in all aspects of life. Improve well-being through exercise and mindfulness while at work.
-it has tags of health-and-wellness, search-new-5, search-mp-3its outcome isWell-Being"
+it has tags of health-and-wellness, search-new-5, search-mp-3its outcome isWell-Being",
 https://www.teamraderie.com/experiences/values-based-leadership-experience/,8,Empowerment,Flexing Your Leadership,Values,Purpose,Discussion,,Winning as a Team with Values-Based Leadership,2000,0,"[{""lower_bound"":1, ""upper_bound"":20, ""price"": 2000.00}, {""lower_bound"":21, ""upper_bound"":50, ""price"": 2500.00}, {""lower_bound"":51, ""upper_bound"":70, ""price"": 3000.00}, {""lower_bound"":71, ""upper_bound"":100, ""price"": 3450.00}]",1,100,0,1,45,,,FALSE,"In Office:
 https://www.teamraderie.com/wp-content/uploads/2023/07/InOffice2.jpg
 https://www.teamraderie.com/wp-content/uploads/2023/07/InOffice1.jpg
@@ -1012,7 +994,7 @@ https://www.teamraderie.com/wp-content/uploads/2023/07/Remote2.jpg","<span style
 
 <span style=""font-weight: 400;"">Summer will help you connect these coaches’ approach to your own leadership – and help you apply this to your team's work.</span>it belongs to cateory of Learning Together, Notable hostwith attributes of Develop Skills: Level up your team by developing crucial skills that create a solid foundation for optimal team performance.
 
-Find Your Purpose: Work together as a team to identify your purpose and connect your goals to your organization’s mission, vision, and values.it has tags of inspire-and-excite, trust-and-transform, search-new-5, search-mp-3its outcome isPurpose"
+Find Your Purpose: Work together as a team to identify your purpose and connect your goals to your organization’s mission, vision, and values.it has tags of inspire-and-excite, trust-and-transform, search-new-5, search-mp-3its outcome isPurpose",Summer Sanders
 https://www.teamraderie.com/experiences/virtual-team-building-experience-with-drew-dixon/,10,Creativity,Innovation,Deadlines,Musicians,Talent,,Innovation on a Deadline: Lessons from Hip Hop,2000,0,"[{""lower_bound"":1, ""upper_bound"":20, ""price"": 2000.00}, {""lower_bound"":21, ""upper_bound"":50, ""price"": 2500.00}, {""lower_bound"":51, ""upper_bound"":70, ""price"": 3000.00}, {""lower_bound"":71, ""upper_bound"":100, ""price"": 3450.00}]",1,100,0,1,45,,,FALSE,"In Office:
 https://www.teamraderie.com/wp-content/uploads/2023/07/InOffice2.jpg
 https://www.teamraderie.com/wp-content/uploads/2023/07/InOffice1.jpg
@@ -1030,7 +1012,7 @@ Flexible Learning Mindset: Help others become more receptive to change and growt
 
 Form a United Team: Creating a united team allows you to work together while supporting each other as you work to achieve your common goals.
 Try Creative Problem Solving: When you hit a roadblock, what’s the first thing your team does? Creative problem-solving creates an alternate path.
-it has tags of inspire-and-excite, search-mp-3, search-new-5, trust-and-transformits outcome isCollaboration, Creative Problem Solving, Learning Mindset"
+it has tags of inspire-and-excite, search-mp-3, search-new-5, trust-and-transformits outcome isCollaboration, Creative Problem Solving, Learning Mindset",Drew Dixon
 https://www.teamraderie.com/experiences/team-planning-and-gifting-experience/,8,Appreciation,Planning,Forward-Looking,Intentional,Kits,,Activate your 2023 Plan with Gifting,300,50,"[{""lower_bound"":1, ""upper_bound"":15, ""price"": 300.00}, {""lower_bound"":16, ""upper_bound"":25, ""price"": 400.00}]",1,25,1,1,55,,,FALSE,"In Office:
 https://www.teamraderie.com/wp-content/uploads/2023/07/InOffice2.jpg
 https://www.teamraderie.com/wp-content/uploads/2023/07/InOffice1.jpg
@@ -1048,7 +1030,7 @@ https://www.teamraderie.com/wp-content/uploads/2023/07/Remote2.jpg","Imagine tha
 Create Inclusion and Belonging: Everyone on your team should feel seen, heard, and valued. Increase your team’s sense of belonging with this experience.
 
 Transform Your Foundation: Establish a critical foundation for your team to work their best. No two teams are alike; create something that works for YOU.
-it has tags of bond-and-connect, fun-and-games, search-mp-5, search-new-5its outcome isInclusion and Belonging, Team Trust"
+it has tags of bond-and-connect, fun-and-games, search-mp-5, search-new-5its outcome isInclusion and Belonging, Team Trust",Jeremy DiAsio
 https://www.teamraderie.com/experiences/learn-movements-to-wake-up-team-productivity/,1,Work-Life Balance,Burnout,Healthy,Mental Acuity,Wellness,,Learn Movements to Wake up Team Productivity,600,0,"[{""lower_bound"":1, ""upper_bound"":20, ""price"": 600.00}, {""lower_bound"":21, ""upper_bound"":50, ""price"": 750.00}, {""lower_bound"":51, ""upper_bound"":70, ""price"": 900.00}, {""lower_bound"":71, ""upper_bound"":100, ""price"": 1050.00}]",1,100,0,1,30,,,FALSE,"In Office:
 https://www.teamraderie.com/wp-content/uploads/2023/07/InOffice2.jpg
 https://www.teamraderie.com/wp-content/uploads/2023/07/InOffice1.jpg
@@ -1063,7 +1045,7 @@ https://www.teamraderie.com/wp-content/uploads/2023/07/Remote2.jpg","Get ready t
 
 Join Jessica Alba &amp; Ryan Reynolds' personal trainer as she guides you and your team through 5 movements that will awaken your body and get it moving, all from the comfort of your desk. Say goodbye to stiffness and fatigue and hello to increased energy levels and productivity with this exciting experience!it belongs to cateory of Wellnesswith attributes of Form a United Team: Creating a united team allows you to work together while supporting each other as you work to achieve your common goals.
 Improve Wellbeing: Health and wellness are vital in all aspects of life. Improve well-being through exercise and mindfulness while at work.
-it has tags of health-and-wellness, search-mp-1, search-new-2its outcome isWell-Being"
+it has tags of health-and-wellness, search-mp-1, search-new-2its outcome isWell-Being",
 https://www.teamraderie.com/experiences/the-simplicity-principle-experience-with-julia-hobsbawm/,1,Simplification,Inefficient Processes,Inefficient Decision-Making,Low Team Morale,Inflexible Work Processes,,Simplicity Principle: Achieving Clarity in a Complex World,1000,0,"[{""lower_bound"":1, ""upper_bound"":20, ""price"": 1000.00}, {""lower_bound"":21, ""upper_bound"":50, ""price"": 1500.00}, {""lower_bound"":51, ""upper_bound"":70, ""price"": 1800.00}, {""lower_bound"":71, ""upper_bound"":100, ""price"": 2100.00}]",1,100,0,1,45,,,FALSE,"In Office:
 https://www.teamraderie.com/wp-content/uploads/2023/07/InOffice2.jpg
 https://www.teamraderie.com/wp-content/uploads/2023/07/InOffice1.jpg
@@ -1077,7 +1059,7 @@ https://www.teamraderie.com/wp-content/uploads/2023/07/Remote1.jpg
 https://www.teamraderie.com/wp-content/uploads/2023/07/Remote2.jpg","Join Julia Hobsbawm on a journey towards clarity and simplicity, based on her book “The Simplicity Principle”. Learn the six steps to simplify your life and work in a complex world, from understanding the complexity of the situation to committing to the process of simplification. Discover practical advice and examples to help you streamline processes, increase productivity, and reduce stress. With Julia’s guidance, you can maintain simplicity and find focus in a world full of distractions.it belongs to cateory of Learning Together, Notable hostwith attributes of Establish Team Norms: What rituals or habits does your team have? Create team norms together that you can all participate in and rely on.
 
 Transform Your Foundation: Establish a critical foundation for your team to work their best. No two teams are alike; create something that works for YOU.
-it has tags of  its outcome isTeam Norms"
+it has tags of  its outcome isTeam Norms",Julia Hobsbawn
 https://www.teamraderie.com/experiences/the-priority-puzzle-mastering-team-alignment/,,,,,,,,The Priority Puzzle: Mastering Team Alignment,2000,0,,1,20,0,1,45,,,FALSE,"In Office:
 https://www.teamraderie.com/wp-content/uploads/2023/07/InOffice2.jpg
 https://www.teamraderie.com/wp-content/uploads/2023/07/InOffice1.jpg
@@ -1095,7 +1077,7 @@ Transform Your Foundation: Establish a critical foundation for your team to work
 Develop Skills: Level up your team by developing crucial skills that create a solid foundation for optimal team performance.
 
 Reach Alignment: Pull the best ideas from everyone and then help your team get onto the same page. Bring together different ideas and work cohesively.
-it has tags of  its outcome isTeam Norms, Reaching Alignment"
+it has tags of  its outcome isTeam Norms, Reaching Alignment",
 https://www.teamraderie.com/experiences/amplify-productivity-harness-your-teams-energy/,,,,,,,,Amplify Productivity: Harness your Team’s Energy,2000,0,"[{""lower_bound"":1, ""upper_bound"":20, ""price"": 2000.00}, {""lower_bound"":21, ""upper_bound"":50, ""price"": 2500.00}, {""lower_bound"":51, ""upper_bound"":70, ""price"": 3000.00}, {""lower_bound"":71, ""upper_bound"":100, ""price"": 3450.00}]",1,100,0,1,45,,,FALSE,"In Office:
 https://www.teamraderie.com/wp-content/uploads/2023/07/InOffice2.jpg
 https://www.teamraderie.com/wp-content/uploads/2023/07/InOffice1.jpg
@@ -1113,4 +1095,4 @@ Transform Your Foundation: Establish a critical foundation for your team to work
 Boost Energy and Motivation: Beat the midday slump with this pick-me-up experience to boost energy, motivation, and productivity on your team. 
 Form a United Team: Creating a united team allows you to work together while supporting each other as you work to achieve your common goals.
 Improve Wellbeing: Health and wellness are vital in all aspects of life. Improve well-being through exercise and mindfulness while at work.
-it has tags of  its outcome isTeam Norms, Energy, Well-Being"
+it has tags of  its outcome isTeam Norms, Energy, Well-Being",
