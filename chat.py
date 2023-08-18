@@ -28,7 +28,7 @@ openai_api_key = st.secrets["openai_api_key"]
 
 @st.cache_resource
 def load_data():
-    loader = CSVLoader("experiences_update_4.csv", encoding="utf-8", csv_args={
+    loader = CSVLoader("output (3).csv", encoding="utf-8", csv_args={
                 'delimiter': ','})
     documents= loader.load()
     # Split the documents into smaller chunks
@@ -168,7 +168,7 @@ here is the Customer's Question you need to respond according to above guideline
 
 # now create the few shot prompt template
 few_shot_prompt_template = FewShotPromptTemplate(
-    examples= example
+    examples= example,
     example_prompt=example_prompt,
     prefix=prefix,
     suffix=suffix,
@@ -186,7 +186,7 @@ llm = ChatOpenAI(
 
 example_selector = SemanticSimilarityExampleSelector.from_examples(
     # This is the list of examples available to select from.
-    example
+    example,
     # This is the embedding class used to produce embeddings which are used to measure semantic similarity.
     OpenAIEmbeddings(openai_api_key= openai_api_key),
     # This is the VectorStore class that is used to store the embeddings and do a similarity search over.
